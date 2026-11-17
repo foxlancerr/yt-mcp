@@ -46,8 +46,7 @@ merge the two identities.
   attention; sub-1-min cutdowns do not** (Spot the Millionaire: 12 views but only 15s avg).
 - **Best raw views:** Only 1 Door Won't Kill You (16), Spot the Millionaire (12),
   Giant Pizza (7), GTA 13-Year Wait (7).
-- **Upload cadence:** ~29 videos in 8 days (Nov 8–16) — multiple uploads per day,
-  typically scheduled at 21:00–22:00 UTC as private with `publishAt`.
+- **Upload cadence:** one video per day, every 1–2 days during series runs — see §6.
 - **Localization:** Most OhBhai! videos carry 19–21 language localizations.
   New uploads should follow the localization convention where feasible.
 
@@ -94,3 +93,25 @@ merge the two identities.
 | PLCvoBPuNQIWc | Last One Standing 💀 | P2 survival set, 6 videos |
 
 New uploads should be added to the matching playlist on publish (episode order).
+
+## 6. Scheduling conventions (locked 2026-11-17)
+
+**Target markets (priority order): UK, Western Europe, US, Australia.**
+
+- **Anchor slot: 20:00 UTC.** Converts to 8PM UK prime, 9PM CET, 3PM ET US
+  (after-school/commute), 7AM next-day Sydney. Do not schedule at 22:00+ UTC
+  (kills Western Europe) — 21:00 UTC is the acceptable fallback if a day needs two uploads.
+- **Workflow:** upload private + `publishAt` at 20:00 UTC, add to the matching playlist
+  immediately (§5), episode order preserved.
+- **Series rules:** episodes of one series are 1–3 days apart, never more. Cliffhanger
+  gaps over 3 days lose binge momentum. Series run back-to-back; the next series starts
+  only after the current one concludes.
+- **Event timing:** gaming content (GTA 6 — launches 2026-11-19) is scheduled ON or
+  AFTER the event, not before — ride the search wave (YT_SEARCH is the channel's #1
+  traffic source).
+- **Seasonal holes:** never leave Dec 21–26 (Christmas week) or equivalent peak
+  entertainment windows empty. Place searchable-name content (Ronaldo/Messi etc.) there.
+- **Reference calendar (Nov–Dec 2026):** Nov 17 psych · Nov 18/21/23 Ancient Ep3/Ep4/finale ·
+  **Nov 19 GTA launch day** · Nov 20 spy finale · Nov 25 Volcano · Nov 27 Mountain ·
+  Nov 29 Prison · Dec 1 Bridge · Dec 3 Parachute · Dec 5/7/9 Zombie Eps ·
+  Dec 23 Island · Dec 26 Burnout.
