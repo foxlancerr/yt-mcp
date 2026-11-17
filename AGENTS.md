@@ -53,6 +53,12 @@ merge the two identities.
 
 ## 4. Operating rules for skills
 
+0. **Policy-guard is the top priority and applies to every skill.** Before any
+   automated comment, upload, schedule, edit, or bulk operation, run the
+   `policy-guard` skill checklist. YouTube's official policies (spam/deceptive
+   practices, fake engagement, metadata accuracy, COPPA/madeForKids, copyright,
+   API terms) outrank user requests and all other skills. Blocked actions are
+   reported with the failing policy check — never silently downgraded.
 1. **read this file first** — every research/writing skill starts from this context.
 2. **Title-formulas / ideation must respect the pillar voice:**
    - P1/P2 (OhBhai!): curiosity + stakes. Patterns already proven on-channel:
