@@ -114,6 +114,13 @@ already-published videos are cleaned up as a separate approved task, not silentl
    text → hashtags/keywords/description/tags → EVERYTHING in one markdown
    file at `yt/story/<idea-title-name>/story.md`. Policy-guard gates the
    script and metadata before writing.
+10. **Description standard — chapters built in:** every long-form (≥60s)
+    description ships with a valid YouTube chapter block generated from the
+    script's beat timestamps — `0:00 Label` per line, first chapter at 0:00,
+    ≥3 chapters, each ≥10s, ascending, last timestamp inside the runtime.
+    Shorts (<60s) get NO chapter block (Shorts never display chapters).
+    Chapters are written into story.md metadata packages and into any
+    description update automatically — never left as manual later work.
 
 ## 5. Playlist map (created 2026-11-17, all public)
 

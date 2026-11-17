@@ -74,8 +74,24 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 
 ### 7. Metadata — policy-guard checked
 - **Description:** first 2 lines carry the hook + keyword (visible before
-  "show more"), chapters from beat timestamps, sources/assets credit line,
-  channel footer, no misleading claims, no spam tags-in-description.
+  "show more"), sources/assets credit line, channel footer, no misleading
+  claims, no spam tags-in-description.
+- **Chapters block — MANDATORY, auto-generated from the script's beat
+  timestamps (stage 2).** Written into the description BEFORE the channel
+  footer, every time a description is produced. Validity rules (all must
+  pass or fix before writing the file):
+  - Format: `M:SS Label` one per line (e.g. `0:00 The theft`).
+  - First chapter at `0:00` — or YouTube shows zero chapters.
+  - ≥3 chapters, ascending, each ≥10s apart, last timestamp strictly
+    inside the runtime. Beats closer than 10s merge into the previous
+    chapter.
+  - Labels = the script's beat names, curiosity-framed, no payoff spoilers
+    beyond what the title already says.
+  - **Shorts exception: runtime <60s → NO chapter block** (Shorts never
+    display chapters — a block there is dead weight). Long-form always
+    gets one, even for 3–4 min videos.
+  - Validation line goes in the policy log: "chapters: N, last M:SS <
+    runtime M:SS ✓".
 - **Hashtags:** 3–5, mixed size relevance (#gta6 #shorts only if a Short).
 - **Keywords/tags:** ~15–20, comma list, specific → broad, no misleading terms,
   no other creators' names unless editorially relevant.
