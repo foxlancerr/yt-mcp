@@ -100,11 +100,18 @@ New uploads should be added to the matching playlist on publish (episode order).
 
 ## 6. Scheduling conventions (locked 2026-11-17)
 
-**Target markets (priority order): UK, Western Europe, US, Australia.**
+**Target markets (by ad value, locked 2026-11-17):**
 
-- **Anchor slot: 20:00 UTC.** Converts to 8PM UK prime, 9PM CET, 3PM ET US
-  (after-school/commute), 7AM next-day Sydney. Do not schedule at 22:00+ UTC
-  (kills Western Europe) — 21:00 UTC is the acceptable fallback if a day needs two uploads.
+| Tier | Markets | Priority |
+|---|---|---|
+| 1 — Very high CPM | 🇺🇸 US, 🇬🇧 UK, 🇨🇦 Canada, 🇦🇺 Australia | schedule-critical |
+| 2 — High CPM | 🇩🇪 Germany, 🇳🇿 New Zealand | covered by anchor slot |
+| 3 — Volume only (lower CPM) | 🇮🇳 India, 🇧🇷 Brazil, 🇲🇽 Mexico | ride Shorts feed; never bend the schedule for them |
+
+- **Anchor slot: 20:00 UTC.** Converts to 8PM UK prime, 9PM CET (DE), 3PM ET US/CA
+  (after-school/commute), 7AM next-day Sydney, 9AM next-day NZ, 5PM Brazil, 2PM Mexico.
+  The ONE miss is India (1:30AM) — accepted, tier-3 market. Do not schedule at 22:00+
+  UTC (kills Western Europe) — 21:00 UTC is the acceptable fallback if a day needs two uploads.
 - **Workflow:** upload private + `publishAt` at 20:00 UTC, add to the matching playlist
   immediately (§5), episode order preserved.
 - **Series rules:** episodes of one series are 1–3 days apart, never more. Cliffhanger
