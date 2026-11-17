@@ -134,3 +134,10 @@ A video beats its neighbours when it has more views than the median of the video
 - One hit can be a format, but not a turning point.
 - Do not study only the hits. A trait the worst videos share is not why the best ones won.
 - Do not state a cause as fact. The data shows what changed, not why viewers came.
+
+## Skill network
+
+- **Runs after:** competitor-research (rival set), trend-report (current winners)
+- **Hands off to:** title-formulas (extract title patterns), thumbnail-concepts (extract thumbnail patterns), script-breakdown (hook/structure patterns), video-ideation, niche-bending (format source)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

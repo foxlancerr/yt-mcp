@@ -84,3 +84,10 @@ Scores are judgment calls: High, Medium or Low.
 - Do not trust a parent channel's numbers alone. Many breakout parents are AI-made or tiny, with a few hundred subscribers. Borrow the format and say what the parent is.
 - Do not move a format to a new audience on words alone. The audience must already watch the topic.
 - Do not suggest reupload, compilation or AI filler niches without warning that YouTube often demonetizes them.
+
+## Skill network
+
+- **Runs after:** AGENTS.md (channel context)
+- **Hands off to:** niche-validator (confirm before committing), niche-bending (twist a proven niche), channel-analysis, monetization-research
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

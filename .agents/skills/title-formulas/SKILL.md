@@ -54,3 +54,10 @@ Titles the user can publish, each built on a proven formula, followed by the for
 - Do not reword a formula's pattern when you search with it. The match breaks.
 - Do not call a formula rising. Its momentum numbers are not returned.
 - Do not carry a formula from a niche whose audience is different. A formula that wins with gamers may not win with gardeners.
+
+## Skill network
+
+- **Runs after:** AGENTS.md (mandatory — pillar voice patterns), video-ideation (ideas needing titles), trend-report, reverse-engineer-channel
+- **Hands off to:** thumbnail-concepts (title+thumbnail as one unit), script-breakdown, policy-guard (2.1 — title must match content honestly)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

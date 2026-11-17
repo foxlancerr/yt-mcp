@@ -59,3 +59,10 @@ Hook 0:00 → Promise {m:ss} → ... → Call to action {m:ss}
 - Do not stop at the first payoff. Late re-hooks are what hold a long video.
 - Do not call a layout a pattern from one video.
 - Do not trust numbers in captions. Check them against the description, and mark unclear words [unclear].
+
+## Skill network
+
+- **Runs after:** reverse-engineer-channel, trend-report, video-ideation
+- **Hands off to:** title-formulas (align title with hook), comment-hooks (pinned comment carries the central question)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

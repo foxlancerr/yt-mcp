@@ -83,3 +83,10 @@ Cash cows, which are channels that already earn:
 - Do not bend into a market where the promise breaks. Ranking the worst deaths fits football legends, not kitchen gadgets.
 - Do not treat a small channel already doing the bend as bad news. It proves the bend works while it is still early.
 - Do not call a bend open without saying what you searched. Empty results can mean the wrong search words.
+
+## Skill network
+
+- **Runs after:** niche-finder, reverse-engineer-channel (proven format to bend), trend-report (what works now)
+- **Hands off to:** niche-validator (validate the bent niche), video-ideation (first ideas from the new angle)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

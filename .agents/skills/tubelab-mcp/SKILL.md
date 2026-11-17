@@ -102,3 +102,11 @@ Spend paid searches on finding candidates and free reads on understanding them. 
 - When connected to the MCP, the tool schemas list every parameter name and allowed value. Read them before guessing a filter.
 - For the full parameter list, response shapes, REST endpoints, authentication, pagination and error codes, fetch https://tubelab.net/docs/skill.md. It is generated from the API spec, so it stays current.
 - Fetch it when you need a parameter the schema does not explain, when you work without the MCP over REST, or when the user asks how the API works. Over REST, the parameter names are the same, and channel endpoints take a channel ID, not a handle.
+
+## Skill network
+
+- **Runs after:** * every TubeLab skill (tool usage, costs, quirks)
+- **Hands off to:** * every TubeLab skill
+- **Note:** Reference layer: when a TubeLab call fails or a filter is unclear, read this before retrying.
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

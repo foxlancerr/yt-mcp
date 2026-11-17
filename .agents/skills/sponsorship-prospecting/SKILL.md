@@ -74,3 +74,10 @@ channel,url,subscribers,median_views,audience,sponsors_now,fit_score,contact
 - Do not list made-for-kids channels, dormant channels (no upload in about the last month), or channels whose views swing wildly.
 - Do not publish private contact details. Use only what the channel shows publicly.
 - Do not trust the sponsor flag alone. It misses some sponsors and flags some channels with none visible, so check the descriptions either way.
+
+## Skill network
+
+- **Runs after:** monetization-research (what to sell), competitor-research (adjacent creators)
+- **Hands off to:** (terminal skill)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

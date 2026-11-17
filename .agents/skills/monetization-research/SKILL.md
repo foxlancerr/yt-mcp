@@ -61,3 +61,10 @@ Find the monetization gaps. These are things this audience already pays for else
 - Do not call every mention a sponsor. Some are affiliate links or the creator's own products.
 - Do not rank a method high when this channel already runs it well.
 - Do not copy a method without the trust behind it. A 2K channel cannot run a 500K channel's course funnel.
+
+## Skill network
+
+- **Runs after:** channel-analysis, niche-finder / niche-validator
+- **Hands off to:** sponsorship-prospecting (turn revenue gaps into creator lists)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

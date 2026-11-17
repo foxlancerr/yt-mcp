@@ -71,3 +71,11 @@ Watch niches on a schedule and report only what changed since the last run. The 
 - Do not change a saved search between runs, or the differences are noise. An edited niche starts a new baseline.
 - Do not call a channel new because it dropped out of the sample and came back. Check its first-seen date.
 - Do not call a channel a breakout below 1K median views or 5 videos.
+
+## Skill network
+
+- **Runs after:** niche-finder / niche-validator (niches worth monitoring)
+- **Hands off to:** trend-report (digest of breakout channels), competitor-research (new entrants)
+- **Note:** Scheduled read-only routine — policy-guard category A, safe to run unattended.
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

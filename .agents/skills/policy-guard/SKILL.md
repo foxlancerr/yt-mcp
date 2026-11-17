@@ -97,3 +97,11 @@ Policies: [Metadata & thumbnails](https://support.google.com/youtube/answer/2801
 - Child safety (COPPA): https://support.google.com/youtube/answer/2802022
 - Copyright basics: https://support.google.com/youtube/answer/2797466
 - YouTube API Services Terms & Developer Policies: https://developers.google.com/youtube/terms/developer-policies
+
+## Skill network
+
+- **Runs after:** 
+- **Hands off to:** * every skill (mandatory gate before any write action)
+- **Note:** Gates every write action from every skill. Runs first, always.
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

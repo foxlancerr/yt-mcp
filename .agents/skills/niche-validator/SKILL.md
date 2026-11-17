@@ -104,3 +104,10 @@ Revenue estimate, unreliable outside English-speaking audiences:
 - Do not count huge views with almost no likes as demand; they are usually paid.
 - Do not name a format from fewer than 3 outliers on different channels.
 - Do not judge fewer than 10 on-topic channels. Say what would settle it.
+
+## Skill network
+
+- **Runs after:** niche-finder (shortlist to validate)
+- **Hands off to:** channel-analysis (enter with a plan), niche-bending, monetization-research
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

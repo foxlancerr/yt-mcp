@@ -68,3 +68,10 @@ A dated report on what is winning in a niche right now. Rank winners by ratio, b
 - Do not promise the user a small channel's multiple. It proves a format, not an expected result.
 - Do not count videos for another audience or language, the user's sister channels, or paid placements (huge views, almost no likes) as winners. The language tag can call a Hindi or Urdu video English, so check the title and thumbnail.
 - Do not copy a winner's title. Keep what made it work and change the topic.
+
+## Skill network
+
+- **Runs after:** competitor-research (niche scope), reverse-engineer-channel (why winners win)
+- **Hands off to:** title-formulas, thumbnail-concepts, script-breakdown, video-ideation, niche-watchlist (monitor what emerged)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

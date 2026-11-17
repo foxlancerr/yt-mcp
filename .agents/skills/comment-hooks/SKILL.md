@@ -113,3 +113,10 @@ them on purpose is not supported by this skill.
 - "That's a great question! The answer will be in our next video." — corporate, empty.
 - "I completely agree with you. Great observation!" — agreement closes loops; hooks
   open them.
+
+## Skill network
+
+- **Runs after:** AGENTS.md (mandatory — pillar voice), comment-mining (reply in audience language), script-breakdown (central question for pins), policy-guard (Category 1 — mandatory before posting)
+- **Hands off to:** policy-guard (every draft passes Category 1 checks)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

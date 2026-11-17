@@ -58,3 +58,10 @@ What the audience asks, objects to and wants next, in their own words. Likes are
 - Do not rank spam. Book promos and bots often collect many likes.
 - Do not read a quiet comment section as a happy one. Top comments skew positive.
 - Do not treat disabled comments as a finding. Say "no data".
+
+## Skill network
+
+- **Runs after:** youtube-studio (own videos' comments) or TubeLab (any video)
+- **Hands off to:** video-ideation (demand signal), comment-hooks (audience's own words as hook material), channel-analysis
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

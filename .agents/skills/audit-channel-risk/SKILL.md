@@ -174,3 +174,10 @@ td,th{text-align:left;padding:10px 12px 10px 0;border-bottom:1px solid var(--lin
 - Do not score the channel's own AdSense status. Off can mean it was never monetized.
 - A score is not a probability, and a low one does not mean safe.
 - Never suggest hiding from detection. Every action changes the videos or shows who makes them.
+
+## Skill network
+
+- **Runs after:** channel-analysis, policy-guard (existing policy exposures)
+- **Hands off to:** policy-guard (fix list becomes enforcement targets)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

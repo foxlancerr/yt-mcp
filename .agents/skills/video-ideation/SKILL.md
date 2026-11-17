@@ -65,3 +65,10 @@ Potential and fit are judgment calls: High, Medium or Low.
 - Do not trust ratios from channels with a few hundred subscribers.
 - Do not mix in Shorts, and do not pitch a video the channel already made.
 - Do not write titles over 60 characters.
+
+## Skill network
+
+- **Runs after:** AGENTS.md (mandatory — pillars P1-P6 and §3 data), trend-report, comment-mining (audience asks in their words), competitor-research, niche-bending
+- **Hands off to:** title-formulas (title for each idea), thumbnail-concepts, script-breakdown, comment-hooks (pinned comment per idea), policy-guard (2.1 metadata accuracy before scheduling)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

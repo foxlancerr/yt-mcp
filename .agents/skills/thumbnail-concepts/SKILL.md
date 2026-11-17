@@ -81,3 +81,10 @@ Three thumbnail concepts for one video. A strong thumbnail joins what the viewer
 - Do not let the thumbnail text repeat the title.
 - Do not keep the face by default. If faceless thumbnails win in this niche, say so.
 - Do not generate a real person's face. Leave a place in the prompt for a real photo of them.
+
+## Skill network
+
+- **Runs after:** title-formulas (title to pair with), reverse-engineer-channel, trend-report
+- **Hands off to:** policy-guard (2.1 — thumbnail must not deceive)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

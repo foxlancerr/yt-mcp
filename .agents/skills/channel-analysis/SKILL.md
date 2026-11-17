@@ -63,3 +63,10 @@ A channel's median views show what a typical video gets. Its last few uploads sh
 - Do not read a ratio of 1.0 as typical. Big hits pull the channel's mean up, so a median video sits below 1.0.
 - Do not judge uploads that are still gathering views, and do not mix in Shorts.
 - Do not state a cause as fact. Say what the evidence suggests.
+
+## Skill network
+
+- **Runs after:** AGENTS.md (own channel: the-untold-exit), comment-mining (what the audience says)
+- **Hands off to:** reverse-engineer-channel (teardown of what works), audit-channel-risk (exposure check), monetization-research (revenue gaps), competitor-research, video-ideation
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+

@@ -64,3 +64,10 @@ Medians cover the last 90 days. This channel's row is in bold.
 - Do not compare raw medians across channel sizes. Median per subscriber is fairer.
 - Do not mix in Shorts.
 - Do not build a gap on one lucky video. It should win more than once.
+
+## Skill network
+
+- **Runs after:** channel-analysis (positioning baseline)
+- **Hands off to:** reverse-engineer-channel (teardown each rival), trend-report, video-ideation (gap exploitation)
+- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+
