@@ -85,6 +85,7 @@ one panel from the storyboard grid, same timeline timestamps.
 ## Skill network
 
 - **Runs with:** story-pipeline (consumes its storyboard grid), thumbnail-concepts
-  (thumbnails use the same palette + close-up shock language).
+  (thumbnails use the same palette + close-up shock language), thumbnail-hooks
+  (converts chosen 2-word text into curiosity thumb prompts using this style).
 - **Gate:** policy-guard — no real-brand assets beyond nominative references, no
   misleading imagery (thumbnail text must be answerable by the video).

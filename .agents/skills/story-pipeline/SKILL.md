@@ -40,10 +40,12 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 - Gate: policy-guard reviews the script before it is written to the file.
 
 ### 3. Storyboard grid — panel table
-- 5 columns, 20-second panels: Time/Scene · Narration reference (verbatim
+- 5 columns: Time/Scene · Narration reference (verbatim
   quote) · Visual action and continuity · Camera/graphics · Sound.
-- Header: total runtime + "timings approximate" + asset rule (official
-  assets/stylized recreations only — no gameplay rips, no creator clips).
+- Panel length: ~20s panels for ≤5 min scripts; ~40s panels for 6–12 min
+  scripts (12–14 panels). Header: total runtime + "timings approximate" +
+  asset rule (official assets/stylized recreations only — no gameplay rips,
+  no creator clips).
 - End with the beat-anchor check line and a trim rule (never trim hook/payoff).
 
 ### 4. Visual prompts — dopamine scene prompts with timeline
@@ -63,6 +65,12 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 - Exactly 2 words (numbers count as a word: "18 HOURS" works).
 - Curiosity/dread/stakes. Cream or red on black, readable at 10% size.
 - 3 options max, one recommended.
+- **Then run `thumbnail-hooks` on the chosen text:** it converts the 2-word
+  text into 3 paste-ready curiosity-hook thumbnail prompts (trending pattern
+  library T1–T6 + locked `visual-style` style) and returns a 3-row concept
+  table (Concept · Pattern · Prompt · Why it hooks).
+- The table lands in story.md section 4 as a "Thumbnail prompts" sub-block;
+  mark the recommended concept in the chat reply.
 
 ### 7. Metadata — policy-guard checked
 - **Description:** first 2 lines carry the hook + keyword (visible before
@@ -94,7 +102,8 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 
 - **Runs after:** video-ideation (or directly from a user idea).
 - **Runs with:** competitor-playbook (input constraints), visual-style (all
-  visuals), trend-report/script-breakdown via TubeLab when available.
+  visuals), thumbnail-hooks (stage-6 text → curiosity thumb prompts),
+  trend-report/script-breakdown via TubeLab when available.
 - **Hands off to:** title-formulas (if user wants more title options),
   thumbnail-concepts, comment-hooks (pinned comment), upload execution
   (youtube-studio MCP, user-confirmed only).
