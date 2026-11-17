@@ -88,3 +88,9 @@ Three thumbnail concepts for one video. A strong thumbnail joins what the viewer
 - **Hands off to:** policy-guard (2.1 — thumbnail must not deceive)
 - **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
 
+## Local wiring (The Untold Exit — added 2026-11-17)
+
+- **TubeLab fallback (AGENTS.md §4.7):** no MCP → study thumbnails from `scripts/trend-scan.mjs` top results (fetch mqdefault.jpg manually) instead of outlier searches, and say so.
+- **Runs into:** `story-pipeline` stage 6 — inside the pipeline, thumbnail text is exactly **2 words** (dopamine hook, 3 options, 1 recommended).
+- **Runs with:** `visual-style` — generated concepts use The Runner character (cream gi or toga variant) and the locked palette (#000000 / #F5F5DC / #8B0000 / #FF0000 / #FF3131 / #00FF7F); label assets THE UNTOLD EXIT, never "OhBhai!".
+

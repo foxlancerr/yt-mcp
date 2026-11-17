@@ -71,3 +71,9 @@ Medians cover the last 90 days. This channel's row is in bold.
 - **Hands off to:** reverse-engineer-channel (teardown each rival), trend-report, video-ideation (gap exploitation)
 - **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
 
+## Local wiring (The Untold Exit — added 2026-11-17)
+
+- **TubeLab fallback (AGENTS.md §4.7):** no MCP → `node scripts/competitor-snapshot.mjs [handle...]` pulls subs, top-5, recent-8 and medians from the YouTube Data API (~25 units), and `docs/competitors.md` already holds the 2026-11-17 snapshot of the cluster.
+- **Runs into:** `competitor-playbook` (the local rules built on this data) and `story-pipeline` stage 1 (competitor proof for any idea).
+- **Verify locally:** compare against `competitor-playbook` before any teardown — do not contradict the snapshot without re-running it.
+

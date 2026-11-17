@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "youtube-studio": {
+        "type": "local",
+        "command": ["node", "E:\\youtube\\yt-agent\\dist\\index.js"],
+        "environment": {
+          "YOUTUBE_OAUTH_CLIENT_PATH": "C:\\Users\\MUHAMMAD ASIM\\.config\\youtube-studio-mcp\\client_secret.json"
+        }
+      }
+    }
+  }
+}

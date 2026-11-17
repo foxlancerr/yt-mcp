@@ -66,3 +66,9 @@ Hook 0:00 → Promise {m:ss} → ... → Call to action {m:ss}
 - **Hands off to:** title-formulas (align title with hook), comment-hooks (pinned comment carries the central question)
 - **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
 
+## Local wiring (The Untold Exit — added 2026-11-17)
+
+- **TubeLab fallback (AGENTS.md §4.7):** no MCP → no transcripts; build beat sheets from `scripts/trend-scan.mjs` SERP structure and mark hooks "reconstructed, not verbatim".
+- **Runs into:** `story-pipeline` stage 2 — this beat taxonomy (hook → promise → stakes → open loop → mini-payoffs/re-hooks → payoff → CTA) IS the pipeline's script structure; completed scripts land in `yt/story/<idea-title-name>/story.md`.
+- **Local reference:** completed script+storyboard packages live in `yt/story/<idea-title-name>/story.md` (story-pipeline output) — match that format.
+

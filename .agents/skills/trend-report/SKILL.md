@@ -75,3 +75,9 @@ A dated report on what is winning in a niche right now. Rank winners by ratio, b
 - **Hands off to:** title-formulas, thumbnail-concepts, script-breakdown, video-ideation, niche-watchlist (monitor what emerged)
 - **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
 
+## Local wiring (The Untold Exit — added 2026-11-17)
+
+- **TubeLab fallback (AGENTS.md §4.7):** no MCP → `node scripts/trend-scan.mjs "<query>" 7` gives a viewCount-ordered recent scan (~100 units, no transcripts — hooks reconstructed from titles/coverage, marked as such).
+- **Runs into:** `story-pipeline` stage 1 (research summary) and `competitor-playbook` (refresh its cluster facts before ideation if older than 14 days).
+- **Local baseline:** compare winners against `docs/competitors.md` cluster table (ConChaser, Monk Mode Films, Day One Films, Dart, Miko, The You Variable).
+

@@ -103,5 +103,6 @@ Policies: [Metadata & thumbnails](https://support.google.com/youtube/answer/2801
 - **Runs after:** 
 - **Hands off to:** * every skill (mandatory gate before any write action)
 - **Note:** Gates every write action from every skill. Runs first, always.
+- **Note:** `story-pipeline` outputs (script + metadata in `yt/story/*/story.md`) are gated here at stages 2 and 7 — the script before writing, the metadata before the file is finished. The local read scripts (`scripts/trend-scan.mjs`, `scripts/competitor-snapshot.mjs`) are Category A (reads only — GO, no gate).
 - **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
 

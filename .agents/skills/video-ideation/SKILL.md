@@ -72,3 +72,9 @@ Potential and fit are judgment calls: High, Medium or Low.
 - **Hands off to:** title-formulas (title for each idea), thumbnail-concepts, script-breakdown, comment-hooks (pinned comment per idea), policy-guard (2.1 metadata accuracy before scheduling)
 - **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
 
+## Local wiring (The Untold Exit — added 2026-11-17)
+
+- **TubeLab fallback (AGENTS.md §4.7):** no MCP → use `scripts/trend-scan.mjs "<query>" 7` (~100 units) and `scripts/competitor-snapshot.mjs` (~25 units) as evidence, and say so.
+- **Runs into:** `story-pipeline` — when the user picks an idea, the full package (script → storyboard → prompts → titles → metadata) is generated into `yt/story/<idea-title-name>/story.md`.
+- **Constraints:** `competitor-playbook` decision rules (long-form 8–15 min for P4/P5, template iteration, serialization trigger) filter every idea before ranking; max 3 per pillar per AGENTS.md §4.4.
+

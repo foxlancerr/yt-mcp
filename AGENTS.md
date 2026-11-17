@@ -37,7 +37,7 @@ already-published videos are cleaned up as a separate approved task, not silentl
 | P3 | **GTA 6 gaming news & mysteries** | 1–3 min Shorts-style, curiosity-gap titles | 13-year wait, $1B pre-orders, Brian betrayal, UFO location | The Untold Exit (gaming) |
 | P4 | **Animated psychology shorts** | 1–5 min animated short films | Why You Keep Starting But Never Finish; Burnt Out | The Untold Exit |
 | P5 | **Social-experiment guessing** | ~1 min | Spot the Millionaire | The Untold Exit |
-| P6 | **Cutdown Shorts** of P1/P2 | <60s, #shorts hashtag | Mountain, Volcano, Bridge cuts | The Untold Exit |
+| P6 | **Cutdown Shorts** of P1/P2 | <60s, #shorts hashtag — ⚠️ **DEPRIORITIZED 2026-11-17:** own data (15s avg view) + cluster data (0.05–1.4× sub ratio) both show cutdowns don't convert. Keep only as series trailers, never as a growth lane | Mountain, Volcano, Bridge cuts | The Untold Exit |
 
 ## 3. What the data says (as of 2026-11-17)
 
@@ -52,6 +52,23 @@ already-published videos are cleaned up as a separate approved task, not silentl
 - **Upload cadence:** one video per day, every 1–2 days during series runs — see §6.
 - **Localization:** Most OhBhai! videos carry 19–21 language localizations.
   New uploads should follow the localization convention where feasible.
+
+### Competitor map (snapshot 2026-11-17 — full data: `docs/competitors.md`)
+
+- **Direct set:** ConChaser (29.4K subs), Monk Mode Films (31.9K), Day One Films
+  (102K), Dart (38.3K), Miko (11.9K), The You Variable (1.8K).
+  Aspirational comparison: MrBeast (cadence discipline only, not scale).
+- **What wins in the cluster:** 8–20 min animated **long-form**, near-daily
+  cadence, ONE repeatable title template iterated weekly, serialization of any
+  ≥5× outlier within 72h, and "hidden truth made visible" topics
+  (ConChaser IQ 80× subs · Miko Lie Count 78× · You Variable versus-battle 172×
+  on a 1.8K-sub channel — topic beats channel size).
+- **What dies:** Shorts/cutdowns as a growth engine — 0.05–1.4× sub ratio across
+  the cluster, matching our own P6 data (Spot the Millionaire: 15s avg).
+- **Positioning edge:** where the cluster hands the viewer a power fantasy,
+  The Untold Exit hands them a mystery to solve. Same engine, our promise.
+- **Refresh the data:** `node scripts/competitor-snapshot.mjs` (public Data API,
+  ~25 quota units; requires owner tokens from youtube-studio-mcp auth).
 
 ## 4. Operating rules for skills
 
@@ -69,6 +86,11 @@ already-published videos are cleaned up as a separate approved task, not silentl
      Survive This ___.", "WE WOKE UP ___ … AND ___ WAS HUNTING US!", "Who Escapes First?"
    - P3 (GTA): mystery/fact gap. "Hasn't Even Released… So How Did It ___?"
    - P4: reflective second-person. "Why You ___ But Never ___."
+   - Cluster-proven (2026-11-17, §3 competitor map): "What If You Could
+     See ___?" (hidden-truth family — the single biggest gap) and
+     "___ vs ___ — Who Actually Wins?". Use for P4/P5 long-form experiments;
+     keep the mystery voice, not pure power fantasy. Every title carries the
+     full curiosity frame — never "part02"-style placeholder titles.
 3. **Thumbnail-concepts:** high-contrast face-vs-danger spectacle, big number stakes,
    red/yellow shock cues (matches uploaded style). No misleading-clickbait mismatch —
    retention data punishes it.
@@ -84,6 +106,14 @@ already-published videos are cleaned up as a separate approved task, not silentl
    2–6 searches per job is the norm; `get_credits_balance` is free.
 8. **Data windows:** analytics samples are tiny (49 views/30 days). Treat §3 as
    directional, not statistical. Re-check analytics before claiming any trend.
+9. **Story pipeline (idea → publish-ready package):** when the user gives an
+   idea, run the `story-pipeline` skill — research (trend-scan + competitor
+   snapshot, TubeLab fallback per rule 7) → script (beat taxonomy, `[FILL]`
+   slots for unknowns) → storyboard grid → visual prompts via `visual-style`
+   (The Runner, locked 2D palette) → titles (30–40 chars) → 2-word thumbnail
+   text → hashtags/keywords/description/tags → EVERYTHING in one markdown
+   file at `yt/story/<idea-title-name>/story.md`. Policy-guard gates the
+   script and metadata before writing.
 
 ## 5. Playlist map (created 2026-11-17, all public)
 
