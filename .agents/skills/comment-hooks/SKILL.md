@@ -106,13 +106,16 @@ Those replies are worth more than 100 like-less comments.
 - **Neutral plot restatement** — summarizing what happened adds no take, no loop,
   no question. If the comment works as a plot summary, it fails.
 
-## Pillar voice (from AGENTS.md)
+## Pillar voice (from AGENTS.md — single brand: The Untold Exit)
 
-- P1/P2 (OhBhai! challenge + series): confident, playful, a little cocky. Facts of the
-  story as bait. Episode tease is the strongest close.
+All pillars speak with one voice, The Untold Exit ("Look Beyond What Seems Obvious").
+"OhBhai!" is retired — never write it in any comment.
+
+- P1/P2 (challenge + series): confident, playful, a little cocky. Facts of the
+  story as bait, framed as a mystery to solve. Episode tease is the strongest close.
 - P3 (GTA): knowing-gamer tone, rumor-flavored, never "according to reports".
-- P4 (The Untold Exit, psychology): calm, direct, slightly confrontational with the
-  viewer's own excuse. "You don't lack motivation. You lack a reason."
+- P4 (psychology): calm, direct, slightly confrontational with the viewer's own
+  excuse. "You don't lack motivation. You lack a reason."
 
 ## Outreach: commenting on OTHER channels' videos
 

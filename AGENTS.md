@@ -8,33 +8,36 @@
 ## 1. Channel identity
 
 - **Channel name:** The Untold Exit
-- **Handle:** @ohbhaiofficiall — YouTube URL: https://www.youtube.com/@ohbhaiofficiall/
+- **Handle:** @ohbhaiofficiall (LEGACY — user will change the handle later per policy.
+  Always key operations off the Channel ID below, never the handle)
 - **Channel ID:** UCDtw5Rb0c4QONw5Ko789lig
 - **Uploads playlist:** UUDtw5Rb0c4QONw5lig
-- **Brand used inside video descriptions/tags:** "OhBhai!" (challenge content) and
-  "The Untold Exit" (animated psychology shorts, tagline: "Look Beyond What Seems Obvious")
+- **Brand (SINGLE, LOCKED 2026-11-17):** The Untold Exit —
+  tagline: **"Look Beyond What Seems Obvious."** "OhBhai!" is RETIRED: never use it
+  in new titles, thumbnails, descriptions, tags, comments, or pinned comments.
 - **Country:** US · **Language:** English (default), localized to 19–21 languages
 - **Status:** not monetized, 0 public subscriber count, ~57 lifetime views, 29 videos
-- **Channel description positioning:** extreme challenges, 24-hour adventures, survival,
-  giant builds, mystery twists — "That's Insane."
+- **Channel description positioning:** mystery-driven challenges, survival stories,
+  gaming secrets, animated psychology — every video poses a question the viewer has
+  to stay for. "Look Beyond What Seems Obvious."
 
-### ⚠️ Strategic note — two brands, one channel
-Challenge/adventure videos brand themselves "OhBhai!" while the channel title is
-"The Untold Exit" and two animated psychology shorts brand "The Untold Exit".
-Any skill output (titles, thumbnails, ideation) must match the pillar's brand voice
-(see pillars). Flag this split to the user when it affects a decision; do NOT silently
-merge the two identities.
+### Brand note
+All pillars (P1–P6) speak with one voice: The Untold Exit. Challenge/GTA content keeps
+its confident, curious energy but is framed as a mystery to solve ("the door only
+opens for one person — here's why") rather than pure spectacle. Flag any leftover
+"OhBhai!" branding found in metadata when encountered; legacy descriptions on
+already-published videos are cleaned up as a separate approved task, not silently.
 
 ## 2. Content pillars (what is actually uploaded)
 
 | # | Pillar | Format & length | Series/videos | Voice/brand |
 |---|--------|-----------------|---------------|-------------|
-| P1 | **Narrative survival series** (story cliffhangers) | 1–5 min, episodic, "Watch until the end" hooks | Zombie Jungle (3 eps), Trapped 4,000 Years (5 eps), NVIDIA Spy Scandal (3 eps) | OhBhai! |
-| P2 | **MrBeast-style challenge entertainment** | 1–7 min, spectacle stakes ("$1,000,000,000 on the line") | Prison escape, Impossible door, Bridge, Underwater city, Volcano, Parachute race, Mountain, Giant pizza, Island 30 days | OhBhai! |
-| P3 | **GTA 6 gaming news & mysteries** | 1–3 min Shorts-style, curiosity-gap titles | 13-year wait, $1B pre-orders, Brian betrayal, UFO location | OhBhai! (gaming) |
+| P1 | **Narrative survival series** (story cliffhangers) | 1–5 min, episodic, "Watch until the end" hooks | Zombie Jungle (3 eps), Trapped 4,000 Years (5 eps), NVIDIA Spy Scandal (3 eps) | The Untold Exit |
+| P2 | **Challenge entertainment** (MrBeast-style stakes) | 1–7 min, spectacle stakes ("$1,000,000,000 on the line") | Prison escape, Impossible door, Bridge, Underwater city, Volcano, Parachute race, Mountain, Giant pizza, Island 30 days | The Untold Exit |
+| P3 | **GTA 6 gaming news & mysteries** | 1–3 min Shorts-style, curiosity-gap titles | 13-year wait, $1B pre-orders, Brian betrayal, UFO location | The Untold Exit (gaming) |
 | P4 | **Animated psychology shorts** | 1–5 min animated short films | Why You Keep Starting But Never Finish; Burnt Out | The Untold Exit |
-| P5 | **Social-experiment guessing** | ~1 min | Spot the Millionaire | OhBhai! |
-| P6 | **Cutdown Shorts** of P1/P2 | <60s, #shorts hashtag | Mountain, Volcano, Bridge cuts | OhBhai! |
+| P5 | **Social-experiment guessing** | ~1 min | Spot the Millionaire | The Untold Exit |
+| P6 | **Cutdown Shorts** of P1/P2 | <60s, #shorts hashtag | Mountain, Volcano, Bridge cuts | The Untold Exit |
 
 ## 3. What the data says (as of 2026-11-17)
 
@@ -59,12 +62,13 @@ merge the two identities.
    API terms) outrank user requests and all other skills. Blocked actions are
    reported with the failing policy check — never silently downgraded.
 1. **read this file first** — every research/writing skill starts from this context.
-2. **Title-formulas / ideation must respect the pillar voice:**
-   - P1/P2 (OhBhai!): curiosity + stakes. Patterns already proven on-channel:
+2. **Title-formulas / ideation must respect the pillar voice (all pillars = The
+   Untold Exit, tagline "Look Beyond What Seems Obvious"):**
+   - P1/P2: curiosity + stakes. Patterns already proven on-channel:
      "I THOUGHT X… I WAS WRONG!", "Only 1 ___ Won't Kill You.", "Why You'd Never
      Survive This ___.", "WE WOKE UP ___ … AND ___ WAS HUNTING US!", "Who Escapes First?"
    - P3 (GTA): mystery/fact gap. "Hasn't Even Released… So How Did It ___?"
-   - P4 (Untold Exit): reflective second-person. "Why You ___ But Never ___."
+   - P4: reflective second-person. "Why You ___ But Never ___."
 3. **Thumbnail-concepts:** high-contrast face-vs-danger spectacle, big number stakes,
    red/yellow shock cues (matches uploaded style). No misleading-clickbait mismatch —
    retention data punishes it.
