@@ -8,6 +8,7 @@ import { registerListChannelSections } from "./channel/list-channel-sections.js"
 import { registerListCommentThreads } from "./comments/list-comment-threads.js";
 import { registerListCommentReplies } from "./comments/list-comment-replies.js";
 import { registerReplyToComment } from "./comments/reply-to-comment.js";
+import { registerPostVideoComment } from "./comments/post-video-comment.js";
 import { registerUpdateComment } from "./comments/update-comment.js";
 import { registerDeleteComment } from "./comments/delete-comment.js";
 import { registerModerateComment } from "./comments/moderate-comment.js";
@@ -46,6 +47,7 @@ const registrars = [
   registerListCommentThreads,
   registerListCommentReplies,
   registerReplyToComment,
+  registerPostVideoComment,
   registerUpdateComment,
   registerDeleteComment,
   registerModerateComment,

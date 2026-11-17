@@ -58,6 +58,41 @@ End with a question that is specific, binary, or personal. Never "What do you th
 - P4 (The Untold Exit, psychology): calm, direct, slightly confrontational with the
   viewer's own excuse. "You don't lack motivation. You lack a reason."
 
+## Outreach: commenting on OTHER channels' videos
+
+Use `post_video_comment` (youtube-studio) to comment on videos the channel does NOT
+own. This is growth outreach: the goal is that the other video's viewers notice the
+comment, find it genuinely good, and click through to the channel.
+
+**Relevance is the whole game — the comment must prove the commenter actually watched
+the video:**
+1. Reference a concrete moment, detail, timestamp, or claim from THAT video.
+2. Attach a hook to their content (see hook types above), never to our channel:
+   - Curiosity: "everyone's arguing about the ending, but the real hint is at 2:10."
+   - Trigger: "solo had that race won until the third jump. change my mind."
+   - Dopamine/answer-bait: "who else caught the reflection in the window at 0:47?"
+3. NEVER mention our channel, our videos, "check my channel", or drop links. A
+   self-promo comment gets deleted, reported, and poisons the account. Discovery comes
+   from the channel name being interesting enough to click.
+4. Match the video's tone (a comedy video gets a joke comment; a serious breakdown
+   gets a sharp observation). Voice stays human per the hard rules above — no emoji,
+   no AI tone, max 2 sentences.
+5. NEVER post the same or near-same text on multiple videos. Duplicates trip YouTube's
+   spam filter. Every comment is unique.
+
+**Volume discipline (spam-policy safety):**
+- Max ~10 outreach comments/day, spread across different channels and hours.
+  Never burst 5 comments on one channel in an hour.
+- Prefer recent uploads and small/mid channels in adjacent niches (see AGENTS.md
+  pillars) — big channels bury comments; small channels reply.
+- If a comment gets a reply from the creator, prioritize that thread over new posts.
+- Show every draft to the user for approval before posting. Never auto-post outreach.
+
+**Risk note (tell the user once per session if outreach is requested):** automated
+or mass commenting can be flagged by YouTube's spam systems and, at scale, can restrict
+the account's commenting ability. The caps above exist to keep this safe; exceeding
+them on purpose is not supported by this skill.
+
 ## Workflow
 
 1. Read AGENTS.md for pillar + series context. Identify which pillar the video is.
@@ -65,7 +100,8 @@ End with a question that is specific, binary, or personal. Never "What do you th
    attaches to their comment, it is not a canned template.
 3. Draft the reply (1–2 sentences, one hook type minimum, question close where natural).
 4. **Show all drafts to the user for approval. Never post without confirmation.**
-5. Post via `reply_to_comment` (youtube-studio). Fix typos later via `update_comment`.
+5. On own videos: post via `reply_to_comment`. On other channels' videos:
+   `post_video_comment` (see Outreach section above). Fix typos later via `update_comment`.
 6. Spam/hate: don't engage, don't reply — flag with `mark_comment_as_spam`.
 7. For pinned comments on a new upload: front-load the episode's central mystery as a
    question ("You have 60 seconds and 4 doors. Which one?") — pinned = the video's
