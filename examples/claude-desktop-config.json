@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "youtube-studio": {
+      "command": "npx",
+      "args": ["-y", "youtube-studio-mcp"],
+      "env": {
+        "YOUTUBE_OAUTH_CLIENT_PATH": "/absolute/path/to/client_secret.json"
+      }
+    }
+  }
+}
