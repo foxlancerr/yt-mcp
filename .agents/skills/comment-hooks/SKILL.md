@@ -1,10 +1,10 @@
 ---
 name: comment-hooks
-description: Use when drafting or posting any comment or reply from the channel (reply_to_comment, pinned comments, community engagement) — writes short human comments with curiosity, trigger and dopamine hooks that make viewers answer. No emoji, no AI tone. Reads AGENTS.md first.
+description: Use when drafting or posting any comment or reply from the channel (reply_to_comment, pinned comments, community engagement) — writes short human comments with curiosity, trigger and dopamine hooks that make viewers answer. Field-tested against real comment-section data (Nov 2026). Reads AGENTS.md first.
 license: MIT
 metadata:
   author: the-untold-exit
-  version: "1.0"
+  version: "1.1"
   requires: AGENTS.md
 ---
 
@@ -17,12 +17,18 @@ viewer reply back, rewatch, or open the next episode. Comments are written like 
 friend who knows something you don't, not like a brand account.
 
 **Hard rules — never violate:**
-- No emoji. Ever.
 - No AI tone: no "Great question!", "Thanks for watching!", "We're glad…",
   "That means a lot", "I appreciate…", no perfect grammar pleasantries, no sign-offs.
 - No hashtags, no self-promo links, no "Subscribe!" begging.
-- Max 2 short sentences. Comment sections punish essays.
+- **One idea per comment. Punchline or question goes LAST.**
+- **Length: ideal 5–15 words, hard cap 20 for outreach comments.** Pinned comments on
+  own videos may run to 2 short sentences (they carry episode hooks). Comment sections
+  punish essays — a 100+ word comment earns near-zero replies (verified in the field
+  data below: the 200-word "strategy" comment got 1 like; the 9-word one got 19K).
 - Lowercase-casual or plain sentence case is fine; never corporate-polished.
+- Emoji: own-channel comments (pinned, replies) = **no emoji** (brand voice).
+  Outreach on other channels = **at most ONE casual emoji (😭 😂 💀)** and only when
+  that section's native tone uses them (flagged to user 2026-11-17; user can veto).
 
 ## The three hook types (use at least one per comment)
 
@@ -50,6 +56,56 @@ End with a question that is specific, binary, or personal. Never "What do you th
 - "Did you catch it on first watch, or did you need the rewatch?"
 - "First thing you'd grab before the timer hits zero. Go."
 
+## Field-tested formulas (from real comment sections, Nov 2026)
+
+Source data: three full comment threads — a psychology-animation channel, MrBeast
+($250K Hunger Games, 67M views), Dude Perfect (School Stereotypes). Patterns below
+are ranked by observed likes.
+
+1. **Timestamp callout** — `MM:SS` + a micro-reaction to that exact second. Proves
+   watch time better than anything. "20:25 'Mr. Least' is crazy" (225) ·
+   "13:51 he did not just..." (220) · "0:17 this is so relatable".
+2. **As-a-X confession** — "as a [identity], i can confirm/feel like…". Only when
+   honest or plausibly universal. "as a homeschooler i feel like im watching a
+   documentary" (856) · "as a teacher, it's like watching a documentary" (92).
+3. **Ultra-short verdict** — one word or line taking a side. "Obsession" (25) ·
+   "discipline screamin 5 AM is so wierd" (281).
+4. **Meta/irony observation** — zoom out on the absurdity of the situation.
+   "hollywood needs $200M and 3 years for this, he just needed a random saturday" (6.6K) ·
+   "modern people rediscover how extremely overpowered spears are" (19K).
+5. **Character sympathy joke** — mourn or defend a person/character in the video.
+   "a moment of silence for juan" (10K) · "nolan was in his prime until he did him dirty" (2K).
+6. **Timeline meme** — `year: thing` ladder ending in a prediction.
+   "2021: squid game / 2026: hunger game / 2031: maze runner" (43K).
+7. **Powerscaling debate bait** — assign the contenders different win conditions.
+   "ego wins in a race. discipline wins with time, and obsession wins in a fight" (31).
+8. **Direct question to creator/community** — "where'd you guys get the bear?!" (35).
+   Questions addressed to the creator get creator replies, and a creator reply
+   multiplies visibility (MrBeast's own pinned "what should i recreate next?" = 25K).
+9. **Underrated-gem discovery** — "came from [platform] expecting a big channel, found
+   a gem" (25). Small/adjacent channels only, and only when plausibly true.
+
+**Formula selection by video size:** big channels (MrBeast-tier) → formulae 4, 5, 6, 7
+(jokes and observations; questions get buried). Small/mid channels → formulae 2, 8, 9
+(personal + questions; the creator actually replies).
+
+**Creator-reply fishing:** comments most likely to get a creator reply are short
+questions about the production ("how long did this take to film") or character jokes.
+Those replies are worth more than 100 like-less comments.
+
+## Anti-patterns (verified in the same data — these earn nothing or look spammy)
+
+- **Essay comments** — the 200-word "The Strategy for Success: Start with Vision…"
+  comment: 1 like. Nobody reads past the first line.
+- **Covert product plugs** — "As Zael Veynor exposes in *Glow They Never Saw*…"
+  (book-ad pattern, appears verbatim multiple times = detected spam). Violates
+  spam policy too; policy-guard rejects these.
+- **Empty praise** — "fire video", "great content". Zero hook, zero reply.
+- **Engagement farming with nothing attached** — "anyone from instagram?" (gets
+  likes but no substance, trains the section to ignore the account).
+- **Neutral plot restatement** — summarizing what happened adds no take, no loop,
+  no question. If the comment works as a plot summary, it fails.
+
 ## Pillar voice (from AGENTS.md)
 
 - P1/P2 (OhBhai! challenge + series): confident, playful, a little cocky. Facts of the
@@ -75,8 +131,8 @@ the video:**
    self-promo comment gets deleted, reported, and poisons the account. Discovery comes
    from the channel name being interesting enough to click.
 4. Match the video's tone (a comedy video gets a joke comment; a serious breakdown
-   gets a sharp observation). Voice stays human per the hard rules above — no emoji,
-   no AI tone, max 2 sentences.
+   gets a sharp observation). Voice stays human per the hard rules above — no AI tone,
+   ≤20 words, at most one casual emoji when that section's tone is emoji-native.
 5. NEVER post the same or near-same text on multiple videos. Duplicates trip YouTube's
    spam filter. Every comment is unique.
 
