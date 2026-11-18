@@ -21,6 +21,21 @@ Selection filters: 2K–400K subs (comments get seen, creators reply), described
 | 9 | `4eGRt9zvEE4` | US | 336K | 13.5K | Doctor Glitch — PS5 settings before GTA 6 |
 | 10 | `GlU333CtfDc` | US | 126K | 1.9K | JackedBill — 10 things I wish I knew |
 
+## Status (posted 2026-11-18, 10:00–10:15 UTC, random gaps 118–203s)
+
+1–7 posted ✅ — all confirmed by API, zero spam-filter rejections.
+8–10 held for the next window (rate cap).
+
+| # | Comment ID |
+|---|---|
+| 1 | `Ugz9zMVSpgRjKps6OFF4AaABAg` |
+| 2 | `UgzxVeFO_CYPwpqlL9R4AaABAg` |
+| 3 | `UgxmwpDjinFOKQsNc394AaABAg` |
+| 4 | `UgwR6b_xiPowdX0bPol4AaABAg` |
+| 5 | `UgzNsJaQXvReV1Wogj94AaABAg` |
+| 6 | `UgwSmvgAIb06kJU-AlN4AaABAg` |
+| 7 | `UgzQeCnHcUxEYQ4n_7t4AaABAg` |
+
 ## Drafts
 
 **1 · g6cDeB24gmY** (curiosity)
