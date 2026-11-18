@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-11-18T09:36:38.613Z",
+  "results": [
+    {
+      "id": "KxOzYtPIsvk",
+      "current": "The INSANE Story Behind GTA 6's... 13-Year Wait?!",
+      "next": "The INSANE Story Behind GTA 6's... 13-Year Wait?! | GTA 6 Release Date",
+      "why": "release-date intent on a development documentary",
+      "needsApproval": false,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "lyN781QvfII",
+      "current": "GTA 6 Hasn't Even Released… So How Did It Pass $1 Billion!",
+      "next": "GTA 6 Hasn't Even Released… So How Did It Pass $1 Billion! | GTA 6 Pre-Orders",
+      "why": "the video's actual subject; pre-order search wave",
+      "needsApproval": false,
+      "errors": [],
+      "warns": [
+        "77 chars — truncated on mobile"
+      ]
+    },
+    {
+      "id": "R-qJm86xS5s",
+      "current": "Brian LOCKED Jason In… But WHY?",
+      "next": "Brian LOCKED Jason In… But WHY? | GTA 6 Jason & Lucia Story",
+      "why": "character search: GTA 6 Jason, GTA 6 Lucia",
+      "needsApproval": false,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "NjwpwUcxo8Y",
+      "current": "Rockstar Won't Explain... Play Early GTA6?.",
+      "next": "Rockstar Won't Explain... Play Early GTA6? | GTA 6 Release Time",
+      "why": "release-time intent; removes stray '.' after '?'",
+      "needsApproval": false,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "KQoNl-voCnw",
+      "current": "GTA 6 Is Downloaded… But Still Locked?",
+      "next": "GTA 6 Is Downloaded… But Still Locked? | GTA 6 Preload & Unlock Time",
+      "why": "preload/unlock searches peak before launch",
+      "needsApproval": false,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "3buS8kA7Qio",
+      "current": "🔴 The Final 60 Seconds Before GTA 6 | Grand Theft Auto VI | Worldwide Launch Countdown 24/7",
+      "next": "The Final 60 Seconds Before GTA 6 | GTA 6 Launch Countdown",
+      "why": "current title claims '24/7' + live 🔴 on a 64s video (policy 2.2); keeps countdown keyword",
+      "needsApproval": true,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "DrxALhLInLA",
+      "current": "GTA 6 Gameplay Hacked WON’T STOP... (BANNED or Continue)",
+      "next": "GTA 6 Gameplay Hacked WON’T STOP... (BANNED or Continue) | GTA 6 Leaks",
+      "why": "leak documentary; highest-volume GTA 6 search term in this set",
+      "needsApproval": false,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "048FGKt95zk",
+      "current": "4 GTA 6 Mistakes You Can't Undo",
+      "next": "4 GTA 6 Mistakes You Can't Undo | GTA 6 Launch Day Tips",
+      "why": "launch-day tips intent, no claim beyond the 4 mistakes",
+      "needsApproval": false,
+      "errors": [],
+      "warns": []
+    },
+    {
+      "id": "PsdNCzTWHXs",
+      "current": "GTA 6's 5 Free Gifts Are Expiring | GTA 6 live countdown | GTA 6 release",
+      "next": "GTA 6's 5 Free Gifts Are Expiring | GTA 6 Pre-Order Bonuses",
+      "why": "current 80-char pipe chain can't take another keyword (would pass 100); 'live countdown' misdescribes a deadlines video",
+      "needsApproval": true,
+      "errors": [],
+      "warns": []
+    }
+  ],
+  "skipped": [
+    {
+      "id": "sSoXsBdFyrg",
+      "title": "GTA 6's STRANGEST Hidden Location… WHAT IS THIS?!",
+      "reason": "no plan"
+    }
+  ]
+}
