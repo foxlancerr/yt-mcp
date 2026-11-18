@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Outreach target finder v2 — Tier-1 market biased, multi-query.
 //
-//   node scripts/outreach-targets.mjs [hours=96]
+//   node scripts/outreach-targets-v2.mjs [hours=96]
 //
 // One search per (query, region) pair, 100 units each. Queries are rotated across
 // US / GB / CA / AU so the candidate pool covers all four Tier-1 markets.

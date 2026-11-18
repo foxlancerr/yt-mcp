@@ -36,6 +36,13 @@ Selection filters: 2K–400K subs (comments get seen, creators reply), described
 | 6 | `UgwSmvgAIb06kJU-AlN4AaABAg` |
 | 7 | `UgzQeCnHcUxEYQ4n_7t4AaABAg` |
 
+## Replies
+
+| Thread | Who | State |
+|---|---|---|
+| `UgwtD9wzdrBKX40PSFB4AaABAg` | BeanHeadToons | closed — answered with "bro i was documenting history 😂" |
+| `UgyIaYnI4QeX2Umm-kN4AaABAg` | JoblessGarrett | **answered 2026-11-18** — "the lost part is fun until the mission timer starts 😅 which district are you hitting first?" (`…AdLLxdh9kxLAdM23G07Zyb`) |
+
 ## Drafts
 
 **1 · g6cDeB24gmY** (curiosity)
