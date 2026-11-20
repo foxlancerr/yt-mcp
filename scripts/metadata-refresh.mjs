@@ -93,8 +93,9 @@ const P = {
       "grand theft auto 6", "gta vi", "gta 6 news", "gta 6 shorts", "the untold exit"],
   },
   NjwpwUcxo8Y: {
+    title: "How Players Got GTA 6 18 Hours Early | NZ Trick",
     hashtags: ["#GTA6", "#GTA6ReleaseTime", "#GTAVI", "#GTA6Launch"],
-    tags: ["gta 6 release time", "gta 6 new zealand trick", "gta 6 nz trick", "gta 6 midnight release",
+    tags: ["gta 6 new zealand trick", "gta 6 release time", "gta 6 nz trick", "gta 6 midnight release",
       "gta 6 global release time", "gta 6 launch day", "gta 6 launch night", "gta 6 countdown",
       "gta 6 ps5", "gta 6 xbox", "grand theft auto 6", "gta vi", "gta 6 news", "gta 6 ban risk",
       "the untold exit"],
@@ -107,9 +108,11 @@ const P = {
       "grand theft auto 6", "gta vi", "gta 6 business", "the untold exit"],
   },
   KxOzYtPIsvk: {
-    title: "The INSANE Story Behind GTA 6's 13-Year Wait | GTA 6 Release Date",
+    title: "Why GTA 6 Took 13 Years | Rockstar's Real Development Story",
+    // The game released 2026-11-19; the body still said it "arrives" that day.
+    descReplace: [["arrives November 19, 2026", "arrived November 19, 2026"]],
     hashtags: ["#GTA6", "#RockstarGames", "#GrandTheftAuto6", "#GTAVI"],
-    tags: ["gta 6 release date", "gta 6 development", "gta 6 history", "gta 6 news",
+    tags: ["gta 6 development", "gta 6 release date", "gta 6 history", "gta 6 news",
       "gta 6 documentary", "gta 6 delayed", "gta 6 rockstar games", "project americas",
       "grand theft auto 6", "gta vi", "rockstar games", "gta 6 trailer", "gta 6 explained",
       "the untold exit"],
@@ -163,15 +166,16 @@ The Untold Exit — Look Beyond What Seems Obvious.
       "survival stories", "what if", "the untold exit"],
   },
   "3g5WteLmvtc": {
-    title: "100 People vs 1 Giant Pizza | Animated Food Challenge",
+    title: "We Made the Biggest Pizza in New York for 100 People",
     hashtags: ["#AnimatedStory", "#FoodChallenge", "#UntoldExit"],
     tags: ["giant pizza", "food challenge", "animated challenge", "100 people vs",
       "biggest pizza", "pizza challenge", "animated story", "food animation", "new york pizza",
       "challenge animation", "the untold exit"],
   },
   RVyIvZ5S4cE: {
-    title: "Spot the Millionaire. 3 Clues. | Animated Guessing Challenge",
-    hashtags: ["#AnimatedStory", "#GuessingGame", "#UntoldExit"],
+    title: "One of These 100 People Is a Millionaire | 3 Clues",
+    lead: "Spot the millionaire: one of these 100 people is hiding it, and three clues are all you get.",
+    hashtags: ["#SpotTheMillionaire", "#GuessingGame", "#SocialExperiment", "#UntoldExit"],
     tags: ["spot the millionaire", "guessing game", "animated challenge", "brain teaser",
       "spot the difference", "millionaire", "social experiment", "puzzle", "animated story",
       "guess who", "the untold exit"],
@@ -202,14 +206,18 @@ The Untold Exit — Look Beyond What Seems Obvious.
       "silicon valley", "animated documentary", "the untold exit"],
   },
   "9P6BnLRrDxM": {
+    title: "Spy Stole Our AI Chip… Then Our CEO Resigned (Nvidia Part 2)",
     hashtags: ["#Nvidia", "#SpyScandal", "#AnimatedStory", "#UntoldExit"],
+    // "true story animation" and "tech documentary" were inaccurate: this is a
+    // fictional story built on real Nvidia news, and the body says so.
     tags: ["nvidia spy scandal", "ai chip theft", "spy story part 2", "corporate espionage",
-      "animated story", "true story animation", "nvidia news", "tech documentary", "ceo resigned",
-      "animated series", "the untold exit"],
+      "nvidia news", "nvidia ceo resigned", "animated story", "animated series", "spy animation",
+      "ai chip", "corporate mystery", "the untold exit"],
   },
 
   /* ---------------- animated psychology (P4) ---------------- */
   vEraiuwOh2o: {
+    title: "Why You Keep Starting but Never Finish Anything",
     lead: "Why you keep starting but never finish — the psychology of procrastination, and the four forces that decide whether you follow through.",
     hashtags: ["#Psychology", "#Procrastination", "#UntoldExit"],
     tags: ["why you procrastinate", "procrastination", "why you never finish", "motivation",
@@ -217,12 +225,34 @@ The Untold Exit — Look Beyond What Seems Obvious.
       "productivity", "mindset", "animated psychology", "human behavior", "the untold exit"],
   },
   Q8n13DQlphU: {
-    title: "3 Hidden Secrets That Save You Time",
-    lead: "Three secrets that save you time — and the reason your day slips away before you notice.",
-    hashtags: ["#Psychology", "#Productivity", "#UntoldExit"],
+    title: "3 Time Habits That Actually Save You Hours",
+    lead: "Time management that actually works: three habits that save you time — and why your day slips away before you notice.",
+    hashtags: ["#Psychology", "#Productivity", "#Habits", "#UntoldExit"],
     tags: ["time management", "productivity tips", "save time", "psychology",
       "time saving habits", "productivity", "psychology shorts", "self improvement", "habits",
       "focus", "time", "the untold exit"],
+  },
+
+  /* ---------------- ancient survival (P1, part 3) ---------------- */
+  BrM4EGZmS9A: {
+    title: "They've Been Watching Us | 4,000 Years in the Past (Part 3)",
+    lead: "Trapped 4000 years in the past, we found out someone was already watching us — Episode 3 of the animated survival series.",
+    hashtags: ["#AncientMystery", "#SurvivalStory", "#TimeTravel", "#UntoldExit"],
+    // The old tag list carried 28 entries including Messi, Ronaldo, MrBeast and
+    // "last to leave" — keyword stuffing for lanes this channel does not publish.
+    tags: ["trapped 4000 years", "ancient mesopotamia", "uruk", "ancient civilization",
+      "lost civilization", "time travel story", "animated survival story", "ancient mystery",
+      "survival story animated", "ancient history mystery", "animated series", "part 3",
+      "the untold exit"],
+  },
+
+  /* ---------------- workflow / behind the scenes ---------------- */
+  Zr3VEAtCxD8: {
+    title: "GTA 6 Channels Make Millions. One Flow Channel Got Monetized.",
+    hashtags: ["#GTA6", "#YouTubeAutomation", "#AIWorkflow", "#UntoldExit"],
+    tags: ["youtube automation", "faceless channel", "ai youtube workflow", "gta 6 channel",
+      "youtube growth", "one prompt", "google flow", "youtube api automation", "opencode",
+      "ai agent", "content pipeline", "youtube seo", "the untold exit"],
   },
 };
 
@@ -323,6 +353,9 @@ function cleanLegacy(d) {
 function buildDesc(old, plan) {
   if (plan.descFull) return plan.descFull;
   let body = stripHashtagLines(cleanLegacy(old));
+  // Targeted factual corrections (a date that has since passed) without rewriting
+  // the whole body, so the chapter block is never at risk.
+  if (plan.descReplace) for (const [from, to] of plan.descReplace) body = body.split(from).join(to);
   if (plan.lead) {
     const lines = body.split("\n");
     lines[0] = plan.lead;
