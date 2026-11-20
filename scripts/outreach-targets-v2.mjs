@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-// Outreach target finder v2 — Tier-1 market biased, multi-query.
+// Outreach target finder v2 — Tier-1/2 market biased, multi-query.
 //
 //   node scripts/outreach-targets-v2.mjs [hours=96]
 //
 // One search per (query, region) pair, 100 units each. Queries are rotated across
-// US / GB / CA / AU so the candidate pool covers all four Tier-1 markets.
+// US / GB / CA / AU (Tier 1) and NZ (Tier 2) so the pool covers every target market,
+// and across the channel's pillars (GTA, animated survival, psychology).
 // Country note: the Data API exposes no channel country. We use regionCode bias +
 // English-language content + local-wording evidence, and we never claim more.
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -22,7 +23,10 @@ const QUERIES = [
   ["GB", "GTA 6 review"],
   ["CA", "GTA 6 secrets"],
   ["AU", "GTA 6 mistakes"],
-  ["US", "GTA 6 first things to do"],
+  ["NZ", "GTA 6 easter eggs"],
+  ["AU", "animated survival story"],
+  ["CA", "why you procrastinate"],
+  ["US", "true scary story animated"],
 ];
 
 const secret = JSON.parse(
@@ -72,10 +76,15 @@ for (let i = 0; i < allIds.length; i += 50) {
 }
 const vids = { data: { items: vidsItems } };
 const chanIds = [...chanIdSet];
-const chans = await yt.channels.list({ part: ["statistics"], id: chanIds.join(",") });
-const subs = new Map(
-  (chans.data.items || []).map((c) => [c.id, +c.statistics.subscriberCount]),
-);
+const subs = new Map();
+// channels.list accepts at most 50 ids per request
+for (let i = 0; i < chanIds.length; i += 50) {
+  const chans = await yt.channels.list({
+    part: ["statistics"],
+    id: chanIds.slice(i, i + 50).join(","),
+  });
+  for (const c of chans.data.items || []) subs.set(c.id, +c.statistics.subscriberCount);
+}
 
 function seconds(iso) {
   const m = /^P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(iso || "");
