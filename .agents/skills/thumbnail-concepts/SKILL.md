@@ -84,9 +84,9 @@ Three thumbnail concepts for one video. A strong thumbnail joins what the viewer
 
 ## Skill network
 
-- **Runs after:** title-formulas (title to pair with), reverse-engineer-channel, trend-report
-- **Hands off to:** policy-guard (2.1 — thumbnail must not deceive)
-- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+- **Runs after:** title-formulas (title to pair with), trend-report
+- **Hands off to:** a manual honesty check (the thumbnail must not deceive)
+- **Gate:** nothing is posted, uploaded, scheduled or edited without the user's explicit yes.
 
 ## Local wiring (The Untold Exit — added 2026-11-17)
 

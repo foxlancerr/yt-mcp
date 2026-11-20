@@ -1,27 +1,6 @@
 {
   "version": 2,
   "skills": {
-    "audit-channel-risk": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/audit-channel-risk/SKILL.md",
-      "computedHash": "83c46ce73e4c9033dddd567e0a367901f5b4529ddc87f7cf745ff76800c9fb19"
-    },
-    "channel-analysis": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/channel-analysis/SKILL.md",
-      "computedHash": "2e5d5eedc7f42671110ee9b75ca885b71c173a1e2a2e250852ca41ce4fee4cb4"
-    },
-    "comment-mining": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/comment-mining/SKILL.md",
-      "computedHash": "32c0283e32ff7cb7ac1d628bda1c82de3e34ab871dd15c230b108b2541b02291"
-    },
     "competitor-research": {
       "source": "TubeLabHQ/youtube-research-skills",
       "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
@@ -29,61 +8,12 @@
       "skillPath": "skills/competitor-research/SKILL.md",
       "computedHash": "d1d58a01dbdee79da7d4ef78f40c160436e2fbfc89b7aa8f9618f8fcdc41f4ec"
     },
-    "monetization-research": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/monetization-research/SKILL.md",
-      "computedHash": "d57eff03eb05cc61a4829c769b2f5bab2197a10cb75218374a1cffd9cbc844e7"
-    },
-    "niche-bending": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/niche-bending/SKILL.md",
-      "computedHash": "00cfc36a655ed408f6cd894ee02d6a2ae116908ddc7e9d8077a7e7ab82d9a07f"
-    },
-    "niche-finder": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/niche-finder/SKILL.md",
-      "computedHash": "7878654256ddd6bde90ee027fc2446715f3167d61223cfba59c5ec2e242036ea"
-    },
-    "niche-validator": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/niche-validator/SKILL.md",
-      "computedHash": "05c3742205e76d7f4799155f8cdc466c63bb10614540bb3b9dd679c2d4947314"
-    },
-    "niche-watchlist": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/niche-watchlist/SKILL.md",
-      "computedHash": "017b828fc60da4bab5b442e1f0b23592d777357b69ce892d777f6ce78c3b056d"
-    },
-    "reverse-engineer-channel": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/reverse-engineer-channel/SKILL.md",
-      "computedHash": "e804bd1ecde01fecfc06605ea5510a9947b90c4bfc2a8a17bf3411cf21210874"
-    },
     "script-breakdown": {
       "source": "TubeLabHQ/youtube-research-skills",
       "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
       "sourceType": "github",
       "skillPath": "skills/script-breakdown/SKILL.md",
       "computedHash": "bc0bc3c8071ef7c02fb07374926966483fc5093263d76acb433f43dd87203ea5"
-    },
-    "sponsorship-prospecting": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/sponsorship-prospecting/SKILL.md",
-      "computedHash": "78dafd6b4bbb3791817ca1f6dab9e6fe29763dc90b92eefb3e0d080d5d453269"
     },
     "thumbnail-concepts": {
       "source": "TubeLabHQ/youtube-research-skills",
@@ -105,13 +35,6 @@
       "sourceType": "github",
       "skillPath": "skills/trend-report/SKILL.md",
       "computedHash": "57ca24e9e7a66f84a9c92ca749d78b32271b30f9e9042ccd2f23d35264d9d93b"
-    },
-    "tubelab-mcp": {
-      "source": "TubeLabHQ/youtube-research-skills",
-      "commit": "c81e013b0f5e43c9b8d80b7ceb86eb8d4c647ce8",
-      "sourceType": "github",
-      "skillPath": "skills/tubelab-mcp/SKILL.md",
-      "computedHash": "82b04a2dcd99cc9e069d73000c10fe849ee3fb6f2842691a65f126c9aac5b807"
     },
     "video-ideation": {
       "source": "TubeLabHQ/youtube-research-skills",

@@ -214,7 +214,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **madeForKids:** false ✓
 **Chapters:** 8 · 0:00 → 3:55, gaps 30/35/35/35/35/35/30s, last 3:55 < runtime 4:00 ✓
 
-## 8️⃣ Policy check log (policy-guard · Category B — GO with conditions)
+## 8️⃣ Policy check log (GO with conditions)
 
 - ✅ 2.1 title/thumb answerable — the video demonstrates the exact claim
 - ✅ 2.2 accuracy — free tiers + limits stated on screen; no income claims; no fabricated figures. Numbers match screenshots at render ([FILL] gate: re-verify credits/units before publish)

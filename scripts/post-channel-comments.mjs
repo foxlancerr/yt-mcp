@@ -2,7 +2,7 @@
 // Usage: node scripts/post-channel-comments.mjs batch.json
 // batch.json: [{ "videoId": "...", "text": "..." }]
 // Sequential with GAP_MS between posts (default 180000 = 3 min), terminates when done.
-// Policy-guard Category 1 pre-cleared: unique texts, no links, no solicitation, user-approved.
+// Pre-cleared (manual): unique texts, no links, no solicitation, user-approved.
 import { readFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { join } from "node:path";

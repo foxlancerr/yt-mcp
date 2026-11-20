@@ -333,7 +333,7 @@ Set on upload: `defaultLanguage: ur`, `defaultAudioLanguage: ur`.
 
 ---
 
-## 11. Policy guard
+## 11. Policy check
 
 | Check | Result |
 |---|---|
@@ -355,7 +355,6 @@ Set on upload: `defaultLanguage: ur`, `defaultAudioLanguage: ur`.
 | `visual-style` | The Runner, locked 6-colour palette, 2D flat spec, camera language, one neon-green accent, brand end card |
 | `thumbnail-hooks` | 2-word Urdu text (`لوگ جھوٹے`) + 3 pattern-mapped paste-ready prompts (T3 hidden-truth, T6 anomaly pointer, T4 versus split), 10% legibility test, policy gate |
 | `story-pipeline` | Package structure, slug, metadata block, policy gate |
-| `policy-guard` | §11 — including the financial-advice and music-licence rows |
 | `competitor-playbook` | Advisory only: sub-60s cutdowns underperform on this channel, so this is **purpose-built**, not a cutdown |
 
 ---

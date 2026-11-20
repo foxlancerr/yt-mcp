@@ -4,7 +4,7 @@
 //   node scripts/gta6-playlist-seo.mjs            # preview only (no writes)
 //   node scripts/gta6-playlist-seo.mjs --apply    # writes (needs explicit user go)
 //
-// Rules enforced (policy-guard 2.1/2.2 + AGENTS §4.10):
+// Rules enforced (manual metadata checks + AGENTS §4.10):
 //  - one primary keyword + 5–10 related, written into prose (never a keyword dump)
 //  - existing chapter block preserved verbatim and re-validated
 //  - 3–5 hashtags, no duplicates

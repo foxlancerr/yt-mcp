@@ -1,7 +1,7 @@
 # Story Package: "GTA 6 Cheat Sheet Is Almost All Fake" — English · 90s · 9:16 Short
 
 > Generated 2026-11-18 · pipeline: story-pipeline (stage 1–8) + visual-style + thumbnail-hooks + comment-hooks
-> Gate: policy-guard · Brand: The Untold Exit — "Look Beyond What Seems Obvious."
+> Gate: manual policy check · Brand: The Untold Exit — "Look Beyond What Seems Obvious."
 > Pillar: **P3 (GTA gaming)** · Runtime: **90 seconds** · Format: **9:16 portrait Short**
 > Target: 1M views — cheat-search wave peaks at launch (2026-11-19). Publish BEFORE the unlock.
 
@@ -134,7 +134,7 @@ All three are answerable by the video; none repeat the thumbnail text.
 
 Chosen: **ALL FAKE** → prompts in §4.1.
 
-## 7) Metadata package (policy-guard checked)
+## 7) Metadata package (manually checked)
 
 - **Title:** GTA 6 Cheat Sheet Is Almost All Fake
 - **Description** (first 2 lines = hook + keyword; no chapter block — Shorts player):
@@ -170,7 +170,7 @@ Chosen: **ALL FAKE** → prompts in §4.1.
   ```
   Validation: 6 chapters · first 0:00 ✓ · each ≥10s apart ✓ · last 1:18 < 1:30 runtime ✓
 
-## 8) Policy check log (policy-guard, numbered)
+## 8) Policy check log (manual policy check, numbered)
 
 **Action type:** B — single write with human approval (upload/schedule), currently NOT executed.
 

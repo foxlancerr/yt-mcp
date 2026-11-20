@@ -2,7 +2,7 @@
 
 > This file is the single source of truth for all YouTube work on this channel.
 > Every skill (video-ideation, title-formulas, thumbnail-concepts, script-breakdown,
-> niche-*, trend-report, comment-mining, etc.) MUST read this file before producing
+> trend-report, etc.) MUST read this file before producing
 > anything for the channel. Do not invent channel facts — use what is here.
 
 ## 1. Channel identity
@@ -72,9 +72,9 @@ already-published videos are cleaned up as a separate approved task, not silentl
 
 ## 4. Operating rules for skills
 
-0. **Policy-guard is the top priority and applies to every skill.** Before any
-   automated comment, upload, schedule, edit, or bulk operation, run the
-   `policy-guard` skill checklist. YouTube's official policies (spam/deceptive
+0. **Policy check is the top priority and applies to every skill.** Before any
+   automated comment, upload, schedule, edit, or bulk operation, do a manual
+   check against YouTube's policies and log it in the output. YouTube's official policies (spam/deceptive
    practices, fake engagement, metadata accuracy, COPPA/madeForKids, copyright,
    API terms) outrank user requests and all other skills. Blocked actions are
    reported with the failing policy check — never silently downgraded.
@@ -100,7 +100,7 @@ already-published videos are cleaned up as a separate approved task, not silentl
    confirmation.** Scheduling convention: private + `publishAt` at 21:00 or 22:00 UTC.
 6. **Quota discipline (YouTube Data API, 10k/day):** uploads cost 1,600 units —
    max ~4/day; never bulk-modify without asking. Reads are cheap; still batch.
-7. **TubeLab skills** (niche-*, competitor-*, trend-report, script-breakdown, etc.)
+7. **TubeLab skills** (competitor-research, trend-report, script-breakdown, etc.)
    require the TubeLab MCP; when unavailable, say so and fall back to youtube-studio
    data + reasoning instead of guessing. Paid TubeLab searches cost credits —
    2–6 searches per job is the norm; `get_credits_balance` is free.
@@ -112,7 +112,7 @@ already-published videos are cleaned up as a separate approved task, not silentl
    slots for unknowns) → storyboard grid → visual prompts via `visual-style`
    (The Runner, locked 2D palette) → titles (30–40 chars) → 2-word thumbnail
    text → hashtags/keywords/description/tags → EVERYTHING in one markdown
-   file at `yt/story/<idea-title-name>/story.md`. Policy-guard gates the
+   file at `yt/story/<idea-title-name>/story.md`. Policy check gates the
    script and metadata before writing.
 10. **Description standard — chapters built in:** every long-form (≥60s)
     description ships with a valid YouTube chapter block generated from the
@@ -121,6 +121,8 @@ already-published videos are cleaned up as a separate approved task, not silentl
     Shorts (<60s) get NO chapter block (Shorts never display chapters).
     Chapters are written into story.md metadata packages and into any
     description update automatically — never left as manual later work.
+
+**Length rule (set 2026-11-21):** the user sets the length in each chat; if not stated, a long video is about 5 min and a Short is 1–2 min. The per-pillar bands in §2 are defaults only.
 
 ## 5. Playlist map (created 2026-11-17, all public)
 

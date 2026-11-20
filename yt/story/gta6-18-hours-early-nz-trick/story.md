@@ -239,7 +239,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **Tags/keywords:** gta 6 new zealand trick, gta 6 early, play gta 6 early, gta 6 new zealand, gta 6 release time, gta 6 unlock time, gta 6 ban, psn ban gta 6, gta 6 xbox trick, gta 6 ps5 region, gta 6 countdown, gta 6 midnight release, gta 6 first players, gta vi launch, gta 6 news, gta 6 el rubius, gta 6 streamers, gta 6 wave
 **madeForKids:** NOT made for kids ✓ (gaming news commentary — honest flag)
 
-## 8️⃣ Policy check log (policy-guard · Category B — GO, with conditions)
+## 8️⃣ Policy check log (GO, with conditions)
 
 - ✅ 2.1 title/thumbnail answerable by the video (the trick, the split, the silence — all covered)
 - ✅ 2.2 accuracy: every launch-time / ban claim `[FILL]`-gated + harvest checklist; rumors hedged in-script ("started asking whether"); description carries the "verified as of recording" line. **Accuracy outranks the better story — if harvest kills a beat, rewrite the beat, keep the fact.**

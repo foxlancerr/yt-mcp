@@ -197,7 +197,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **madeForKids:** false ✓
 **Chapters:** 6 · 0:00 → 1:40, gaps 35/25/20/20/20s, last 1:40 < runtime 2:00 ✓
 
-## 8️⃣ Policy check log (policy-guard · Category B — GO)
+## 8️⃣ Policy check log (GO)
 
 - ✅ 2.1 title/thumb answerable — every gag in the script
 - ✅ 2.2 accuracy — all figures real and attributed; outcome clearly comedic, never presented as fact

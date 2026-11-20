@@ -88,7 +88,7 @@ Ordering rationale: most urgent clock first (tonight's purchase deadline), most 
 | 2 | T2 Shock-face + threat | [THUMB] Shorts cover, 9:16. [CHARACTER] The Runner — extreme close-up top half, wide eyes, red accent marks, hand shielding face. [SCENE] lower half: giant red alarm clock mid-slam, dust burst. [TEXT] "EXPIRES TONIGHT" — cream, bold, bottom third. [STYLE] 2D flat, black outlines, flat fills, black ≥50%, cream #F5F5DC, red #FF0000. [COMPOSITION] eyes top → clock threat bottom, stacked vertically · readable at 10%. | Face dread + real deadline; the clock is the villain |
 | 3 | T3 Hidden-truth reveal | [THUMB] Shorts cover, 9:16. [CHARACTER] The Runner — narrowed-eye suspicion, centered. [SCENE] total darkness except a cream beam from his hand on ONE glowing cube with a red clock inside; the other four cubes barely visible in shadow. [TEXT] "FREE + GONE" — red, bold, top corner. [STYLE] 2D flat, black ≥60%, cream beam #F5F5DC, red #FF0000. [COMPOSITION] eye-magnet = beam center · readable at 10%. | Hidden-truth reveal: one free thing still claimable in the dark |
 
-**Policy-guard:** text answerable by video ✓ · The Runner only ✓ · no real brand logos recreated ✓ · ≤5 words ✓ · no OhBhai! ✓ · deadlines stated match §1 sources ✓.
+**Policy check:** text answerable by video ✓ · The Runner only ✓ · no real brand logos recreated ✓ · ≤5 words ✓ · no OhBhai! ✓ · deadlines stated match §1 sources ✓.
 
 ## 7) Sources (full URLs for the render/description fact-check)
 
@@ -107,7 +107,7 @@ Ordering rationale: most urgent clock first (tonight's purchase deadline), most 
 - Vice — single-player only at launch: https://vice.com/en/article/gta-6-online-release-date
 - Push Square — midnight local unlock: https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing
 
-## 8) Metadata package (policy-guard checked)
+## 8) Metadata package (manually checked)
 
 - **Title:** 5 Free GTA 6 Things That Expire Tonight
 - **Description (first 2 lines = hook + keyword; NO chapter block — Shorts player, AGENTS.md §4.10):**

@@ -39,7 +39,7 @@ You Variable "Who Actually Wins?" 315K (172×) · Day One DISCIPLINE 6.25M (61×
 
 ## Decision rules
 
-1. **Length.** Ideate P4/P5 experiments as 8–15 minute long-form. Every channel's
+1. **Length.** Length is set by the user in each chat (default: long video about 5 min, Short 1–2 min). Every channel's
    shorts underperform (0.05–1.4× sub ratio); The Untold Exit's own cutdowns
    (15s avg) agree. P6 cutdowns are trailers only, never a growth lane.
 2. **Template iteration.** Pick ONE title template per batch and repeat it across
@@ -66,6 +66,5 @@ You Variable "Who Actually Wins?" 315K (172×) · Day One DISCIPLINE 6.25M (61×
   rules as their input constraints), story-pipeline (full idea → story
   production consumes this playbook), visual-style (character + 2D style for
   all generated panels).
-- **Feeds:** reverse-engineer-channel teardowns when a competitor outliers again.
-- **Gate:** policy-guard checks anything this playbook produces before it is
+- **Gate:** a manual policy check covers anything this playbook produces before it is
   uploaded, scheduled, or posted.

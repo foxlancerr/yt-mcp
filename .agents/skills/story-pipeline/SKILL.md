@@ -23,7 +23,7 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
   Skip if the idea is evergreen with no search wave — say so.
 - Competitor check: `node scripts/competitor-snapshot.mjs` if older than 14
   days (~25 units), plus pull the 3 most relevant cluster channels.
-- TubeLab MCP (niche-validator, competitor-research, trend-report, script-breakdown):
+- TubeLab MCP (competitor-research, trend-report, script-breakdown):
   use it when connected; when not, say so and fall back to the API scripts
   (AGENTS.md §4.7). No paid TubeLab searches without stating the credit cost.
 - Write: niche fit (which pillar P1–P6), trend numbers, competitor proof
@@ -34,10 +34,10 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
   mini-payoff + re-hooks → payoff → CTA. Long-form = 10–20 beats; ≤4 min ≈ 3–4.
 - Voice: The Untold Exit mystery frame ("Look Beyond What Seems Obvious").
   Second person where possible. Length band per pillar (AGENTS.md §2) —
-  P4/P5 experiments run 8–15 min per competitor playbook unless user overrides.
+  Length: the user sets it in each chat; default is about 5 min for a long video and 1–2 min for a Short.
 - Unknown facts → `[FILL]` slots + a harvest checklist. Never invent facts.
 - Serialization: any ≥5× outlier premise gets a part-2 hook in the CTA.
-- Gate: policy-guard reviews the script before it is written to the file.
+- Gate: manual policy check of the script before it is written to the file.
 
 ### 3. Storyboard grid — panel table
 - 5 columns: Time/Scene · Narration reference (verbatim
@@ -72,7 +72,7 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 - The table lands in story.md section 4 as a "Thumbnail prompts" sub-block;
   mark the recommended concept in the chat reply.
 
-### 7. Metadata — policy-guard checked
+### 7. Metadata — manually checked
 - **Description:** first 2 lines carry the hook + keyword (visible before
   "show more"), sources/assets credit line, channel footer, no misleading
   claims, no spam tags-in-description.
@@ -95,7 +95,7 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 - **Hashtags:** 3–5, mixed size relevance (#gta6 #shorts only if a Short).
 - **Keywords/tags:** ~15–20, comma list, specific → broad, no misleading terms,
   no other creators' names unless editorially relevant.
-- Run the policy-guard checklist (accuracy, metadata honesty, COPPA/not-made-
+- Run a manual policy check (accuracy, metadata honesty, COPPA/not-made-
   for-kids, copyright/assets) and note it passed in the file.
 
 ### 8. Write the file
@@ -123,7 +123,7 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
 - **Hands off to:** title-formulas (if user wants more title options),
   thumbnail-concepts, comment-hooks (pinned comment), upload execution
   (youtube-studio MCP, user-confirmed only).
-- **Gate:** policy-guard before anything leaves this pipeline.
+- **Gate:** manual policy check before anything leaves this pipeline.
 
 ## Local rule — skills for every story (added 2026-11-20)
 

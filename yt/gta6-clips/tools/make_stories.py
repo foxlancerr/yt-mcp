@@ -221,7 +221,7 @@ def build(key):
           f"**Keywords / tags ({len(s['keywords'].split(', '))}):** {s['keywords']}", "",
           "No other creators' names, no \"official\", \"leaked\" or \"early access\" wording.", "",
           "**Flags:** `madeForKids` = **No** (confirm in Studio). Playlist: GTA 6 Secrets (`PLRXf1uVlif1Q`). Schedule (not scheduled): private + `publishAt` 20:00 UTC, one Short per day, after your yes.", "",
-          "## 8. Policy check log", "", "The `policy-guard` skill is deleted, so this is a manual check. It is not the skill.", "",
+          "## 8. Policy check log", "", "This is a manual check against YouTube's policies.", "",
           "| Check | Result |", "|---|---|",
           "| Title and thumbnail match the content | PASS. The titles describe what is shown |",
           "| Permission / license | PASS with note. Verified Creative Commons by API. The CC label is set by the uploader and does not clear third-party content |",

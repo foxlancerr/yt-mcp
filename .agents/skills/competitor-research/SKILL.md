@@ -67,9 +67,8 @@ Medians cover the last 90 days. This channel's row is in bold.
 
 ## Skill network
 
-- **Runs after:** channel-analysis (positioning baseline)
-- **Hands off to:** reverse-engineer-channel (teardown each rival), trend-report, video-ideation (gap exploitation)
-- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+- **Hands off to:** trend-report, video-ideation (gap exploitation)
+- **Gate:** nothing is posted, uploaded, scheduled or edited without the user's explicit yes.
 
 ## Local wiring (The Untold Exit — added 2026-11-17)
 

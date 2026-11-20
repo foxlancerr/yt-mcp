@@ -47,7 +47,7 @@ strip and getting lost lol. you?"*
 **7 · MFODY60097U** (dopamine)
 > secret guns before the first mission is the real flex. which item did you miss on your first run?
 
-## Policy pre-flight (policy-guard Category 1)
+## Policy pre-flight (manual check)
 
 - ✅ 1.1 all 8 unique — no repeated or near-same text
 - ✅ 1.2 no links, no channel plugs, no "subscribe", no self-promo

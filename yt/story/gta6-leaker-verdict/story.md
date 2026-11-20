@@ -193,7 +193,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **Tags:** gta 6 leak, gta 6 hacker, gta 6 leaker caught, gta 6 leak verdict, gta 6 2022 leak, gta 6 documentary, gta 6 story, rockstar leak, gta 6 news, gta vi, gta 6 hacker verdict, gaming leak, biggest gaming leak, gta 6 explained, the untold exit, gta 6 trailer records, gta 6 preorders, lapsus
 **madeForKids:** NOT made for kids ✓ (crime documentary — honest flag)
 
-## 8️⃣ Policy check log (policy-guard · Category B — GO, with hard conditions)
+## 8️⃣ Policy check log (GO, with hard conditions)
 
 - ✅ 2.1 title/thumbnail answerable by the video (full story + verdict delivered)
 - ✅ 2.2 accuracy: 2022–2023 facts from public court record; **the 2026 verdict event is `[FILL]`-gated — no airing until sourced.** No fabricated figures.

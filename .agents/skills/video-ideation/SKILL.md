@@ -63,17 +63,17 @@ Potential and fit are judgment calls: High, Medium or Low.
 - Do not search without `publishedAtFrom` and `classificationQuality` at `"neutral"` or above, or the results fill with low-effort videos.
 - Do not take proof from another audience or language, from sister channels, or from paid placements (huge views, almost no likes). Outlier hits carry no audience data, so judge it from the title and thumbnail; the language tag can call a Hindi or Urdu video English.
 - Do not trust ratios from channels with a few hundred subscribers.
-- Do not mix in Shorts, and do not pitch a video the channel already made.
+- Do not pitch a video the channel already made. Shorts are allowed when the user asks for them.
 - Do not write titles over 60 characters.
 
 ## Skill network
 
-- **Runs after:** AGENTS.md (mandatory — pillars P1-P6 and §3 data), trend-report, comment-mining (audience asks in their words), competitor-research, niche-bending
-- **Hands off to:** title-formulas (title for each idea), thumbnail-concepts, script-breakdown, comment-hooks (pinned comment per idea), policy-guard (2.1 metadata accuracy before scheduling)
-- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+- **Runs after:** AGENTS.md (mandatory — pillars P1-P6 and §3 data), trend-report, competitor-research
+- **Hands off to:** title-formulas (title for each idea), thumbnail-concepts, script-breakdown, comment-hooks (pinned comment per idea)
+- **Gate:** nothing is posted, uploaded, scheduled or edited without the user's explicit yes.
 
 ## Local wiring (The Untold Exit — added 2026-11-17)
 
 - **TubeLab fallback (AGENTS.md §4.7):** no MCP → use `scripts/trend-scan.mjs "<query>" 7` (~100 units) and `scripts/competitor-snapshot.mjs` (~25 units) as evidence, and say so.
 - **Runs into:** `story-pipeline` — when the user picks an idea, the full package (script → storyboard → prompts → titles → metadata) is generated into `yt/story/<idea-title-name>/story.md`.
-- **Constraints:** `competitor-playbook` decision rules (long-form 8–15 min for P4/P5, template iteration, serialization trigger) filter every idea before ranking; max 3 per pillar per AGENTS.md §4.4.
+- **Constraints:** `competitor-playbook` decision rules (length as the user sets it in chat, template iteration, serialization trigger) filter every idea before ranking; max 3 per pillar per AGENTS.md §4.4.

@@ -203,7 +203,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **madeForKids:** false ✓
 **Chapters:** 6 chapters · 0:00 → 2:35, all gaps ≥25s, last 2:35 < runtime 3:00 ✓
 
-## 8️⃣ Policy check log (policy-guard · Category B — GO with conditions)
+## 8️⃣ Policy check log (GO with conditions)
 
 - ✅ 2.1 title/thumb answerable by content (door/lock = the delivered thesis)
 - ✅ 2.2 accuracy: 212GB (Forbes) · 4,811 days (on-platform framing) · 236K concurrent (live stream) · cadence (Polygon) · outage nature (Sportskeeda) — all attributed; estimates labeled

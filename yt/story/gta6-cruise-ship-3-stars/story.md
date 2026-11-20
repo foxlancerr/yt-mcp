@@ -110,7 +110,7 @@ No other creators' names, no "official", "leaked" or "early access" wording.
 
 ## 8. Policy check log
 
-The `policy-guard` skill is deleted, so this is a manual check. It is not the skill.
+This is a manual check against YouTube's policies.
 
 | Check | Result |
 |---|---|

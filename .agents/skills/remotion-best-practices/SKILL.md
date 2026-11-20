@@ -44,10 +44,8 @@ means "free for a business".
 
 ## Known gaps in this package
 
-These internal links point at files the package does not ship:
+These links point to files that are not in this package (checked 2026-11-21, 22 links in 8 files). Do not follow them; use `remotion-docs` to search the live docs instead.
 
-- `remotion-create/REFERENCE.md` → `../remotion-studio/REFERENCE.md` (no such folder)
-- `remotion-create/REFERENCE.md` → `../remotion-markup/video-editing.md` (missing)
-- `remotion-markup/remotion-maps/` contains only an icon and `openai.yaml`
-
-If a task needs one of those, use `remotion-docs` instead of following the link.
+- Missing folders: `remotion-studio/`, `remotion-render/`, `remotion-multimedia/` (get-audio-duration, get-video-dimensions, get-video-duration).
+- Missing files in `remotion-markup/`: `video-editing.md`, `transitions.md`, `sfx.md`. `remotion-markup/remotion-maps/` holds only an icon and `openai.yaml`; use the top-level `remotion-maps/REFERENCE.md`.
+- Pages that contain these links: `remotion-create/REFERENCE.md`, `remotion-interactivity/REFERENCE.md`, `remotion-interactivity/timeline-structure.md`, and in `remotion-markup/`: `audio.md`, `calculate-metadata.md`, `motion-blur.md`, `multi-scene-video.md`, `REFERENCE.md`.

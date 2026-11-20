@@ -220,6 +220,5 @@ without spoiling the episode-2 premise.
 | `thumbnail-hooks` | §6 | 3 pattern-mapped concepts (T3 / T2 / T6), IP rule against using Rockstar's Lucia model, 10% legibility |
 | `title-formulas` | §5 | 3 titles, 34–37 chars, contradiction frame (title says arrested, thumb says walked) |
 | `comment-hooks` | §10 | pinned comment ≤15 words, points at the payoff beat |
-| `policy-guard` | §8 | own footage only, no leaks, no spoilers, ad-safe first 7s |
 | `competitor-playbook` | §0 | capture matrix shaped by what small channels can actually beat |
 

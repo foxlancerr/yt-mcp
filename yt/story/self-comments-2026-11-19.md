@@ -29,7 +29,7 @@ Studio. With these 10 added, that's 23 comments waiting to be pinned.
 
 ---
 
-## Policy pre-flight (policy-guard Category 1 + C)
+## Policy pre-flight (manual check)
 
 | Check | Result |
 |---|---|

@@ -58,7 +58,7 @@ madeForKids: **No** (general audience, not child-directed). Confirm in Studio.
 Playlist: GTA 6 Secrets (PLRXf1uVlif1Q).
 Schedule: private + `publishAt` 20:00 UTC (AGENTS.md section 6), after you approve.
 
-## Policy-guard check (before any upload)
+## Policy check (before any upload)
 
 | Check | Result |
 |---|---|

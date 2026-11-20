@@ -11,7 +11,7 @@ Takes the chosen 2-word thumbnail text (from `story-pipeline` stage 6 or a
 user prompt) and generates **3 paste-ready curiosity-hook thumbnail prompts**,
 each built on a pattern that is measurably trending in the niche, rendered
 in the locked `visual-style` system (The Runner, black/cream/red, one green
-accent max). One concept is recommended. Nothing ships without policy-guard.
+accent max). One concept is recommended. Nothing ships without manual policy check.
 
 Read `visual-style` first (character bible + palette are law) and AGENTS.md
 §4.3 (thumbnail voice: high-contrast, big-number stakes, shock cues, no
@@ -84,11 +84,11 @@ standalone):
 - Mark the recommended row in the chat reply, not the file (file stays neutral
   with 1 recommended noted in `story-pipeline` section 6).
 
-## Policy-guard gate (run before output)
+## Policy check (run before output)
 
-- ✅ 2.1 — text + withheld element are answerable by the video (no fake reveals)
-- ✅ 2.3 — no real person's likeness; The Runner only (no celebrity faces)
-- ✅ 2.4 — no leaked assets, no gameplay rips, no creator footage in the thumb
+- ✅ text + withheld element are answerable by the video (no fake reveals)
+- ✅ no real person's likeness; The Runner only (no celebrity faces)
+- ✅ no leaked assets, no gameplay rips, no creator footage in the thumb
 - ✅ Text ≤5 words total (2-word text + nothing else, or +1 tiny label)
 - ✅ No "OhBhai!" anywhere; optional "THE UNTOLD EXIT" watermark bottom-right, 5% opacity
 - Fail any → report the failing check, do not output the concept
@@ -109,8 +109,8 @@ standalone):
 
 - **Runs after:** story-pipeline (stage 6), thumbnail-concepts (fallback body)
 - **Runs with:** visual-style (mandatory), title-formulas (text must complete, not repeat, the title)
-- **Hands off to:** policy-guard (gate), upload execution (user-confirmed only)
-- **Gate:** policy-guard before any generated thumb is attached to a story package
+- **Hands off to:** manual policy check (gate), upload execution (user-confirmed only)
+- **Gate:** manual policy check before any generated thumb is attached to a story package
 
 ## Local rule — prompt length and relevance (added 2026-11-20)
 

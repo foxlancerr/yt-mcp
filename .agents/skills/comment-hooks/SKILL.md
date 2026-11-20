@@ -99,7 +99,7 @@ Those replies are worth more than 100 like-less comments.
   comment: 1 like. Nobody reads past the first line.
 - **Covert product plugs** — "As Zael Veynor exposes in *Glow They Never Saw*…"
   (book-ad pattern, appears verbatim multiple times = detected spam). Violates
-  spam policy too; policy-guard rejects these.
+  spam policy too; manual policy check rejects these.
 - **Empty praise** — "fire video", "great content". Zero hook, zero reply.
 - **Engagement farming with nothing attached** — "anyone from instagram?" (gets
   likes but no substance, trains the section to ignore the account).
@@ -175,8 +175,8 @@ them on purpose is not supported by this skill.
 
 ## Skill network
 
-- **Runs after:** AGENTS.md (mandatory — pillar voice), comment-mining (reply in audience language), script-breakdown (central question for pins), policy-guard (Category 1 — mandatory before posting)
+- **Runs after:** AGENTS.md (mandatory — pillar voice), script-breakdown (central question for pins)
 - **Runs with:** `story-pipeline` — every story.md ships with a pinned comment in its §7 upload package (built with these hook types); the pinned question also feeds the part-2 script CTA
-- **Hands off to:** policy-guard (every draft passes Category 1 checks)
-- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+- **Hands off to:** the user's approval (every draft is checked by hand against the spam rules)
+- **Gate:** nothing is posted, uploaded, scheduled or edited without the user's explicit yes.
 

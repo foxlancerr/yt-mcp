@@ -80,7 +80,7 @@ Structure: regrets count DOWN (4→3→2→1) — a reverse countdown that makes
 | 2 | T2 Shock-face + threat | [THUMB] Shorts cover, 9:16 vertical. [CHARACTER] The Runner — extreme close-up face filling the top half, wide eyes, red accent marks, hand frozen on a decision card below. [SCENE] lower half: giant red stamp "PERMANENT" mid-slam, dust burst. [TEXT] "CAN'T UNDO" — cream, bold, bottom third. [STYLE] 2D flat, black outlines, flat fills, black ≥50%, cream #F5F5DC, red #FF0000. [COMPOSITION] eye-magnet = wide eyes (top) + stamp threat (bottom) stacked vertically · readable at 10% on a phone. | Face proxy dread + the one word every gamer fears |
 | 3 | T3 Hidden-truth reveal | [THUMB] Shorts cover, 9:16 vertical. [CHARACTER] The Runner — narrowed-eye suspicion, centered. [SCENE] total darkness except a cream flashlight beam from his hand illuminating ONE face-down card labeled "1" floating center-frame; everything else black. [TEXT] "10 MINUTES" — red, bold, top corner. [STYLE] 2D flat, black ≥60%, cream beam #F5F5DC, red #FF0000. [COMPOSITION] eye-magnet = glowing beam center · readable at 10% on a phone. | Hidden-truth reveal = cluster's biggest gap; the face-down card withholds regret #1 |
 
-**Policy-guard:** text answerable by video ✓ · The Runner only ✓ · no leaked/gameplay assets ✓ · ≤5 words ✓ · no OhBhai! ✓ · optional "THE UNTOLD EXIT" watermark 5% opacity bottom-right.
+**Policy check:** text answerable by video ✓ · The Runner only ✓ · no leaked/gameplay assets ✓ · ≤5 words ✓ · no OhBhai! ✓ · optional "THE UNTOLD EXIT" watermark 5% opacity bottom-right.
 
 ## 7) `[FILL]` harvest checklist (do on launch day, 2026-11-19)
 
@@ -90,7 +90,7 @@ Structure: regrets count DOWN (4→3→2→1) — a reverse countdown that makes
 - [ ] Starting cash amount + first purchases available (if a number is verified, drop it into R3: "your first $[FILL]")
 - [ ] Review-embargo confirmation that no spoiler detail is needed — this video must stay spoiler-free by design
 
-## 8) Metadata package (policy-guard checked)
+## 8) Metadata package (manually checked)
 
 - **Title:** 4 Things You'll Regret in GTA 6 Day One
 - **Description (first 2 lines = hook + keyword; NO chapter block — 9:16 portrait = Shorts player, chapters never display on Shorts, AGENTS.md §4.10):**

@@ -86,11 +86,11 @@ Matching rule: number text → **T1 Number-as-hero** primary, T2/T3 alternates.
 | 2 | T2 Shock-face + threat | [THUMB] Shorts cover, 9:16. [CHARACTER] The Runner — extreme close-up half-frame, wide eyes, red accent marks, terrified. [SCENE] other half: a giant smartphone looming dark, its screen a black void with one red notification badge (count hidden). [TEXT] "3 سیکرٹ" — cream, bold, small corner block. [STYLE] 2D flat cartoon, black outlines, flat fills, black #000000 ≥50%, cream #F5F5DC, red #FF0000. [COMPOSITION] eye-magnet = his glowing wide eyes · readable at 10%. | Face = viewer's proxy dread; the hidden notification count withholds the secret |
 | 3 | T3 Hidden-truth reveal | [THUMB] Shorts cover, 9:16. [CHARACTER] The Runner — narrowed-eye suspicion, cream gi. [SCENE] total darkness except a cream flashlight beam from his hand illuminating ONE floating glowing checklist item (text illegible); everything else stays black. [TEXT] "3 سیکرٹ" — red, bold, top corner. [STYLE] 2D flat cartoon, black outlines, flat fills, black #000000 ≥60%, cream beam #F5F5DC, red #FF0000. [COMPOSITION] eye-magnet = the beam's glowing center · readable at 10%. | Hidden-truth-made-visible is the cluster's single biggest gap (T3 proof) |
 
-Recommended: **Concept 1** (T1). Policy-guard: text answerable ✓ · The Runner only, no real
+Recommended: **Concept 1** (T1). Policy check: text answerable ✓ · The Runner only, no real
 likenesses ✓ · no leaked/gameplay assets ✓ · text ≤5 words ✓ · no OhBhai! ✓ · optional
 "THE UNTOLD EXIT" watermark 5% opacity bottom-right.
 
-## 7) Metadata package (policy-guard checked)
+## 7) Metadata package (manually checked)
 
 - **Title:** وقت بچانے کے 3 چھپے ہوئے سیکرٹ
 - **Description (first 2 lines = hook + keyword, visible before "show more"):**

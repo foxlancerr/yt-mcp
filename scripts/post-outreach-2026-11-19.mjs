@@ -30,7 +30,7 @@ const drafts = [
   ["MFODY60097U", "secret guns before the first mission is the real flex. which item did you miss on your first run?", "Rodwenn"],
 ];
 
-// ---- policy-guard pre-flight (Category 1) ----
+// ---- manual pre-flight ----
 const errors = [];
 const seen = new Set();
 const check = (id, text) => {

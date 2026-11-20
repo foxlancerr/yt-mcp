@@ -62,9 +62,9 @@ Hook 0:00 → Promise {m:ss} → ... → Call to action {m:ss}
 
 ## Skill network
 
-- **Runs after:** reverse-engineer-channel, trend-report, video-ideation
+- **Runs after:** trend-report, video-ideation
 - **Hands off to:** title-formulas (align title with hook), comment-hooks (pinned comment carries the central question)
-- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+- **Gate:** nothing is posted, uploaded, scheduled or edited without the user's explicit yes.
 
 ## Local wiring (The Untold Exit — added 2026-11-17)
 

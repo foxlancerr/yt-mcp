@@ -159,7 +159,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **Tags:** gta 6 preload, gta 6 locked files, gta 6 encrypted, gta 6 download size, gta 6 unlock time, gta 6 midnight, gta 6 launch, gta 6 countdown, gta 6 short, gta vi, gta 6 news, gta 6 leonida, gta 6 first, gta 6 midnight unlock
 **madeForKids:** NOT made for kids ✓
 
-## 8️⃣ Policy check log (policy-guard · Category B — GO, with hard conditions)
+## 8️⃣ Policy check log (GO, with hard conditions)
 
 - ✅ 2.1 title/thumbnail answerable (what's known about the locked files + why locked; the "what's inside" stays honest: known facts + labeled theory)
 - ✅ 2.2 accuracy: size/structure claims `[FILL]`-gated to press; theory section stamped "THEORY" on-screen

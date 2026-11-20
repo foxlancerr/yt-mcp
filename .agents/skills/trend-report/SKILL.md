@@ -71,9 +71,9 @@ A dated report on what is winning in a niche right now. Rank winners by ratio, b
 
 ## Skill network
 
-- **Runs after:** competitor-research (niche scope), reverse-engineer-channel (why winners win)
-- **Hands off to:** title-formulas, thumbnail-concepts, script-breakdown, video-ideation, niche-watchlist (monitor what emerged)
-- **Gate:** policy-guard checks every write action this skill produces (comments, uploads, schedules, edits).
+- **Runs after:** competitor-research (niche scope)
+- **Hands off to:** title-formulas, thumbnail-concepts, script-breakdown, video-ideation
+- **Gate:** nothing is posted, uploaded, scheduled or edited without the user's explicit yes.
 
 ## Local wiring (The Untold Exit — added 2026-11-17)
 

@@ -21,14 +21,15 @@ The skills live in `.agents/skills/<name>/SKILL.md`. Claude Code does not load t
 | Thumbnails | `thumbnail-hooks`, `thumbnail-concepts`, `visual-style` |
 | Storyboard or visuals (The Runner, palette) | `visual-style`, `story-pipeline` (stage 3) |
 | Script structure / beats | `script-breakdown` |
-| Competitors, niches, risk | `competitor-research`, `niche-finder`, `niche-validator`, `audit-channel-risk` |
-| Comments and outreach | `comment-hooks`, `comment-mining` |
+| Competitors and trends | `competitor-research`, `competitor-playbook`, `trend-report` |
+| Comments and outreach | `comment-hooks` |
 
 ## 2. Patterns to follow (what already works here)
 
 - Story packages live in `yt/story/<idea-title-name>/story.md`, one folder per idea, sections as in `yt/story/README.md`.
 - 60s Shorts: copy the re-hook pattern in `yt/story/4-regrets-gta6-first-10-minutes` (a beat every 5–10s, one planted question paid off at the end, one-digit comment CTA).
 - Footage-based Shorts: copy the capture-matrix rule in `yt/story/lucia-vs-cops-opening` (real footage stays intact, our layer is animation and commentary, licensed audio is muted).
+- **Length is set by the user in each chat.** Default: long video about 5 min, Short 1–2 min.
 - Titles 30–40 characters (1 primary + 2 alternates). Thumbnail text is 2 words. Shorts get no chapter block.
 - **Every story is made with the configured skills.** Run `story-pipeline` and the skills it names (`video-ideation`, `script-breakdown`, `visual-style`, `title-formulas`, `thumbnail-hooks`) for each story, one story at a time, and list the skills used in the story's header. Never write a story from memory or in bulk without them.
 - **Thumbnail prompt rules (every story):**

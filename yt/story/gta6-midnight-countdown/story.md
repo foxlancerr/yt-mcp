@@ -107,7 +107,7 @@ The Untold Exit — Look Beyond What Seems Obvious.
 **Tags:** gta 6 countdown, gta 6 midnight, gta 6 release countdown, gta 6 launch, gta 6 unlock time, gta 6 final minute, gta 6 midnight launch, gta 6 is here, gta 6 release time, gta vi countdown, gta 6 countdown live, gta 5 to gta 6, 13 years of waiting, gta 6 vice city, the untold exit
 **madeForKids:** false ✓
 
-## 7️⃣ Policy check (policy-guard · Category A — clean)
+## 7️⃣ Policy check (clean)
 
 - ✅ Countdown is factual (midnight-local unlock, times listed in description) — metadata accuracy ✓
 - ✅ No leaked content, no gameplay claims, no circumvention instructions

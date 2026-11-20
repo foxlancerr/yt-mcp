@@ -25,7 +25,7 @@ const drafts = [
   ["iDN5mJhPp7s", "game's not out until tomorrow though. where are these secrets actually from?", "CA Sightey Plays"],
 ];
 
-// policy-guard pre-flight: unique, no links, no self-promo, <=20 words
+// manual pre-flight: unique, no links, no self-promo, <=20 words
 const errors = [];
 const seen = new Set();
 for (const [id, text, who] of drafts) {

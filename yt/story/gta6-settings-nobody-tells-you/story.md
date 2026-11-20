@@ -185,6 +185,5 @@ already answered, so the reply is cheap for the viewer and pulls the thread up.
 | `thumbnail-hooks` | §5 | 3 pattern-mapped concepts (T2 / T6 / T5), one eye-magnet rule, 10% legibility |
 | `title-formulas` | §4 | 3 titles all 34–38 chars, curiosity frame, no clickbait mismatch (TubeLab unavailable — local formulas) |
 | `comment-hooks` | §9 | pinned comment ≤15 words, question-close |
-| `policy-guard` | §7 | accuracy split (verified vs inferred), music, leaks, thumbnail honesty |
 | `competitor-playbook` | §1 | live GTA 6 SERP ratios as the evidence base |
 

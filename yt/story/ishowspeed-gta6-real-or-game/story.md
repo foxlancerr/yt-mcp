@@ -89,7 +89,7 @@ Pattern rule: command text → **T2** primary, **T6** alternate. Palette and cha
 
 **Recommended: concept 2** (T6). It shows the exact detail the video pays off. Text rule: "LOOK CLOSER" completes the title ("Is This Real Life... Or GTA 6?") and does not repeat it.
 
-**Gate (manual; `policy-guard` skill is deleted):** the text and withheld element are answerable by the video ✓ · The Runner only, no real person ✓ · no creator footage, no leaked assets, no Rockstar key art ✓ · 2 words of text, the logo is an image, not text ✓ · no "OhBhai!" ✓ · **Rockstar logo: allowed by your override.** Keep it small and unmodified, and don't imply Rockstar made or endorsed the video. Rockstar's legal page (`rockstargames.com/legal`) was not checked for logo terms.
+**Gate (manual):** the text and withheld element are answerable by the video ✓ · The Runner only, no real person ✓ · no creator footage, no leaked assets, no Rockstar key art ✓ · 2 words of text, the logo is an image, not text ✓ · no "OhBhai!" ✓ · **Rockstar logo: allowed by your override.** Keep it small and unmodified, and don't imply Rockstar made or endorsed the video. Rockstar's legal page (`rockstargames.com/legal`) was not checked for logo terms.
 
 **Existing PNG mockups, `yt/gta6-clips/clips/ishowspeed-gta6/thumbs/`:**
 - `thumb_C_gta6-real.png` uses only own assets and passes the gate above.
@@ -127,7 +127,7 @@ ishowspeed gta 6 real life, gta 6 real life, gta 6 live action, ishowspeed gta 6
 
 ## 8. Policy check log
 
-The `policy-guard` skill was deleted, so this is a manual check against YouTube's policies. It is not the skill.
+This is a manual check against YouTube's policies.
 
 | Check | Result |
 |---|---|
