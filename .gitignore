@@ -10,3 +10,24 @@ client_secret*.json
 tokens.json
 .idea
 .vscode
+.venv
+__pycache__
+
+# --- GTA 6 clip workspace: generated media and scratch (keep only text/notes) ---
+yt/gta6-clips/jobs/
+yt/gta6-clips/media/
+yt/gta6-clips/clips/*/raw/
+yt/gta6-clips/clips/*/edit/
+yt/gta6-clips/**/*.mp4
+yt/gta6-clips/**/*.mp3
+yt/gta6-clips/**/*.wav
+yt/gta6-clips/**/*.png
+
+# --- third-party clipper skill (812 MB with venv/models; reinstall from gitlab.com/nocodehack.io/gta6-clipper) ---
+.agents/skills/gta6-clipper/
+
+# --- generated / local-only files ---
+streams.md
+trends.md
+.mcp.json
+*.pyc

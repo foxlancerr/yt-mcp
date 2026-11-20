@@ -106,7 +106,7 @@ console.log(`\n=== TREND SCAN: "${query}" | last ${days}d | ${rows.length} video
 console.log("     views  ratio    subs  len  date        channel :: title");
 for (const r of rows) {
   console.log(
-    `${String(r.views).padStart(9)}v ${String(r.ratio ?? "-").padStart(6)}x ${String(r.subs).padStart(7)}  ${String(r.dur).padStart(4)}s ${r.when}  ${r.channel.slice(0, 20)} :: ${r.title.slice(0, 62)}`,
+    `${String(r.views).padStart(9)}v ${String(r.ratio ?? "-").padStart(6)}x ${String(r.subs).padStart(7)}  ${String(r.dur).padStart(4)}s ${r.when}  ${r.id}  ${r.channel.slice(0, 20)} :: ${r.title.slice(0, 62)}`,
   );
 }
 

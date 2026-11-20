@@ -94,4 +94,3 @@ Three thumbnail concepts for one video. A strong thumbnail joins what the viewer
 - **Runs into:** `story-pipeline` stage 6 — inside the pipeline, thumbnail text is exactly **2 words** (dopamine hook, 3 options, 1 recommended).
 - **Local generator:** after text is chosen, `thumbnail-hooks` converts it into 3 paste-ready curiosity prompts (trending patterns T1–T6, locked style) — use it as this skill's body when the TubeLab MCP is down.
 - **Runs with:** `visual-style` — generated concepts use The Runner character (cream gi or toga variant) and the locked palette (#000000 / #F5F5DC / #8B0000 / #FF0000 / #FF3131 / #00FF7F); label assets THE UNTOLD EXIT, never "OhBhai!".
-

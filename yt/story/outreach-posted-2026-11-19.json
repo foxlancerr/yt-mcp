@@ -1,0 +1,61 @@
+{
+  "postedAt": "2026-11-19T20:57:13.922Z",
+  "results": [
+    {
+      "kind": "reply",
+      "who": "JoblessGarrett (reply)",
+      "ok": false,
+      "status": 400,
+      "reason": "processingFailure"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "SjOEhn3M4cE",
+      "who": "NOT Eight Thoughts",
+      "ok": true,
+      "commentId": "UgyDQisOpYv-BWRGnPZ4AaABAg"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "RQJ3Q60wb4U",
+      "who": "Tamoor Hussain",
+      "ok": true,
+      "commentId": "UgwYzLGsVbjFNq2dXtF4AaABAg"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "Qkwg75S9GWI",
+      "who": "GTAbites",
+      "ok": true,
+      "commentId": "UgwSAvCT4HV5FwfFWhN4AaABAg"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "gcC0XGLDO30",
+      "who": "ZoneX",
+      "ok": true,
+      "commentId": "Ugx_saVLJ1PmrUVuKhx4AaABAg"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "cq4NflwkCjM",
+      "who": "KultZ",
+      "ok": true,
+      "commentId": "UgxhtBVURB1QhF0hTjN4AaABAg"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "mc-XyM3U4-o",
+      "who": "Easy Allies",
+      "ok": true,
+      "commentId": "Ugx1EGv8VJNEJP4nbZp4AaABAg"
+    },
+    {
+      "kind": "outreach",
+      "videoId": "MFODY60097U",
+      "who": "Rodwenn",
+      "ok": true,
+      "commentId": "UgzW7QQDu763d8Agyzl4AaABAg"
+    }
+  ]
+}

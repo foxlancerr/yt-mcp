@@ -124,3 +124,8 @@ competitor map, §4 rules). Read `visual-style` for all visuals.
   thumbnail-concepts, comment-hooks (pinned comment), upload execution
   (youtube-studio MCP, user-confirmed only).
 - **Gate:** policy-guard before anything leaves this pipeline.
+
+## Local rule — skills for every story (added 2026-11-20)
+
+- Create each story with this pipeline and the skills it names (`video-ideation`, `script-breakdown`, `visual-style`, `title-formulas`, `thumbnail-hooks`), one story at a time. Say which skills ran in the story's header.
+- Stage 6 follows `thumbnail-hooks`' length and relevance rule: prompts of 70 words or fewer, tied to the story's own moment, with a 2-word curiosity hook text.

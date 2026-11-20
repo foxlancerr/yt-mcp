@@ -111,3 +111,11 @@ standalone):
 - **Runs with:** visual-style (mandatory), title-formulas (text must complete, not repeat, the title)
 - **Hands off to:** policy-guard (gate), upload execution (user-confirmed only)
 - **Gate:** policy-guard before any generated thumb is attached to a story package
+
+## Local rule — prompt length and relevance (added 2026-11-20)
+
+- Prompts are **one paragraph of 70 words or fewer**: style line, The Runner + emotion, the story's own scene, the 2-word text, the eye-magnet. Drop the long [BRACKET] template when it only repeats the locked style.
+- **Relevant to the story:** the scene names a real moment or object from that story's clip (a gate, a bottle, a phone, three red stars), not a generic setup.
+- **Curiosity + dopamine hook:** one eye-magnet, one withheld element, a shock or reward cue. Never answer the title's question in the image.
+- **Hook text is exactly 2 words** and completes the title. No other text on the image.
+- Every concept names its pattern (T1-T6) and gives the one-line reason it hooks.

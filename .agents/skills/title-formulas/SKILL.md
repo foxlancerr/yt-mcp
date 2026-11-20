@@ -66,4 +66,3 @@ Titles the user can publish, each built on a proven formula, followed by the for
 - **TubeLab fallback (AGENTS.md §4.7):** no MCP → build formulas from `scripts/trend-scan.mjs` SERP patterns + the proven frames in `competitor-playbook` ("What If You Could See ___?", "___ vs ___"), and say so.
 - **Runs into:** `story-pipeline` stage 5 — when generating titles inside the pipeline they are **30–40 characters** (stricter than the 60-char cap here), 1 primary + 2 alternates.
 - **Pairs with:** `visual-style` — the 2-word thumbnail text is written in the same pass so title and thumbnail don't repeat each other.
-
