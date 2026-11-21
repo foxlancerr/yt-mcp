@@ -59,6 +59,8 @@ def wrap(s, n=30):
 def render(key, cta=None):
     c = CLIPS[key]; d = ROOT / "clips" / key; E = d / "edit"; E.mkdir(exist_ok=True)
     src = d / "raw" / "source.mp4"; segs = c.get("segments")
+    lay = [(x[2] if len(x) > 2 else {}) for x in segs] if segs else []     # a segment may carry its own crops: (start, end, dict(cam=(x,y,w,h), game=(x,y,w,h)))
+    segs = [(x[0], x[1]) for x in segs] if segs else segs
     dur = round(sum(e - s for s, e in segs), 3) if segs else c["dur"]            # segments = jump-cut pieces of the raw window, joined in order
     cx, cy, cw, ch = c["cam"]; gx, gy, gw, gh = c["game"]
     CAM_H, CAM_Y = 665, 160; GAME_H = int(round(1080 * gh / gw / 2) * 2)   # keeps the game's aspect; 862px tall cuts off the game's own subtitles
@@ -73,6 +75,11 @@ def render(key, cta=None):
     for i, (a, b, t) in enumerate(c["pops"]):
         f = E / f"pop{i}.txt"; f.write_text(t, encoding="utf-8")
         chain.append(dt(f.name, FI, "0xFF0000", f"'92+30*max(0,1-(t-{a})*5)'", 50, BAND_Y + 40, (a, b), ":borderw=7:bordercolor=black"))
+    for i, (a, b, l1, l2) in enumerate(c.get("cards", [])):      # full-frame title card (e.g. "13 HOURS / LATER"): darkens the frame, the clip audio keeps playing underneath
+        chain.append(f"drawbox=x=0:y=0:w=iw:h=ih:color=black@0.86:t=fill:enable='between(t,{a},{b})'")
+        for j, (txt, col, yy) in enumerate(((l1, "0xF5F5DC", 700), (l2, "0xFF0000", 880))):
+            f = E / f"card{i}_{j}.txt"; f.write_text(txt, encoding="utf-8")
+            chain.append(dt(f.name, FI, col, f"'150+40*max(0,1-(t-{a})*4)'", "(w-text_w)/2", yy, (a, b), ":borderw=8:bordercolor=black"))
     tag = E / "tag.txt"; tag.write_text("THE UNTOLD EXIT", encoding="utf-8")
     chain.append(dt(tag.name, FB, "0xAAAA96", 26, 40, 1870, (0, dur)))
     chain.append(f"fade=t=in:st=0:d=0.25,fade=t=out:st={dur - 0.4:.2f}:d=0.4")
@@ -80,17 +87,28 @@ def render(key, cta=None):
     pz = "+".join(f"between(t,{a},{b})" for a, b in punches)
     camz = f"scale=w='trunc(1080*(1+0.10*min(1,{pz}))/2)*2':h=-2:eval=frame,crop=1080:{CAM_H}"
     vol = ",".join(f"volume=0:enable='between(t,{a},{b})'" for a, b in c["mute"]) or "anull"
-    if segs:
-        pre = "".join(f"[0:v]trim=start={s}:end={e},setpts=PTS-STARTPTS[tv{k}];[0:a]atrim=start={s}:end={e},asetpts=PTS-STARTPTS[ta{k}];" for k, (s, e) in enumerate(segs))
-        pre += "".join(f"[tv{k}][ta{k}]" for k in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=1[vc][ac];[vc]fps=30,split=3[a][b][g];"; asrc = "[ac]"
+    if segs:      # every piece gets its own crops (default = the clip's cam/game), then the pieces are joined stream by stream
+        pre = ""
+        for k, (s, e) in enumerate(segs):
+            cc = lay[k].get("cam", c["cam"]); gg = lay[k].get("game", c["game"])
+            pre += (f"[0:v]trim=start={s}:end={e},setpts=PTS-STARTPTS,fps=30,split=3[sa{k}][sb{k}][sg{k}];"
+                    f"[sa{k}]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.18:saturation=0.85[bg{k}];"
+                    f"[sb{k}]crop={cc[2]}:{cc[3]}:{cc[0]}:{cc[1]},scale=1080:{CAM_H},setsar=1[cm{k}];"
+                    f"[sg{k}]crop={gg[2]}:{gg[3]}:{gg[0]}:{gg[1]},scale=1080:{GAME_H},setsar=1[gm{k}];"
+                    f"[0:a]atrim=start={s}:end={e},asetpts=PTS-STARTPTS[ta{k}];")
+        n = len(segs)
+        pre += "".join(f"[bg{k}]" for k in range(n)) + f"concat=n={n}:v=1:a=0[bg];" + "".join(f"[cm{k}]" for k in range(n)) + f"concat=n={n}:v=1:a=0[cam0];"
+        pre += "".join(f"[gm{k}]" for k in range(n)) + f"concat=n={n}:v=1:a=0[game];" + "".join(f"[ta{k}]" for k in range(n)) + f"concat=n={n}:v=0:a=1[ac];"
+        fc = (pre + f"[cam0]{camz}[cam];"
+              f"[bg][cam]overlay=0:{CAM_Y}[v1];[v1][game]overlay=0:{GAME_Y},format=yuv420p," + ",".join(chain) + "[v];"
+              f"[ac]{vol},afade=t=in:st=0:d=0.2,afade=t=out:st={dur - 0.5:.2f}:d=0.5[aout]")
     else:
-        pre = "[0:v]fps=30,split=3[a][b][g];"; asrc = "[0:a]"
-    fc = (pre +
-          f"[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.18:saturation=0.85[bg];"
-          f"[b]crop={cw}:{ch}:{cx}:{cy},scale=1080:{CAM_H},{camz}[cam];"
-          f"[g]crop={gw}:{gh}:{gx}:{gy},scale=1080:{GAME_H}[game];"
-          f"[bg][cam]overlay=0:{CAM_Y}[v1];[v1][game]overlay=0:{GAME_Y},format=yuv420p," + ",".join(chain) + "[v];"
-          f"{asrc}{vol},afade=t=in:st=0:d=0.2,afade=t=out:st={dur - 0.5:.2f}:d=0.5[aout]")
+        fc = ("[0:v]fps=30,split=3[a][b][g];"
+              f"[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.18:saturation=0.85[bg];"
+              f"[b]crop={cw}:{ch}:{cx}:{cy},scale=1080:{CAM_H},{camz}[cam];"
+              f"[g]crop={gw}:{gh}:{gx}:{gy},scale=1080:{GAME_H}[game];"
+              f"[bg][cam]overlay=0:{CAM_Y}[v1];[v1][game]overlay=0:{GAME_Y},format=yuv420p," + ",".join(chain) + "[v];"
+              f"[0:a]{vol},afade=t=in:st=0:d=0.2,afade=t=out:st={dur - 0.5:.2f}:d=0.5[aout]")
     base = E / "base.mp4"
     import os
     if os.environ.get("REUSE_BASE") and base.exists(): r = type("R", (), dict(returncode=0))()      # REUSE_BASE=1: skip the slow base render when only reactions or the CTA changed
@@ -98,6 +116,13 @@ def render(key, cta=None):
                         "-map", "[v]", "-map", "[aout]", "-r", "30", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "160k", str(base)],
                        capture_output=True, text=True, cwd=str(E))
     if r.returncode: print("base FAILED", r.stderr[-1500:]); return False
+    if c.get("sfx"):      # sound effects from gta6-clipper/sounds mixed under the clip: [(t, name, volume)]
+        sd = ROOT.parents[1] / ".agents" / "skills" / "gta6-clipper" / "sounds"; sf = [(t, sd / f"{n}.wav", v) for t, n, v in c["sfx"] if (sd / f"{n}.wav").exists()]
+        fcs = "".join(f"[{k + 1}:a]aformat=sample_rates=44100:channel_layouts=stereo,adelay={int(t * 1000)}|{int(t * 1000)},volume={v}[x{k}];" for k, (t, _, v) in enumerate(sf))
+        fcs += "[0:a]aformat=sample_rates=44100:channel_layouts=stereo[a0];[a0]" + "".join(f"[x{k}]" for k in range(len(sf))) + f"amix=inputs={len(sf) + 1}:normalize=0:duration=first[ao]"
+        sb = E / "base_sfx.mp4"; rs = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), *sum((["-i", str(p)] for _, p, _ in sf), []), "-filter_complex", fcs, "-map", "0:v", "-map", "[ao]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", str(sb)], capture_output=True, text=True)
+        if rs.returncode: print("sfx FAILED", rs.stderr[-800:]); return False
+        base = sb
     out = d / ("final_cta.mp4" if cta else "final.mp4"); cta_on = bool(cta if cta is not None else c.get("cta")); cta_dur = 3.2
     plan = reaction_kit.overlay(str(base) if not cta_on else str(base), c["events"], str(E / "with_reactions.mp4") if cta_on else str(out), corner="br", height_frac=0.13, emoji_beside=True,
                                 stop_at=(dur - cta_dur - 0.1) if cta_on else None)
@@ -105,7 +130,7 @@ def render(key, cta=None):
     if cta_on:    # end-screen CTA: the Runner talks to viewers; wording, gesture and graphic chosen from this clip's real reactions and captions
         import cta_kit
         ct = c["cta"] if isinstance(c.get("cta"), dict) else {}
-        sel = cta_kit.choose(plan, [x[2] for x in c["caps"]], dict(cliffhanger=ct.get("cliffhanger")), key, history_file=ct.get("history"))
+        sel = cta_kit.choose(plan, [x[2] for x in c["caps"]], dict(cliffhanger=ct.get("cliffhanger"), type=ct.get("type")), key, history_file=ct.get("history"))
         if ct.get("text"): sel.update(text=ct["text"], preset=ct.get("preset", sel["preset"]))
         info = cta_kit.apply(str(E / "with_reactions.mp4"), str(out), sel, dur=cta_dur, hook=(c["hook"][1] if ct.get("loop") else None), work=E / "cta")
         (E / "cta.json").write_text(json.dumps(dict(sel, **info), indent=1), encoding="utf-8"); print("cta:", sel["type"], "|", sel["text"], "|", sel["preset"], sel.get("gesture"))

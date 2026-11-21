@@ -4,5 +4,17 @@
   "type": "unexpected",
   "text": "Did you *see that coming*?",
   "preset": "team"
+ },
+ {
+  "key": "speed-gator",
+  "type": "funny",
+  "text": "Did you *laugh*? LIKE!",
+  "preset": "like"
+ },
+ {
+  "key": "kai-lucia",
+  "type": "unexpected",
+  "text": "Didn't expect that? *COMMENT!*",
+  "preset": "comment"
  }
 ]

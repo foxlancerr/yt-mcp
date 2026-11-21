@@ -184,7 +184,7 @@ def runner_motion(g, u, S):
     if g == "thumbs": return -4 * math.sin(u * 5), 0, -abs(math.sin(u * 6)) * 12 * S, 1 + 0.02 * math.sin(u * 8), ["thumbs"]
     if g == "wave": return math.sin(u * 7) * 11, math.sin(u * 3.5) * 10 * S, 0, 1.0, []
     if g == "celebrate": ph = (u * 1.9) % 1.0; return math.sin(u * 5) * 4, 0, -math.sin(ph * math.pi) * 90 * S, 1.0, ["confetti"]
-    if g == "laugh": return math.sin(u * 11) * 6, math.sin(u * 23) * 4 * S, -abs(math.sin(u * 11)) * 22 * S, 1.0, ["haha"]
+    if g == "laugh": return math.sin(u * 11) * 6, math.sin(u * 23) * 4 * S, -abs(math.sin(u * 11)) * 22 * S, 1.0, []
     return -10, 0, -abs(math.sin(u * 3)) * 6 * S, 1.0, ["question"]      # curious
 
 
@@ -200,7 +200,7 @@ def runner_layer(size, g, u, run_h, cx, ground):
     sx0, sy0 = max(0, -ox), max(0, -oy2); crop = can.crop((sx0, sy0, min(cw, size[0] - ox), min(ch, size[1] - oy2)))
     if crop.width > 0 and crop.height > 0: img.alpha_composite(crop, (max(ox, 0), max(oy2, 0)))
     head = (cx + dx + sp.width * 0.14, ground + dy + oy - sp.height * 0.80)
-    RE.draw_effects(img, fx, head, u, S * 1.6)
+    RE.draw_effects(img, fx, head, u, S * 1.1)
     if enter < 1: img.putalpha(img.getchannel("A").point(lambda v: int(v * clamp(enter * 1.4))))
     return img
 
@@ -215,7 +215,7 @@ def arrow(layer, x, y, u):
 def frames(sel, dur=DUR, fps=FPS, rh=430, hook_line=None):
     """yield RGBA frames (W x rh) for one CTA. sel = dict(text, preset, gesture, label)."""
     preset = sel["preset"]; g = sel.get("gesture") or PRESETS[preset]["gesture"]
-    tz = int(rh * 0.47); tl = text_layer(sel["text"], 960, tz - 10); run_h = int(rh * 0.46); ground = rh - 58; zone_y = tz + (rh - tz) / 2 - 4
+    tz = int(rh * 0.47); tl = text_layer(sel["text"], 960, tz - 10); run_h = int(rh * 0.40); ground = rh - 58; zone_y = tz + (rh - tz) / 2 - 4
     loop = text_layer("*REPLAY*: " + hook_line, 900, 70, start=44) if hook_line else None
     for i in range(int(round(dur * fps))):
         u = i / fps; img = Image.new("RGBA", (W, rh), (0, 0, 0, 0))
@@ -250,6 +250,7 @@ def classify(plan, captions="", cfg=None):
         elif e in ("angry", "dizzy"): sc["fail"] += 0.3
     if any(k in txt for k in ("mission failed", "wasted", "busted", "you died", "failed")): sc["fail"] += 3
     why = ", ".join(f"{k} {v:.1f}" for k, v in sorted(sc.items(), key=lambda kv: -kv[1]) if v)
+    if cfg.get("type") in load_templates(): return cfg["type"], "type set in the clip config; " + why
     if cfg.get("cliffhanger"): return "cliffhanger", "flagged cliffhanger in the clip config; " + why
     best = max(sc.items(), key=lambda kv: kv[1])
     return (best[0], why) if best[1] > 0 else ("general", "no reaction signal; " + why)

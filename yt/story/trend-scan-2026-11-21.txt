@@ -1,0 +1,208 @@
+
+##### QUERY: kai cenat gta 6
+
+=== TREND SCAN: "kai cenat gta 6" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+ 12164155v    0.7x 16900000  41756s 2026-11-19  VZqAPdUvqnQ  Kai Cenat Live :: =ƒî¦PLAYING GTA 6 FOR THE FIRST TIME=ƒî¦ (DAY 1)
+  6554280v    0.4x 16900000  42899s 2026-11-19  H-4PyJlhI9g  Kai Cenat Live :: =ƒî¦PLAYING GTA 6 FOR THE FIRST TIME=ƒî¦ (DAY 1)
+  5185235v    3.5x 1490000    13s 2026-11-10  eJyfu6Aetag  Snickerly :: Kai Was About To Buy GTA 6 For His Young Fan But His Father De
+  4490670v    0.3x 16900000  42141s 2026-11-20  5tdj53ioJ-c  Kai Cenat Live :: =ƒî¦PLAYING GTA 6 FOR THE FIRST TIME=ƒî¦ (DAY 2)
+  4089862v    0.1x 63100000    67s 2026-11-16  2BRL4ALMCyA  IShowSpeed :: iSHOWSPEED x GTA 6 | OFFICIAL TRAILER
+  3958585v    2.2x 1790000    26s 2026-11-19  Z7IMc6VYluI  DaPlug :: Rakai Asks Kai Cenat For Help Since He Is Struggling To Play G
+  3814807v    0.2x 16900000  40221s 2026-11-11  6LB7vibQ5q0  Kai Cenat Live :: =ƒÄ«PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 5=ƒÄ«
+  3217723v    0.2x 16900000  42900s 2026-11-08  esFGDLr8rSQ  Kai Cenat Live :: =ƒÄ«PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto SAN ANDR
+  3175715v    0.2x 16900000  42898s 2026-11-10  9-W_wdkBmAA  Kai Cenat Live :: =ƒÄ«PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 5=ƒÄ«
+  2789095v    0.2x 16900000  42898s 2026-11-21  LHoHInbPkk0  Kai Cenat Live :: =ƒî¦PLAYING GTA 6 FOR THE FIRST TIME=ƒî¦ (DAY 3)
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 4,024,224
+median ratio : 0x subs
+top outlier  : 0.7x (Kai Cenat Live)
+length mix   : 3 short (<90s) / 0 mid / 7 long (5m+)
+shorts median: 4,089,862 views
+long median  : 3,814,807 views
+
+quota: ~102 units
+
+##### QUERY: ishowspeed gta 6
+
+=== TREND SCAN: "ishowspeed gta 6" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+ 67392789v    1.1x 63100000  85542s 2026-11-19  qSyo5d-dVzA  IShowSpeed :: =ƒö¦PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE!
+ 37160112v    0.6x 63100000  85283s 2026-11-20  hwSg39yIBGU  IShowSpeed :: =ƒö¦PLAYING GTA 6 RIGHT NOW GET IN HERE!
+ 21069501v    0.3x 63100000  22062s 2026-11-20  OIeLbmyraRQ  IShowSpeed :: =ƒö¦ BEATING GTA 6 RIGHT NOW 100% (FINAL MISSION)
+  4089862v    0.1x 63100000    67s 2026-11-16  2BRL4ALMCyA  IShowSpeed :: iSHOWSPEED x GTA 6 | OFFICIAL TRAILER
+  4030038v    0.1x 63100000    30s 2026-11-18  1wzzrOvl_Jg  IShowSpeed :: iShowSpeedGÇÖs First Look At GTA 6
+  3691504v    0.1x 63100000  10301s 2026-11-16  o0UeucVxYCA  IShowSpeed :: I JUST MET WITH PRESIDENT OBAMA
+  3333760v    3.8x  876000    44s 2026-11-18  nrf8gDfCNiY  Skyftbl :: IShowSpeed Playing GTA 6 for the First Time =ƒÿ¡
+  3315978v    1.2x 2810000   129s 2026-11-19  JEaW9KnTijQ  Speedy Boykins :: iShowSpeed Finds A HULK-LIKE MONSTER In GTA 6 =ƒÿ¦
+  3248957v 2180.5x    1490    21s 2026-11-10  PvOV6ASr2zA  Recap Shorts Clips :: ISHOWSPEED DOESN'T KNOW IF GTA 6 IS ON PS5 OR XBOX =ƒÿ¡=ƒÆÇ
+  1931049v    0.5x 3760000    39s 2026-11-18  Y_6J8SthWTw  Goofy Recaps :: IShowSpeedGÇÖs First GTA 6 Stream Will Be CHAOS =ƒÿ¡=ƒöÑ
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 3,860,771
+median ratio : 1x subs
+top outlier  : 1.1x (IShowSpeed)
+length mix   : 5 short (<90s) / 1 mid / 4 long (5m+)
+shorts median: 3,333,760 views
+long median  : 29,114,807 views
+
+quota: ~102 units
+
+##### QUERY: gta 6 lucia mom
+
+=== TREND SCAN: "gta 6 lucia mom" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+   835899v  803.7x    1040    11s 2026-11-16  zCtQUy5Wm8c  Bit Hectic :: Not Sleeping Till I Finish GTA 6GÇª Lucia Has Bad News =ƒÿ¡ #gta6 
+   489493v    0.2x 2620000   596s 2026-11-20  4uUsFvB4v_w  Shirrako :: GTA 6 - Good Ending (Jason & Lucia Survive)
+   186577v    0.1x 1600000   487s 2026-11-19  bUNj7aI0U_c  Sirloin :: GTA 6: Lucia's mother is being held hostage (Full Scene)
+   173015v    0.1x 1600000   957s 2026-11-19  YOxDxdVD4MY  Sirloin :: GTA 6: Lucia's Mother Cutscene (4K)
+   116872v    0.1x 1700000  1009s 2026-11-19  QB-sIjteJoo  AFGuidesHD :: GTA 6 - Meeting Lucia's Mom
+    32333v   32.3x    1000    12s 2026-11-20  asnXgzjMuh0  Illuminous Green :: Speed Threatened To END His Stream Over Lucia's Mom In GTA 6 n++
+    29819v      0x 3080000   596s 2026-11-19  ep6gvBtwfno  Gamer's Little Playg :: GTA 6 GÇô M7 Cholos Confront Lucia And Her Mom Scene 4K
+    26589v    4.7x    5610    33s 2026-11-19  iHPIJwJ7QVY  Unhinged Leonida :: Who you got Lucia or LuciaGÇÖs mom? #gta #gta6 #speed
+    23719v    0.2x  132000   635s 2026-11-18  ybb3i-IGslk  AaronClarey :: Lucia in GTA6 is a Mom...and I'm Out
+    23132v      0x  546000    23s 2026-11-20  J75jkcY8bp4  deyylo :: Kai Cenat Saved Lucia's Mom From An Alligator In GTA 6! =ƒÿ¡=ƒÉè
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 74,603
+median ratio : 0x subs
+top outlier  : 803.7x (Bit Hectic)
+length mix   : 4 short (<90s) / 0 mid / 6 long (5m+)
+shorts median: 29,461 views
+long median  : 144,944 views
+
+quota: ~102 units
+
+##### QUERY: gta 6 alligator
+
+=== TREND SCAN: "gta 6 alligator" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+  5926953v    0.7x 8670000  1542s 2026-11-18  vVVIWEGciKk  gameranx :: GTA 6 - Before You Buy
+  1742295v 2202.6x     791    35s 2026-11-19  GOwKsw3W7cQ  No VAR  :: Mom got bit by an alligator #gta #gta6
+  1575568v  284.4x    5540    42s 2026-11-19  CWNYV-zDAlw  GAGA Gaming  :: GTA 6 - I Just Wanted to Pet the Alligator #gta6 #grandtheftau
+  1393864v    0.2x 7200000  31245s 2026-11-19  oY6WoNCB_f4  DashieGames :: IT'S ACTUALLY HERE!! PLAYING GTA 6 USING THE XBOX ALLIGATOR CO
+  1116564v    3.4x  327000   574s 2026-11-18  ihgofRDQWq4  GameV :: I Explored GTA 6GÇÖs SwampsGÇª The Graphics Are INSANE! | GTA 6 PS
+   837924v   16.7x   50100    31s 2026-11-13  UhPvgbP7ps8  DiscussingFilm :: Macca & Friends: Exclusive Teaser Trailer
+   580568v    5.2x  111000    48s 2026-11-18  26la2COuHM4  Cup Of Trending  :: SPEED Instantly Regrets BARKING At An ALLIGATOR In GTA 6=ƒÉè #is
+   385519v    2.5x  155000    56s 2026-11-19  lFa4SqVwZNA  THE GTA GUY :: What Happens If Alligators Attack You in Every GTA Game...?=ƒÉèn++
+   317868v    5.4x   58500    17s 2026-11-16  W9aTzwYFFDY  SpectreX Gaming :: XboxGÇÖs exclusive X-Bite alligator controller is perfect for GT
+   268305v      0x 5730000   115s 2026-11-13  EEnHZyeYxsE  TmarTn2 :: Macca & Friends Official Trailer - TV Show Inside GTA 6
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 977,244
+median ratio : 4x subs
+top outlier  : 0.7x (gameranx)
+length mix   : 6 short (<90s) / 1 mid / 3 long (5m+)
+shorts median: 709,246 views
+long median  : 1,393,864 views
+
+quota: ~102 units
+
+##### QUERY: gta 6 last mission
+
+=== TREND SCAN: "gta 6 last mission" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+ 41939731v    0.7x 62500000  1821s 2026-11-19  ymCHX_Dcc-U  MrBeast Gaming :: I Survived 100 Hours In GTA 6
+ 24484454v    0.5x 53900000  7439s 2026-11-19  169ZzvPxvvM  Techno Gamerz :: MY FIRST DAY IN VICE CITY | GTA 6 GAMEPLAY #1
+ 21069501v    0.3x 63100000  22062s 2026-11-20  OIeLbmyraRQ  IShowSpeed :: =ƒö¦ BEATING GTA 6 RIGHT NOW 100% (FINAL MISSION)
+ 17825859v    1.4x 12900000  35159s 2026-11-18  irNhWMG560k  CarryisLive :: CARRYMINATI PLAYS GTA VI | NO PROMOTIONS
+  9558503v    1.7x 5730000   797s 2026-11-18  6E2cBXFCDyQ  TmarTn2 :: GTA 6 - Stealing a Jet From the Military Base
+  8871607v    0.6x 14000000  4044s 2026-11-18  rQLEb0W7REo  theRadBrad :: GTA 6 Walkthrough Gameplay Part 1 - INTRO (GRAND THEFT AUTO 6)
+  4503095v    0.3x 17800000   463s 2026-11-16  T19V2vE7nQ8  Mythpat :: bye...I Will Miss You
+  3814807v    0.2x 16900000  40221s 2026-11-11  6LB7vibQ5q0  Kai Cenat Live :: =ƒÄ«PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 5=ƒÄ«
+  3435276v    1.3x 2620000  42872s 2026-11-18  BGUTv2K_SWs  Shirrako :: GTA 6 Gameplay Walkthrough Part 1 FULL GAME [4K ULTRA HD PS5 P
+  3175715v    0.2x 16900000  42898s 2026-11-10  9-W_wdkBmAA  Kai Cenat Live :: =ƒÄ«PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 5=ƒÄ«
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 9,215,055
+median ratio : 1x subs
+top outlier  : 0.7x (MrBeast Gaming)
+length mix   : 0 short (<90s) / 0 mid / 10 long (5m+)
+shorts median: 0 views
+long median  : 9,215,055 views
+
+quota: ~102 units
+
+##### QUERY: gta 6 ending
+
+=== TREND SCAN: "gta 6 ending" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+ 21069501v    0.3x 63100000  22062s 2026-11-20  OIeLbmyraRQ  IShowSpeed :: =ƒö¦ BEATING GTA 6 RIGHT NOW 100% (FINAL MISSION)
+  2629407v    0.2x 16900000  27364s 2026-11-21  dSDUAAr-w_g  Kai Cenat Live :: BEATING GTA 6 *FINALE*
+  2613353v    1.1x 2370000    61s 2026-11-17  hDJf5d_4EJo  jacobweeby :: "BEFORE GTA 6" IS ALMOST OVER #shorts
+  2548009v    0.5x 5240000   419s 2026-11-11  wiW1mpHZb_Y  Hollow :: New GTA 6 Gameplay Just Blew Everyones Mind..
+  2099497v    5.4x  390000   535s 2026-11-20  DYDz_cIgoAw  MELOO :: GTA 6 Good Ending (Jason & Lucia Survive) - Grand Theft Auto V
+  2051446v    0.8x 2620000   721s 2026-11-20  RtghspIPQeU  Shirrako :: GTA 6 - Best Ending (True Ending)
+  1937750v    0.5x 4250000    31s 2026-11-16  -jeMfW3r6vQ  Energiapersonal :: Hacen filas para poder jugar al GTA 6 en formato f+¡sico pero s
+  1926832v     12x  160000   149s 2026-11-08  fu-BJU_kdvQ  GAMEBO :: will GTA 5 end after GTA 6 release ?
+  1809150v    0.7x 2620000   246s 2026-11-20  Fia-o8_7iEw  Shirrako :: GTA 6 - Niko Bellic Returns (4K ULTRA HD)
+  1728032v    1.1x 1600000  39501s 2026-11-18  CjuXgo28_nE  Sirloin :: GTA 6 - Full Game Walkthrough (No Commentary) 100% 4K
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 2,075,472
+median ratio : 1x subs
+top outlier  : 0.3x (IShowSpeed)
+length mix   : 2 short (<90s) / 2 mid / 6 long (5m+)
+shorts median: 2,275,552 views
+long median  : 2,323,753 views
+
+quota: ~102 units
+
+##### QUERY: gta 6 mandy
+
+=== TREND SCAN: "gta 6 mandy" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+  2261284v   10.6x  214000    53s 2026-11-19  -hTYPgdkQYU  ObbersGTA :: Never Fix Mandy's Sink in GTA 6! #gta #gta6
+  1133294v    0.2x 5730000  4165s 2026-11-18  UU_nqU2bLH8  TmarTn2 :: Grand Theft Auto 6 - Part 2 - Ex-Girlfriend Mandy
+   948116v   11.1x   85200   305s 2026-11-18  tjYvEX3HHVk  Simpzyy :: GTA 6 Mandy Pipework Mission
+   820146v    1.8x  466000   372s 2026-11-18  iBysITGTVeI  TheGamingRevolution :: GTA 6 Mandy tries to seduce Jason Cutscene Mission 3 in Grand 
+   778927v    1.7x  460000   129s 2026-11-19  uFIrl8Cx0AI  Mati Clips :: DAVO SE INCOMODA CON LA MISI+ôN DE MANDY EN GTA 6 =ƒÿé=ƒÿé
+   756786v      0x 44000000  4331s 2026-11-19  ORV-JOiZAho  TheDonato :: CONOCI A MANDY POR PRIMERA VEZ =ƒÿ¦ !! GTA 6 MODO HISTORIA #2=ƒªÄ-
+   719220v    0.1x 14100000  3013s 2026-11-19  XGyfnRtNMSA  DaniRep | +6 V+¡deos  :: CONOZCO A MANDY Y ME ENAMORO - GTA 6 Modo Historia #2
+   650736v    2.8x  230000   223s 2026-11-19  4xQRkK-LUbQ  NeedForGaming :: How To Fix Mandy's Sink in GTA 6 | Mandy Pipework Mission (Ful
+   602870v 1970.2x     306    98s 2026-11-19  kB5MeJWLH_U  Apex Films :: Can You Romance Mandy in GTA 6? (And the Creepy Secret Inside 
+   308387v    0.2x 1730000   312s 2026-11-18  TRLa9vENmUQ  Banden :: GTA 6 - Mandy's Naughty Bikini Scene Full 4K | Grand Theft Aut
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 767,857
+median ratio : 2x subs
+top outlier  : 10.6x (ObbersGTA)
+length mix   : 1 short (<90s) / 3 mid / 6 long (5m+)
+shorts median: 2,261,284 views
+long median  : 788,466 views
+
+quota: ~102 units
+
+##### QUERY: gta 6 streamer
+
+=== TREND SCAN: "gta 6 streamer" | last 14d | 10 videos ===
+
+     views  ratio    subs  len  date        channel :: title
+ 37160112v    0.6x 63100000  85283s 2026-11-20  hwSg39yIBGU  IShowSpeed :: =ƒö¦PLAYING GTA 6 RIGHT NOW GET IN HERE!
+ 24484454v    0.5x 53900000  7439s 2026-11-19  169ZzvPxvvM  Techno Gamerz :: MY FIRST DAY IN VICE CITY | GTA 6 GAMEPLAY #1
+ 21069501v    0.3x 63100000  22062s 2026-11-20  OIeLbmyraRQ  IShowSpeed :: =ƒö¦ BEATING GTA 6 RIGHT NOW 100% (FINAL MISSION)
+ 17825859v    1.4x 12900000  35159s 2026-11-18  irNhWMG560k  CarryisLive :: CARRYMINATI PLAYS GTA VI | NO PROMOTIONS
+ 17229299v      1x 17800000  36411s 2026-11-18  LMbea5SozeM  Mythpat :: Welcome to Vice City! GTA 6 LIVE with Mythpat
+  9558503v    1.7x 5730000   797s 2026-11-18  6E2cBXFCDyQ  TmarTn2 :: GTA 6 - Stealing a Jet From the Military Base
+  9283949v    3.9x 2380000  33020s 2026-11-18  xMXp80Cntxw  TGG :: GTA 6 LAUNCH STREAM! Playing GTA 6 for the First Time
+  7189987v    0.4x 16300000  32787s 2026-11-18  3QjXNSf6keg  Typical Gamer :: =ƒö¦ LIVE! - GTA 6 EARLY ACCESS! FREE ROAM GAMEPLAY LIVE! (PS5 P
+  6554280v    0.4x 16900000  42899s 2026-11-19  H-4PyJlhI9g  Kai Cenat Live :: =ƒî¦PLAYING GTA 6 FOR THE FIRST TIME=ƒî¦ (DAY 1)
+  5827939v    2.7x 2170000  69709s 2026-11-19  0C_LS2lUWdg  TheBurntPeanut :: =ƒö¦LIVE | GTA 6 | BUNGULATION EDITION | IM IN NEW ZEALAND | #BU
+
+=== SUMMARY (quote these in story.md -º1) ===
+median views : 13,393,901
+median ratio : 1x subs
+top outlier  : 0.6x (IShowSpeed)
+length mix   : 0 short (<90s) / 0 mid / 10 long (5m+)
+shorts median: 0 views
+long median  : 13,393,901 views
+
+quota: ~102 units
