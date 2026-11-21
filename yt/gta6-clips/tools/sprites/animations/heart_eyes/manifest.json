@@ -1,0 +1,21 @@
+{
+  "name": "heart_eyes",
+  "frames": 60,
+  "fps": 30,
+  "seconds": 2.0,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "idle",
+  "effects": [
+    "heart_eyes"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "SO PRETTY!"
+  ],
+  "use": "Standing with heart eyes popping. Gorgeous visual.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

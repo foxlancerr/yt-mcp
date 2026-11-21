@@ -1,0 +1,21 @@
+{
+  "name": "fall",
+  "frames": 66,
+  "fps": 30,
+  "seconds": 2.2,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "trip",
+  "effects": [
+    "sweat"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "OOF!"
+  ],
+  "use": "Trip and fall, then back up. Use for a fail.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

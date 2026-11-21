@@ -1,0 +1,11 @@
+{
+  "name": "eyes",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "look closely, curiosity hook",
+  "palette": "flat cream / black / red / green only"
+}

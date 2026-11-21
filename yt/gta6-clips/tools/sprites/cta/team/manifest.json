@@ -1,0 +1,26 @@
+{
+ "name": "team",
+ "frames": 96,
+ "fps": 30,
+ "size": [
+  1080,
+  430
+ ],
+ "gesture": "curious",
+ "default_text": "TEAM *YES* or TEAM *NO*?",
+ "sfx": [
+  [
+   0.05,
+   "whoosh"
+  ],
+  [
+   0.5,
+   "ding"
+  ],
+  [
+   0.75,
+   "ding"
+  ]
+ ],
+ "note": "RGBA PNG sequence 1080x430, place at y=1490 of a 1080x1920 Short for the last 3.2s. Custom text: cta_kit.apply()."
+}

@@ -1,0 +1,259 @@
+{
+  "_note": "Reaction vocabulary by emotion. 'animation' = folder in sprites/animations, 'emoji' = folder in sprites/emoji, 'mode'/'fx' = runner_engine settings. Pick a word only when the scene or comment matches the emotion; never at random.",
+  "happy": {
+    "words": [
+      "YAY!",
+      "WOOHOO!",
+      "LET'S GO!",
+      "OMG!",
+      "YESS!",
+      "WOW!"
+    ],
+    "animation": "yay",
+    "emoji": [
+      "party",
+      "star",
+      "fire"
+    ],
+    "mode": "celebrate",
+    "fx": [
+      "confetti",
+      "star3"
+    ]
+  },
+  "love": {
+    "words": [
+      "AWWW!",
+      "LOVE YOU!",
+      "MUAAH!",
+      "SO CUTE!",
+      "XOXO!"
+    ],
+    "animation": "love",
+    "emoji": [
+      "heart",
+      "heart_eyes",
+      "kiss"
+    ],
+    "mode": "dance",
+    "fx": [
+      "hearts"
+    ]
+  },
+  "kiss": {
+    "words": [
+      "MUAAH!",
+      "XOXO!",
+      "THANK YOU!"
+    ],
+    "animation": "kisses",
+    "emoji": [
+      "kiss",
+      "heart"
+    ],
+    "mode": "idle",
+    "fx": [
+      "kiss"
+    ]
+  },
+  "shock": {
+    "words": [
+      "WHAT?!",
+      "NO WAY!",
+      "HOLY!",
+      "BRUH!",
+      "HUH?!",
+      "SERIOUSLY?!"
+    ],
+    "animation": "recoil",
+    "emoji": [
+      "shocked",
+      "exclaim"
+    ],
+    "mode": "recoil",
+    "fx": [
+      "exclaim",
+      "sweat"
+    ]
+  },
+  "curious": {
+    "words": [
+      "WAIT...?",
+      "HUH?",
+      "WHAT IS THAT?",
+      "LOOK!"
+    ],
+    "animation": "curiosity",
+    "emoji": [
+      "eyes",
+      "confused",
+      "question"
+    ],
+    "mode": "tilt",
+    "fx": [
+      "question"
+    ]
+  },
+  "reveal": {
+    "words": [
+      "LOOK!",
+      "THERE IT IS!",
+      "WOW!"
+    ],
+    "animation": "reveal",
+    "emoji": [
+      "wow",
+      "sparkles",
+      "eyes"
+    ],
+    "mode": "pop",
+    "fx": [
+      "exclaim",
+      "star3"
+    ]
+  },
+  "laugh": {
+    "words": [
+      "HAHAHA!",
+      "LOL!",
+      "LMAO!",
+      "OOPS!",
+      "SHEESH!"
+    ],
+    "animation": "laugh",
+    "emoji": [
+      "laugh_cry",
+      "skull"
+    ],
+    "mode": "laugh",
+    "fx": [
+      "haha"
+    ]
+  },
+  "laugh_cry": {
+    "words": [
+      "LMAO!",
+      "I'M DEAD!",
+      "HAHAHA!"
+    ],
+    "animation": "cry_laugh",
+    "emoji": [
+      "laugh_cry",
+      "skull"
+    ],
+    "mode": "laugh",
+    "fx": [
+      "haha",
+      "tears"
+    ]
+  },
+  "sad": {
+    "words": [
+      "OH NO!",
+      "WHY?!",
+      "NOOO!",
+      "OUCH!",
+      "SO SAD!"
+    ],
+    "animation": "sad",
+    "emoji": [
+      "sad"
+    ],
+    "mode": "droop",
+    "fx": [
+      "tears"
+    ]
+  },
+  "angry": {
+    "words": [
+      "HEY!",
+      "REALLY?!",
+      "UGH!"
+    ],
+    "animation": "angry",
+    "emoji": [
+      "angry"
+    ],
+    "mode": "shake",
+    "fx": [
+      "anger"
+    ]
+  },
+  "nervous": {
+    "words": [
+      "UH OH...",
+      "NOPE...",
+      "EASY..."
+    ],
+    "animation": "nervous",
+    "emoji": [
+      "scared"
+    ],
+    "mode": "shiver",
+    "fx": [
+      "sweat",
+      "question"
+    ]
+  },
+  "suspense": {
+    "words": [
+      "WAIT FOR IT...",
+      "HOLD ON..."
+    ],
+    "animation": "suspense",
+    "emoji": [
+      "eyes",
+      "question"
+    ],
+    "mode": "freeze",
+    "fx": [
+      "sweat",
+      "question"
+    ]
+  },
+  "approve": {
+    "words": [
+      "NICE!",
+      "THAT'S IT!",
+      "PERFECT!"
+    ],
+    "animation": "thumbs",
+    "emoji": [
+      "thumbs_up",
+      "hundred",
+      "clap"
+    ],
+    "mode": "idle",
+    "fx": [
+      "thumbs"
+    ]
+  },
+  "relief": {
+    "words": [
+      "PHEW...",
+      "SAFE!"
+    ],
+    "animation": "relief",
+    "emoji": [
+      "sparkles"
+    ],
+    "mode": "walk",
+    "fx": [
+      "breath"
+    ]
+  },
+  "dizzy": {
+    "words": [
+      "WOBBLY!",
+      "WHOA..."
+    ],
+    "animation": "dizzy",
+    "emoji": [
+      "wow"
+    ],
+    "mode": "sway",
+    "fx": [
+      "dizzy"
+    ]
+  }
+}

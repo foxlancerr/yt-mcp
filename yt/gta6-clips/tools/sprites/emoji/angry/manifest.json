@@ -1,0 +1,11 @@
+{
+  "name": "angry",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "frustration, getting caught",
+  "palette": "flat cream / black / red / green only"
+}

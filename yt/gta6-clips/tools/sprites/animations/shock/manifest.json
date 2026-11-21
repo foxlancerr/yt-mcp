@@ -1,0 +1,22 @@
+{
+  "name": "shock",
+  "frames": 48,
+  "fps": 30,
+  "seconds": 1.6,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "shake",
+  "effects": [
+    "exclaim",
+    "sweat"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "NO WAY!"
+  ],
+  "use": "Shaking with !! and sweat. Use on a surprise or crash.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

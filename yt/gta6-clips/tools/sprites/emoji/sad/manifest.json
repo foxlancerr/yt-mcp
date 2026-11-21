@@ -1,0 +1,11 @@
+{
+  "name": "sad",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "oh no, mission failed",
+  "palette": "flat cream / black / red / green only"
+}

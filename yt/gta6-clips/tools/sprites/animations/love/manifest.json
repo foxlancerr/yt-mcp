@@ -1,0 +1,21 @@
+{
+  "name": "love",
+  "frames": 100,
+  "fps": 30,
+  "seconds": 3.33,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "dance",
+  "effects": [
+    "hearts"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "AWW!"
+  ],
+  "use": "Heart bubbles float up while he sways. Use on a sweet, wholesome or loved moment. 3.33s = two full heart cycles (loops).",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

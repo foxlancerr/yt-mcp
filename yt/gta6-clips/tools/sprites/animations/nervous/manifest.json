@@ -1,0 +1,20 @@
+{
+  "name": "nervous",
+  "frames": 72,
+  "fps": 30,
+  "seconds": 2.4,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "shiver",
+  "effects": [
+    "sweat",
+    "question"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [],
+  "use": "Shivering with sweat drops and ?. Use for suspense and risk.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

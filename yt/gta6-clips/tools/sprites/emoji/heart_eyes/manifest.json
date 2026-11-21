@@ -1,0 +1,11 @@
+{
+  "name": "heart_eyes",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "love at first sight, gorgeous visuals",
+  "palette": "flat cream / black / red / green only"
+}

@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[3]
-OUT = Path(__file__).parent / "sprites"; OUT.mkdir(exist_ok=True)
+OUT = Path(__file__).parent / "sprites" / "character"; OUT.mkdir(parents=True, exist_ok=True)
 
 def matte(rgb: np.ndarray, thr=38) -> Image.Image:
     """rgb HxWx3 uint8 -> RGBA with border-connected near-black removed."""

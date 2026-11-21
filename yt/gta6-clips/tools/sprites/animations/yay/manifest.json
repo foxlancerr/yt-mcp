@@ -1,0 +1,21 @@
+{
+  "name": "yay",
+  "frames": 72,
+  "fps": 30,
+  "seconds": 2.4,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "celebrate",
+  "effects": [
+    "confetti"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "YAY!"
+  ],
+  "use": "Big hop with confetti. Win or achievement.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

@@ -22,6 +22,7 @@ The skills live in `.agents/skills/<name>/SKILL.md`. Claude Code does not load t
 | Storyboard or visuals (The Runner, palette) | `visual-style`, `story-pipeline` (stage 3) |
 | Script structure / beats | `script-breakdown` |
 | Competitors and trends | `competitor-research`, `competitor-playbook`, `trend-report` |
+| Runner reactions, emoji, animation frames, end-screen CTA | `runner-reactions`, `visual-style` |
 | Comments and outreach | `comment-hooks` |
 
 ## 2. Patterns to follow (what already works here)

@@ -1,0 +1,20 @@
+{
+  "name": "relief",
+  "frames": 90,
+  "fps": 30,
+  "seconds": 3.0,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "walk",
+  "effects": [
+    "breath",
+    "sweat"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [],
+  "use": "Slow walk with a breath puff. Use at the end of a tense clip (loop-out beat).",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

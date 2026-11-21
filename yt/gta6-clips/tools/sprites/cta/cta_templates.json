@@ -1,0 +1,36 @@
+{
+ "_note": "Editable CTA wording. *word* turns red. Each moment type lists variants; a variant = text + preset (subscribe, like, comment, next, team) + gesture (point, thumbs, wave, celebrate, curious, laugh) + optional label (card caption) + sfx. {name} = the streamer/subject, {hook} = the clip's second hook line. cta_kit.choose() reads the real clip (reactions, captions, flags) and picks the type; it avoids the last 3 texts used (cta_history.json) so two Shorts in a row never end the same way.",
+ "funny": [
+  {"text": "Did you *laugh*? LIKE!", "preset": "like", "gesture": "laugh"},
+  {"text": "LIKE if that *cracked you up*!", "preset": "like", "gesture": "laugh"},
+  {"text": "Who's *funnier*? COMMENT!", "preset": "comment", "gesture": "laugh"}
+ ],
+ "unexpected": [
+  {"text": "Did you *see that coming*?", "preset": "team", "gesture": "curious"},
+  {"text": "TEAM *YES* or TEAM *NO*?", "preset": "team", "gesture": "curious"},
+  {"text": "Didn't expect that? *COMMENT!*", "preset": "comment", "gesture": "point"}
+ ],
+ "fail": [
+  {"text": "Can you do *better*? COMMENT!", "preset": "comment", "gesture": "point"},
+  {"text": "*WHAT WOULD YOU DO?* Comment below!", "preset": "comment", "gesture": "point"},
+  {"text": "Should I try this again? *COMMENT!*", "preset": "comment", "gesture": "curious"}
+ ],
+ "achievement": [
+  {"text": "LIKE if that was *insane*!", "preset": "like", "gesture": "celebrate"},
+  {"text": "That was *CLEAN*. Smash LIKE!", "preset": "like", "gesture": "thumbs"}
+ ],
+ "emotional": [
+  {"text": "Would you have *waited*? COMMENT!", "preset": "comment", "gesture": "point"},
+  {"text": "*LIKE* if you felt that.", "preset": "like", "gesture": "thumbs"},
+  {"text": "Watch it again, then *tell me*.", "preset": "comment", "gesture": "wave"}
+ ],
+ "cliffhanger": [
+  {"text": "Want to see what happens *next*? SUBSCRIBE!", "preset": "subscribe", "gesture": "point"},
+  {"text": "*PART 2?* You decide!", "preset": "next", "gesture": "curious", "label": "PART 2"},
+  {"text": "You won't believe what's *coming next*!", "preset": "next", "gesture": "curious", "label": "NEXT"}
+ ],
+ "general": [
+  {"text": "WAIT! Don't leave without *subscribing*!", "preset": "subscribe", "gesture": "point"},
+  {"text": "SUBSCRIBE for more *crazy GTA 6 moments*!", "preset": "subscribe", "gesture": "wave"}
+ ]
+}

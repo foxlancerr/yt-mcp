@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = Path(__file__).resolve().parent
-WALK = HERE / "sprites" / "walk"
+WALK = HERE / "sprites" / "character" / "walk"
 CREAM, RED, LRED, BLACK, GREEN = (245, 245, 220), (255, 0, 0), (255, 49, 49), (0, 0, 0), (0, 255, 127)
 FONT = "C:/Windows/Fonts/impact.ttf"
 _cache = {}
@@ -138,6 +138,35 @@ def draw_effects(layer, effects, head, u, S):
                 draw_cloud(layer, hx + 60 * S + ph * 190 * S, hy + 40 * S - ph * 70 * S, (14 + ph * 34) * S, alpha=int(255 * (1 - ph)))
         elif fx == "haha":
             draw_bubble(layer, hx + 120 * S, hy - 150 * S, "HA HA!", int(70 * S), bounce=abs(math.sin(u * 9)) * 14 * S)
+        elif fx == "confetti":   # stays in the inner 70% of the canvas and fades at the top and bottom, so nothing is cut at an edge
+            W, H = layer.size; d = ImageDraw.Draw(layer)
+            for i in range(34):
+                x = W * 0.15 + (i * 97) % int(W * 0.70); ph = ((u * 0.5 + i * 0.173) % 1.0); y = H * 0.10 + ph * H * 0.78; al = int(255 * min(1.0, ph * 6, (1 - ph) * 6)); a = math.radians(i * 37 + u * 220)
+                col = (RED, CREAM, LRED, GREEN, CREAM)[i % 5]; w, h = 12 * S + (i % 3) * 4 * S, 7 * S
+                pts = [(x + math.cos(a) * w - math.sin(a) * h, y + math.sin(a) * w + math.cos(a) * h), (x - math.cos(a) * w - math.sin(a) * h, y - math.sin(a) * w + math.cos(a) * h),
+                       (x - math.cos(a) * w + math.sin(a) * h, y - math.sin(a) * w - math.cos(a) * h), (x + math.cos(a) * w + math.sin(a) * h, y + math.sin(a) * w - math.cos(a) * h)]
+                d.polygon(pts, fill=col + (al,), outline=BLACK + (al,))
+        elif fx == "tears":
+            for i, sx in enumerate((-34, 40)):
+                for j in range(3):
+                    ph = (u * 0.9 + i * 0.35 + j * 0.33) % 1.0
+                    draw_drop(layer, hx + sx * S + math.sin(ph * 5 + j) * 6 * S, hy + 20 * S + ph * 150 * S, 18 * S, alpha=int(255 * (1 - ph ** 2)))
+        elif fx == "kiss":
+            for i in range(3):
+                ph = (u * 0.8 + i * 0.33) % 1.0; x = hx + 40 * S + ph * 230 * S; y = hy - 20 * S - ph * 130 * S - math.sin(ph * 9) * 12 * S; al = int(255 * (1 - ph ** 2)); s = (36 + 10 * i) * S
+                ov = Image.new("RGBA", layer.size, (0, 0, 0, 0)); dd = ImageDraw.Draw(ov)
+                for ox in (-0.42, 0.42):
+                    dd.ellipse((x + ox * s - s * 0.55, y - s * 0.3, x + ox * s + s * 0.55, y + s * 0.3), fill=RED + (al,), outline=BLACK + (al,), width=4)
+                dd.ellipse((x - s * 0.6, y + 2, x + s * 0.6, y + s * 0.45), fill=RED + (al,), outline=BLACK + (al,), width=4)
+                layer.alpha_composite(ov); draw_heart(layer, x + s * 0.9, y - s * 0.7, s * 0.55, fill=RED, alpha=al)
+        elif fx == "thumbs":
+            d = ImageDraw.Draw(layer); x, y = hx + 140 * S, hy - 110 * S - abs(math.sin(u * 6)) * 14 * S; s = 52 * S
+            d.rounded_rectangle((x - s * 0.55, y - s * 0.1, x + s * 0.65, y + s * 0.95), radius=int(s * 0.2), fill=CREAM + (255,), outline=BLACK + (255,), width=5)
+            d.polygon([(x - s * 0.35, y - s * 0.1), (x - s * 0.1, y - s * 0.95), (x + s * 0.25, y - s * 0.85), (x + s * 0.15, y - s * 0.1)], fill=CREAM + (255,), outline=BLACK + (255,))
+            for k in range(3): d.line((x - s * 0.4, y + s * (0.2 + k * 0.25), x + s * 0.5, y + s * (0.2 + k * 0.25)), fill=BLACK + (255,), width=3)
+        elif fx == "heart_eyes":
+            k = min(u / 0.25, 1.0); sz = (46 + 14 * math.sin(u * 8)) * S * (0.4 + 0.6 * k)
+            draw_heart(layer, hx - 28 * S, hy - 110 * S, sz, fill=RED); draw_heart(layer, hx + 38 * S, hy - 110 * S, sz, fill=RED)
         elif fx == "star3":  # wanted stars badge
             for i in range(3):
                 draw_star(layer, hx - 60 * S + i * 60 * S, hy - 150 * S, 24 * S)
@@ -159,7 +188,7 @@ def render_frames(duration, fps, size, beats, bubbles=(), runner_h=620, ground=7
         t = fi / fps
         beat = next((b for b in beats if b["t0"] <= t < b["t1"]), {"mode": "walk", "fx": []})
         u = t - beat.get("t0", 0); mode = beat.get("mode", "walk"); speed = beat.get("speed", 1.0)
-        idx = int(t * 24 * speed) if mode not in ("freeze", "tilt") else 12
+        idx = int(t * 24 * speed) if mode not in ("freeze", "tilt", "idle", "peek", "droop", "recoil", "celebrate") else (0 if mode in ("idle", "peek", "droop", "recoil", "celebrate") else 12)   # frame 0 = standing, feet together
         sp = sprite(idx)
         ang, dx, dy, sc = 0.0, 0.0, 0.0, 1.0
         if mode == "bounce":
@@ -184,6 +213,20 @@ def render_frames(duration, fps, size, beats, bubbles=(), runner_h=620, ground=7
             sc = 1 + 0.18 * max(0, 1 - u * 4) * (1 if u < 0.25 else 0)
         elif mode == "tilt":
             ang = -10
+        elif mode == "idle":        # standing still, breathing (squash and stretch), no walking
+            sc = 1 + 0.025 * math.sin(u * 4.2); dx = 0
+        elif mode == "peek":        # rises from the bottom edge, looks, sinks back (like the storyboard HIDE panel)
+            dur = max(beat["t1"] - beat["t0"], 0.5); k = min(u / (dur * 0.3), 1.0, (dur - u) / (dur * 0.3))
+            k = max(0.0, k); k = 1 - (1 - k) ** 3
+            dy = sp.height * (0.98 - 0.52 * k); ang = 6 * math.sin(u * 3) * k      # ends with the top half showing
+        elif mode == "droop":       # sad: head and body sink, slow sway
+            k = min(u / 0.8, 1.0); dy = 22 * S * k; ang = 7 * k + math.sin(u * 2) * 1.5; sc = 1 - 0.05 * k
+        elif mode == "recoil":      # shock: snaps backwards then settles
+            k = min(u / 0.18, 1.0); r = 1 - min(max(u - 0.18, 0) / 0.9, 1.0)
+            dx = -80 * S * k * r; ang = 9 * k * r; dy = -14 * S * k * r; sc = 1 + 0.07 * k * r
+        elif mode == "celebrate":   # arms-up energy without new art: big hop, squash on landing
+            ph = (u * 1.9) % 1.0; dy = -math.sin(ph * math.pi) * 170 * S
+            sc = 1 + (0.06 * math.sin(ph * math.pi) if ph < 0.85 else -0.08 * (ph - 0.85) / 0.15); ang = math.sin(u * 5) * 4
         elif mode == "walk":
             dy = -abs(math.sin(t * 12 * speed)) * 6 * S
         base_x = W * 0.5 + math.sin(t * 0.7) * 90 * S

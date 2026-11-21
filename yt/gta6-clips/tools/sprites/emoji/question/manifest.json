@@ -1,0 +1,11 @@
+{
+  "name": "question",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "unanswered question",
+  "palette": "flat cream / black / red / green only"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "recoil",
+  "frames": 48,
+  "fps": 30,
+  "seconds": 1.6,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "recoil",
+  "effects": [
+    "exclaim"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "WHAT?!"
+  ],
+  "use": "Snaps backwards in shock. Sudden event.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

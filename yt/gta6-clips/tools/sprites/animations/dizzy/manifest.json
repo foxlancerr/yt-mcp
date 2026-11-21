@@ -1,0 +1,19 @@
+{
+  "name": "dizzy",
+  "frames": 90,
+  "fps": 30,
+  "seconds": 3.0,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "sway",
+  "effects": [
+    "dizzy"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [],
+  "use": "Swaying with spinning stars. Use for drunk or hit moments.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

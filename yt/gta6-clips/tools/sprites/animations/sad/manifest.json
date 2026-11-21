@@ -1,0 +1,21 @@
+{
+  "name": "sad",
+  "frames": 78,
+  "fps": 30,
+  "seconds": 2.6,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "droop",
+  "effects": [
+    "tears"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "OH NO!"
+  ],
+  "use": "Sinks down with tears. Mission failed, loss.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "angry",
+  "frames": 60,
+  "fps": 30,
+  "seconds": 2.0,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "shake",
+  "effects": [
+    "anger"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "HEY!"
+  ],
+  "use": "Shaking with anger marks. Use for conflict or getting caught.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

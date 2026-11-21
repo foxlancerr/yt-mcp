@@ -1,0 +1,26 @@
+{
+ "name": "subscribe",
+ "frames": 96,
+ "fps": 30,
+ "size": [
+  1080,
+  430
+ ],
+ "gesture": "point",
+ "default_text": "WAIT! Don't leave without *subscribing*!",
+ "sfx": [
+  [
+   0.05,
+   "whoosh"
+  ],
+  [
+   0.55,
+   "ding"
+  ],
+  [
+   1.75,
+   "ding"
+  ]
+ ],
+ "note": "RGBA PNG sequence 1080x430, place at y=1490 of a 1080x1920 Short for the last 3.2s. Custom text: cta_kit.apply()."
+}

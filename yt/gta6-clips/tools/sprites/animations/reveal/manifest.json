@@ -1,0 +1,22 @@
+{
+  "name": "reveal",
+  "frames": 48,
+  "fps": 30,
+  "seconds": 1.6,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "pop",
+  "effects": [
+    "exclaim",
+    "star3"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "LOOK!"
+  ],
+  "use": "Pop-in scale with stars and !!. The pay-off beat right after a curiosity gap.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

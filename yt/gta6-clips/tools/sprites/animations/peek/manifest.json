@@ -1,0 +1,21 @@
+{
+  "name": "peek",
+  "frames": 90,
+  "fps": 30,
+  "seconds": 3.0,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "peek",
+  "effects": [
+    "question"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": true,
+  "bubbles": [
+    "...?"
+  ],
+  "use": "Rises from the bottom edge and peeks, then sinks. Curiosity, hide-and-seek, sneaking.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

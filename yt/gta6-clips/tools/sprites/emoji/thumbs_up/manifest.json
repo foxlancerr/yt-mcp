@@ -1,0 +1,11 @@
+{
+  "name": "thumbs_up",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "approval, nice",
+  "palette": "flat cream / black / red / green only"
+}

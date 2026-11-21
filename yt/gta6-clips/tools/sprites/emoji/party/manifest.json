@@ -1,0 +1,11 @@
+{
+  "name": "party",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "celebration",
+  "palette": "flat cream / black / red / green only"
+}

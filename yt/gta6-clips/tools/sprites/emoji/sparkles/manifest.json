@@ -1,0 +1,11 @@
+{
+  "name": "sparkles",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "reveal, clean moment",
+  "palette": "flat cream / black / red / green only"
+}

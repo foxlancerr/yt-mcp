@@ -1,0 +1,21 @@
+{
+  "name": "kisses",
+  "frames": 72,
+  "fps": 30,
+  "seconds": 2.4,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "idle",
+  "effects": [
+    "kiss"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "MUAAH!"
+  ],
+  "use": "Standing, blowing kisses with hearts. Loving comment or thank-you.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

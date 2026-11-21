@@ -1,0 +1,11 @@
+{
+  "name": "hundred",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "perfect, no notes",
+  "palette": "flat cream / black / red / green only"
+}

@@ -74,7 +74,11 @@ def dt(textfile, font, color, size, x, y, en, extra=""):
 
 
 def render(key):
-    c = SHORTS[key]; d = ROOT / "clips" / c["idea"]; E = d / "edit"; E.mkdir(exist_ok=True)
+    c = SHORTS[key]
+    if c.get("events"):                                    # optional: reactions chosen from real events by reaction_engine
+        from reaction_engine import events_to_beats
+        beats, bubbles, _plan = events_to_beats(c["events"]); c = dict(c, beats=beats, bubbles=bubbles)
+    d = ROOT / "clips" / c["idea"]; E = d / "edit"; E.mkdir(exist_ok=True)
     src = d / "raw" / "source.mp4"; dur = c["dur"]
     sw, sh = probe(src)
     if c["layout"] == "h":

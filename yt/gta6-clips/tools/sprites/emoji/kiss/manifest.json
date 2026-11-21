@@ -1,0 +1,11 @@
+{
+  "name": "kiss",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "blowing kisses, thank-you",
+  "palette": "flat cream / black / red / green only"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "suspense",
+  "frames": 72,
+  "fps": 30,
+  "seconds": 2.4,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "freeze",
+  "effects": [
+    "sweat",
+    "question"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [],
+  "use": "Frozen pose with sweat and ?. A held beat before a payoff (the pause that builds the gap).",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

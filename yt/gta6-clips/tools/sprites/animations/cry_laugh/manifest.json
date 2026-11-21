@@ -1,0 +1,20 @@
+{
+  "name": "cry_laugh",
+  "frames": 72,
+  "fps": 30,
+  "seconds": 2.4,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "laugh",
+  "effects": [
+    "haha",
+    "tears"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [],
+  "use": "Laughing with tears. A very funny fail.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}

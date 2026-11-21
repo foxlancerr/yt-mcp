@@ -1,0 +1,26 @@
+{
+ "name": "like",
+ "frames": 96,
+ "fps": 30,
+ "size": [
+  1080,
+  430
+ ],
+ "gesture": "thumbs",
+ "default_text": "LIKE if that was *insane*!",
+ "sfx": [
+  [
+   0.05,
+   "whoosh"
+  ],
+  [
+   0.5,
+   "ding"
+  ],
+  [
+   1.5,
+   "vine_boom"
+  ]
+ ],
+ "note": "RGBA PNG sequence 1080x430, place at y=1490 of a 1080x1920 Short for the last 3.2s. Custom text: cta_kit.apply()."
+}

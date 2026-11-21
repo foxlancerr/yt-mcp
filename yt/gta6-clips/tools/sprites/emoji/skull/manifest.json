@@ -1,0 +1,11 @@
+{
+  "name": "skull",
+  "frames": 30,
+  "fps": 30,
+  "size": [
+    256,
+    256
+  ],
+  "use": "dead from laughing or a death",
+  "palette": "flat cream / black / red / green only"
+}

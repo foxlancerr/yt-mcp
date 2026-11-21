@@ -1,0 +1,21 @@
+{
+  "name": "curiosity",
+  "frames": 72,
+  "fps": 30,
+  "seconds": 2.4,
+  "size": [
+    1100,
+    1100
+  ],
+  "mode": "tilt",
+  "effects": [
+    "question"
+  ],
+  "char_frac": 0.5091,
+  "edge_anchored": false,
+  "bubbles": [
+    "WAIT...?"
+  ],
+  "use": "Head tilt with a bouncing ?. The curiosity hook: plays in the first 1-2s before the reveal.",
+  "note": "RGBA PNG sequence, transparent background. Overlay with ffmpeg: -framerate 30 -i f%03d.png"
+}
