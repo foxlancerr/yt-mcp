@@ -13,7 +13,9 @@ import { OAuth2Client } from "google-auth-library";
 import { google } from "googleapis";
 
 const root = dirname(fileURLToPath(import.meta.url));
-const targets = JSON.parse(await readFile(join(root, "..", "yt", "story", "outreach-intl-targets.json"), "utf8"));
+const targets = JSON.parse(
+  await readFile(process.argv[2] ?? join(root, "..", "yt", "story", "outreach-intl-targets.json"), "utf8"),
+);
 
 const secret = JSON.parse(await readFile(join(root, "..", "src", "config", "tokens.json"), "utf8")).installed;
 const tokens = JSON.parse(await readFile(join(homedir(), ".config", "youtube-studio-mcp", "tokens.json"), "utf8"));

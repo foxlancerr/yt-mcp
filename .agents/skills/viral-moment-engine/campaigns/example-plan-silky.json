@@ -1,0 +1,15 @@
+{
+  "campaignId": "silky-pool",
+  "platform": "TikTok",
+  "hook": "Silky found the cut nobody else got",
+  "caption": "Silky found a rare GTA 6 cut where Lucia gets arrested and shot. #Silky #ad",
+  "notes": "sourced from Silky's GTA marathon stream 19 Nov onward, Silky is the primary focus of the edit, no logos, no negative portrayal",
+  "durationSec": 16,
+  "expectedViews": 300000,
+  "hasDisclosure": true,
+  "usesAiVideo": false,
+  "aiVoice": false,
+  "logoOnScreen": false,
+  "sourceUrl": "twitch.tv/silky VOD, GTA marathon from 2026-11-19",
+  "accountLane": "rewards"
+}

@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 // Outreach target finder — international. One search per country, local language.
 //
-//   node scripts/outreach-intl.mjs [hours=72]
+//   node scripts/outreach-intl.mjs [hours=72] [MK,MK,...]
 //
 // 20 queries x 100 units = ~2,000 units. Use when the batch must span countries.
+// Optional third arg narrows the scan to specific markets, e.g. DE,PL,FR,NL,GB —
+// that is the only way to stay inside the 100 search.list calls/day cap.
 // Country note: the Data API exposes no channel country for videos, so each row carries
 // the region/language that SURFACED it. Never claim a creator's nationality from that.
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -15,6 +17,7 @@ import { google } from "googleapis";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const hours = parseInt(process.argv[2] || "72", 10);
+const only = (process.argv[3] || "").toUpperCase().split(",").map((s) => s.trim()).filter(Boolean);
 
 const QUERIES = [
   ["BR", "pt-BR", "GTA 6 dicas"],
@@ -38,6 +41,24 @@ const QUERIES = [
   ["CA", "en", "GTA 6 mistakes"],
   ["AU", "en", "GTA 6 easter eggs"],
 ];
+
+// Second-angle keywords per market, added only when that market is selected.
+// One query per market is too thin to find 10+ uncontacted channels.
+const EXTRA = {
+  DE: ["GTA 6 Guide", "GTA 6 Fehler", "GTA 6 Geheimnis"],
+  PL: ["GTA 6 sekrety", "GTA 6 błędy"],
+  FR: ["GTA 6 erreurs", "GTA 6 secrets"],
+  NL: ["GTA 6 fouten"],
+  GB: ["GTA 6 mistakes"],
+  IT: ["GTA 6 errori", "GTA 6 segreti"],
+  ES: ["GTA 6 errores", "GTA 6 consejos"],
+  RU: ["GTA 6 секреты", "GTA 6 ошибки"],
+};
+const LANG = new Map(QUERIES.map(([r, lang]) => [r, lang]));
+const BASE = QUERIES.filter(([region]) => !only.length || only.includes(region));
+QUERIES.length = 0;
+QUERIES.push(...BASE);
+for (const r of only) for (const q of EXTRA[r] ?? []) QUERIES.push([r, LANG.get(r), q]);
 
 const secret = JSON.parse(
   await readFile(join(root, "..", "src", "config", "tokens.json"), "utf8"),
@@ -140,7 +161,7 @@ for (const r of eligible) {
   console.log("");
 }
 
-const out = join(root, "..", "yt", "story", "outreach-intl-targets.json");
+const out = join(root, "..", "yt", "story", only.length ? `outreach-intl-targets-${only.join("-")}.json` : "outreach-intl-targets.json");
 await mkdir(dirname(out), { recursive: true });
 await writeFile(out, JSON.stringify(eligible, null, 2));
 console.log(`wrote ${out}\nquota: ~${QUERIES.length * 100 + 2}`);

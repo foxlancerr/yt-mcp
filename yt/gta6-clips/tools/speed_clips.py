@@ -134,3 +134,92 @@ EXTRA["kai-lucia"] = dict(
   notes="SPOILER: shows a story mission (Lucia is told to get close to Nate to reach Kordell; Jason 'got made'). Debunks the reposts titled 'Kai Cenat Finds Out Lucia Is Cheating', which cut his jokes ('probably with another man', 'no kiss, no I love you') out of context. Only items verified in the game's own dialogue or in Kai's stream captions are used; the 'Jason is in on it' and 'snuggle buddy' claims could not be verified and are not in the clip. One slur (6:58:25) is cut out; no profanity remains. Window a is a full-screen webcam scene, shown with its own crops.",
   caption_text="SPOILER. Kai Cenat joked that Lucia was with another man in GTA 6. Here is what the game's own briefing says. Reaction footage from Kai Cenat's GTA 6 streams.",
   tags="#gta6 #kaicenat #gtavi #lucia #shorts")
+
+
+# --- Kai Cenat, GTA 6 club / drinking mission (day 1, VZqAPdUvqnQ) ---
+# raw/source.mp4 = w1 (stream 5:47:40-5:48:25, 0-45s) + w2 (stream 5:53:05-5:53:40, 45-80s). Clean scene: no sexual content on screen, so no blur is needed.
+EXTRA["kai-club"] = dict(
+  vid="VZqAPdUvqnQ", streamer="Kai Cenat", src_title="PLAYING GTA 6 FOR THE FIRST TIME (DAY 1)", src_offset="see src_note", start=0.0, dur=0.0,
+  segments=[(0.0, 9.0), (11.5, 24.0), (27.0, 45.0), (47.0, 63.0)],
+  cam=(0, 432, 392, 220), game=(400, 170, 1300, 830),
+  hook=("KAI HIT THE CLUB IN GTA 6", "THEN THE DANCE STARTED"),
+  caps=[(0.2, 2.4, '"I\'ll get the first round."'), (2.5, 5.0, '"What\'s it going to be?"'), (5.1, 8.8, '"Three shots. Seriously, on me, bro."'),
+        (9.4, 10.6, '"Love this."'), (10.7, 13.2, '"I\'ll take one, too." "Sure, man."'), (13.4, 16.0, '"Shots for everybody."'),
+        (19.4, 21.4, '"Oh my god."'), (22.4, 25.0, '"Man, I already love this place."'), (30.6, 34.0, '"Come on, Jay. You sure you\'re ready?"'),
+        (42.5, 45.0, '"I need to take a time out."'), (49.5, 55.0, '"No, no, no, no, no..."')],
+  pops=[(5.0, 7.2, "3 SHOTS?!"), (13.5, 16.0, "SHOTS FOR EVERYBODY"), (30.6, 33.2, "DANCE TIME")],
+  cards=[], mute=[],
+  punch=[(2.6, 4.0), (19.4, 21.0), (42.6, 44.0), (49.6, 51.0)],
+  sfx=[(5.0, "ding", 0.4), (13.5, "vine_boom", 0.3), (30.6, "vine_boom", 0.35)],
+  events=[dict(t0=0.4, kind="hook", text="what is this place? mystery"),
+          dict(t0=5.2, kind="dialogue", text="three shots, no way, what is happening?!"),
+          dict(t0=13.8, kind="dialogue", text="haha so funny, laugh"),
+          dict(t0=19.6, kind="dialogue", text="oh my god, wow, shocked"),
+          dict(t0=30.8, kind="hook", text="wait, what is next? mystery"),
+          dict(t0=42.8, kind="dialogue", text="no way, what is happening?!"),
+          dict(t0=49.8, kind="dialogue", text="no no no, hide", tags=["hide"])],
+  cta=dict(loop=True, type="funny"),
+  src_note="two windows of Kai Cenat's GTA 6 day 1 stream (stream clock): 5:47:40 + 0-9.0s, 11.5-24.0s and 27.0-45.0s; 5:53:05 + 2.0-18.0s",
+  notes="Story mission (Lucia, Jason and friends at a bar, a round of shots, a dance). Quotes are the stream's auto-captions; unlabelled lines are game or unattributed voices. No profanity remains. The scene shows no sexual content, so nothing is blurred.",
+  caption_text="Kai Cenat's reaction to the GTA 6 club and drinking mission. Reaction footage from Kai Cenat's GTA 6 stream.",
+  tags="#gta6 #kaicenat #gtavi #lucia #shorts")
+
+
+# --- TEST ONLY: proves the blur path on Speed's suggestive club scene (hwSg39yIBGU 3:12:50 + 6-18s, 480p). Not for upload. ---
+EXTRA["speed-blur-test"] = dict(
+  vid="hwSg39yIBGU", streamer="IShowSpeed", src_title="PLAYING GTA 6 RIGHT NOW GET IN HERE!", src_offset="3:12:50", start=0.0, dur=0.0,
+  segments=[(6.0, 18.0)],
+  cam=(0, 192, 174, 98), game=(200, 30, 640, 400),
+  hook=("BLUR TEST", "SUGGESTIVE SCENE CENSORED"),
+  caps=[(1.0, 5.0, '"Do it sexy. Yeah, yeah."')], pops=[], cards=[], mute=[], punch=[(1.0, 2.0)], sfx=[],
+  blur=[(0.0, 12.0)],
+  events=[dict(t0=0.5, kind="hook", text="what is this? mystery")],
+  src_note="test window", notes="test only", caption_text="test", tags="#test")
+
+
+# --- 2-minute best-of: IShowSpeed finishes GTA 6 (final mission: chase, police shootout on the bridge, his reaction). Source: his 6 h stream OIeLbmyraRQ "BEATING GTA 6 RIGHT NOW 100% (FINAL MISSION)". ---
+# raw/source.mp4 = three windows joined: A (stream 5:09:05, 0-220s) + B (5:13:55, 220-400s) + F (5:12:35, 400-490s). One continuous scene in stream order (no free-roam, no other mission).
+EXTRA["speed-final-mission"] = dict(
+  vid="OIeLbmyraRQ", streamer="IShowSpeed", src_title="BEATING GTA 6 RIGHT NOW 100% (FINAL MISSION)", src_offset="see src_note", start=0.0, dur=0.0,
+  segments=[(0.0, 3.5), (3.5, 12.5), (12.5, 25.5), (25.5, 35.5), (35.5, 47.5), (47.5, 57.5), (57.5, 93.5), (93.5, 115.5), (115.5, 124.0)],      # raw/source.mp4 is already cut in output order (raw/source_full.mp4 = the three windows)
+  cam=(4, 466, 384, 236), game=(420, 100, 1280, 850),
+  hook=("52 HOURS. NO SLEEP.", "WHAT BROKE SPEED?"),
+  caps=[(6.2, 10.4, 'SPEED: "Three days, y\'all. I have not slept in three days."'), (12.1, 14.8, 'SPEED: "I played to the end, man."'),
+        (15.8, 18.2, 'SPEED: Wait... what is wrong with him?'), (18.8, 21.5, 'SPEED: "I played to the end. Something\'s not right."'),
+        (21.8, 24.7, 'SPEED: "Oh my god. Oh no."'), (30.0, 31.5, 'SPEED: "We got to go in the water, bro."'),
+        (33.4, 34.9, 'SPEED: "We got to go in the water!"'), (35.6, 37.0, 'SPEED: "...for y\'all to split up, bro!"'),
+        (38.3, 39.9, 'SPEED: "There\'s no way, bro."'), (40.0, 41.8, 'SPEED: "Y\'all might as well just die together."'),
+        (41.9, 43.4, 'SPEED: "Like Bonnie and Clyde, bro."'), (45.9, 47.5, 'SPEED: "No way I work this hard for y\'all to break up!"'),
+        (47.6, 49.5, 'SPEED: "Let\'s swim for it, bro!"'), (52.4, 54.4, 'SPEED: "Let\'s go for it!"'), (55.9, 57.4, 'SPEED: "Let\'s swim for it!"'),
+        (58.0, 61.5, 'Police block the bridge.'),
+        (96.4, 98.3, 'SPEED: "Oh my god."'), (102.0, 106.5, 'SPEED: "I just played this game for 52 hours and they both just died, bro."'),
+        (107.5, 110.4, 'SPEED: "They both just died, bro!"'), (116.0, 119.4, 'SPEED: "I\'m not trolling. I just played this for 52 hours, bro."'),
+        (120.0, 123.6, 'SPEED: "I\'m not playing, bro. I swear to my dad."')],
+  pops=[(6.3, 8.8, "3 DAYS NO SLEEP"), (18.8, 21.4, "NOT RIGHT?!"), (30.0, 32.5, "SWIM FOR IT?!"), (40.0, 42.5, "DIE TOGETHER?!"),
+        (62.0, 64.8, "COPS OPEN FIRE"), (102.0, 105.0, "THEY BOTH DIED?!"), (116.0, 119.0, "NOT TROLLING")],
+  mute=[(16.6, 17.0), (35.0, 35.35), (110.4, 111.3)],      # profanity: Speed at 16.8 and 110.6, a game character at 35.1
+  blur=[(63.5, 83.5)],      # graphic close-ups of the shootout (blood, wounded character): game panel blurred, his face stays visible
+  punch=[(18.8, 21.5), (96.4, 98.3), (102.0, 106.5), (116.0, 119.4)],
+  fx_extra=dict(
+    cam=[(1.0, 3.4, "push", 0.10), (30.0, 32.0, "tilt", 3), (57.5, 93.0, "push", 0.12), (62.0, 64.5, "tilt", -3.5), (93.5, 110.0, "push", 0.10),
+         (102.0, 104.5, "tilt", -3.5), (116.0, 123.0, "push", 0.08)],
+    game=[(30.0, 32.0, "tilt", -3), (40.0, 42.4, "tilt", 3), (49.0, 55.5, "focus", (0.14, 0.0, -0.1)), (58.0, 62.0, "focus", (0.25, 0.3, -0.1)),
+          (62.0, 64.5, "tilt", 3.5), (86.0, 93.0, "pan", 40), (93.5, 110.0, "push", 0.10)],
+    flash=[3.5, 12.5, 25.5, 35.5, 47.5, 57.5, 62.0, 93.5, 115.5]),
+  sfx=[(6.3, "ding", 0.4), (40.0, "vine_boom", 0.3), (62.0, "vine_boom", 0.4), (102.0, "vine_boom", 0.4)],
+  events=[dict(t0=0.4, kind="hook", text="what is this? police with guns, mystery"),
+          dict(t0=6.4, kind="dialogue", text="three days without sleep, wow, tired"),
+          dict(t0=18.9, kind="dialogue", text="something\'s not right, oh no, what is happening?!"),
+          dict(t0=30.1, kind="gameplay", text="we got to go in the water, panic"),
+          dict(t0=40.1, kind="dialogue", text="they might as well die together, like bonnie and clyde, no way"),
+          dict(t0=47.7, kind="dialogue", text="let\'s swim for it, let\'s go, excited"),
+          dict(t0=62.1, kind="gameplay", text="police open fire, shocked, omg"),
+          dict(t0=96.5, kind="dialogue", text="oh my god, shocked, devastated"),
+          dict(t0=102.1, kind="dialogue", text="they both just died, no no no, i can\'t believe it, sad"),
+          dict(t0=116.1, kind="dialogue", text="i\'m not trolling, omg"),
+          dict(t0=120.1, kind="dialogue", text="i swear to my dad, sad")],
+  cta=dict(loop=True, type="emotional"),
+  src_note="three windows of IShowSpeed\'s stream (stream clock): 5:09:05 + 37-46s, 50-63s, 112-122s, 137-149s, 172-182s; 5:12:35 + 5-41s; 5:13:55 + 54-76s, 160.5-169s",
+  notes="SPOILER: final mission and ending of the story. The police shootout shows graphic close-ups (blood, a wounded character): the game panel is blurred for those 20 s (CENSORED label); remove 'blur' in the config for the unblurred cut (age restriction likely). Speed\'s words are from YouTube auto-captions and faster-whisper (they disagree in places, so lines the two did not both support were left out or shortened; confirm by ear). The credits song plays under the last 35 s (licensed music, Content ID likely). The clip does not claim tears. The stream\'s chat, logo, counters and minimap are cropped out.",
+  caption_text="SPOILER: IShowSpeed after 52 hours of GTA 6, the final mission: the chase, the police shootout and his reaction. Reaction from IShowSpeed\'s GTA 6 stream.",
+  tags="#gta6 #ishowspeed #gtavi #gta6ending #shorts")

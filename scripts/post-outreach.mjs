@@ -108,7 +108,7 @@ const { google } = await import("googleapis");
 
 const root = dirname(fileURLToPath(import.meta.url));
 const secret = JSON.parse(await readFile(join(root, "..", "src", "config", "tokens.json"), "utf8")).installed;
-const tokens = JSON.parse(await rf(join(homedir(), ".config", "youtube-studio-mcp", "tokens.json"), "utf8"));
+const tokens = JSON.parse(await readFile(join(homedir(), ".config", "youtube-studio-mcp", "tokens.json"), "utf8"));
 const oauth = new OAuth2Client(secret.client_id, secret.client_secret);
 oauth.setCredentials({ refresh_token: tokens.refresh_token });
 const yt = google.youtube({ version: "v3", auth: oauth });
@@ -135,7 +135,19 @@ for (let i = 0; i < drafts.length; i++) {
   }
 }
 
+// Merge with any same-day record so a resumed/interrupted run appends instead of
+// overwriting comments that already went out (server restarts, quota errors).
 const out = join(storyDir, `${new Date().toISOString().slice(0, 10)}-outreach-posted.json`);
 const { writeFile } = await import("node:fs/promises");
-await writeFile(out, JSON.stringify({ startedAt: posted[0]?.at, posted }, null, 2));
-console.log(`\nwrote ${out}`);
+let prior = [];
+try {
+  const prev = JSON.parse(await readFile(out, "utf8"));
+  prior = Array.isArray(prev?.posted) ? prev.posted : [];
+} catch {
+  prior = [];
+}
+const key = (p) => p.id ?? `${p.videoId}|${p.text}`;
+const known = new Set(prior.map(key));
+const merged = [...prior, ...posted.filter((p) => !known.has(key(p)))];
+await writeFile(out, JSON.stringify({ startedAt: prior[0]?.at ?? posted[0]?.at, posted: merged }, null, 2));
+console.log(`\nwrote ${out} (${prior.length} earlier + ${merged.length - prior.length} new)`);

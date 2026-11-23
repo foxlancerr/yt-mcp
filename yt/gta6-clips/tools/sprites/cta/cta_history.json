@@ -16,5 +16,35 @@
   "type": "unexpected",
   "text": "Didn't expect that? *COMMENT!*",
   "preset": "comment"
+ },
+ {
+  "key": "kai-club",
+  "type": "funny",
+  "text": "Who's *funnier*? COMMENT!",
+  "preset": "comment"
+ },
+ {
+  "key": "speed-final-mission",
+  "type": "emotional",
+  "text": "*LIKE* if you felt that.",
+  "preset": "like"
+ },
+ {
+  "key": "cass-lucia-lana",
+  "type": "unexpected",
+  "text": "TEAM *YES* or TEAM *NO*?",
+  "preset": "team"
+ },
+ {
+  "key": "cass-prison-call",
+  "type": "cliffhanger",
+  "text": "You won't believe what's *coming next*!",
+  "preset": "next"
+ },
+ {
+  "key": "cass-jason-crush",
+  "type": "unexpected",
+  "text": "Did you *see that coming*?",
+  "preset": "team"
  }
 ]

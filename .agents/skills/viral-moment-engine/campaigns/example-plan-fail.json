@@ -1,0 +1,12 @@
+{
+  "campaignId": "lacy-pool",
+  "platform": "YouTube Shorts",
+  "hook": "this is the funniest thing that happened",
+  "caption": "the funniest moment from the marathon",
+  "durationSec": 28,
+  "expectedViews": 120000,
+  "hasDisclosure": true,
+  "usesAiVideo": true,
+  "logoOnScreen": true,
+  "accountLane": "brand"
+}

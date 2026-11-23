@@ -22,6 +22,18 @@ again on a new video, a new idea or a new month.
 | `cc-viral-scan.mjs <days> "<q>"...` | ~100/query | Recent high-view CC BY videos only. |
 | `cc-video-info.mjs <id>...` | ~1/video | Re-verify `status.license` before cutting. |
 
+## Paid campaigns — what pays, before you cut
+
+| Script | Cost | Use |
+|---|---|---|
+| `clip-campaign-check.mjs --list` | 0 | Every brief in the GTA 6 board with model, rate and verdict. |
+| `clip-campaign-check.mjs <plan.json> [id]` | 0 | Pre-flight: platform, required name + hashtag, banned production moves, disclosure, floor/cap maths, take-home. Exit 1 on any rejection line. |
+
+Board data: `.agents/skills/viral-moment-engine/campaigns/gta6-board-2026-11-22.json`.
+Reasoning behind it: `docs/clipping-rewards-platforms-2026-11-22.md`.
+**Campaign clips never go on the brand channel** — the briefs police account niche and audience
+geography, and mixing them damages both audiences.
+
 ## Channel state — read-only audits
 
 | Script | Use |
@@ -40,8 +52,9 @@ again on a new video, a new idea or a new month.
 | Script | Cost | Use |
 |---|---|---|
 | `outreach-targets-v2.mjs [hours]` | ~800 | Tier-1/2 biased target pool, 8 English queries. |
-| `outreach-intl.mjs [hours]` | ~2,000 | 20 countries, local language, 20 queries. |
-| `outreach-replier-check.mjs` | ~96 | **Scores which creators actually reply** in their own comments. Run before drafting. |
+| `outreach-intl.mjs [hours] [MK,MK,...]` | ~100/query | 20 countries, local language, 20 queries. Third arg narrows to markets (e.g. `DE,PL,FR,NL,GB`) so the scan fits the 100 search calls/day cap; each selected market also gets its second-angle keywords. |
+| `build-eu-pool.mjs` | 0 | Merges the saved target pools into `yt/story/outreach-eu-targets.json` (EU markets only), for when search quota is spent. |
+| `outreach-replier-check.mjs` | ~96 | **Scores which creators actually reply** in their own comments. Run before drafting. Takes an optional pool path: `outreach-replier-check.mjs yt/story/outreach-eu-targets.json`. |
 | `outreach-video-details.mjs <id>...` | ~3 | Read-only title/channel/country/subs/views/description head. |
 | `post-outreach.mjs <drafts.json> [--post]` | 1/comment | The only poster. Pre-flight + cross-batch history block. |
 | `check-replies.mjs` | ~1/thread | Find replies to our comments so we can answer them. |
@@ -51,6 +64,11 @@ again on a new video, a new idea or a new month.
 hashtag or self-promo, AI filler ("thanks", "great video"), near-duplicate of another draft
 (>55% word overlap), **already posted on that video or near-duplicate of any earlier post**
 (>60% overlap across every `yt/story/*.json`), more than 10 per run.
+
+Results are merged into `yt/story/<date>-outreach-posted.json`, so if a run is interrupted
+(server restart, quota error) you can re-run the leftover drafts as a smaller file and the
+record keeps both halves. To resume: take the drafts that are missing from that record into a
+new JSON, dry-run it, then `--post` — the history check stops anything already sent.
 
 Recommended order: `outreach-intl.mjs` → `outreach-replier-check.mjs` → drafts JSON →
 `post-outreach.mjs` (dry run) → user approval → `post-outreach.mjs --post` →

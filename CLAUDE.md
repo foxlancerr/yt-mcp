@@ -16,6 +16,9 @@ The skills live in `.agents/skills/<name>/SKILL.md`. Claude Code does not load t
 | Task | Read first |
 |---|---|
 | New idea to a full package (research, script, storyboard, titles, metadata) | `story-pipeline`, then `script-breakdown`, `visual-style`, `title-formulas`, `thumbnail-hooks` |
+| Find GTA 6 streamers and viral moments (/discover /female /male /viral /emotional /funny /today /clip /top10) | `gta6-streamer-hunter`, then `gta6-clipper`, `title-formulas`, `thumbnail-hooks` |
+| Same jobs in any other niche, or a full moment→Shorts production plan | `viral-moment-engine` (+ its profile file), then `gta6-clipper`, `title-formulas`, `thumbnail-hooks` |
+| Paid clipping campaigns (/paid /plan /check), rewards platforms, what a brief pays | `viral-moment-engine` → `references/paid-campaigns.md`, board `docs/clipping-rewards-platforms-2026-11-22.md`, gate `scripts/clip-campaign-check.mjs` |
 | Ideas for a batch | `video-ideation`, `trend-report`, `competitor-playbook` |
 | Titles | `title-formulas` |
 | Thumbnails | `thumbnail-hooks`, `thumbnail-concepts`, `visual-style` |

@@ -8,6 +8,10 @@
         "environment": {
           "YOUTUBE_OAUTH_CLIENT_PATH": "C:\\Users\\MUHAMMAD ASIM\\.config\\youtube-studio-mcp\\client_secret.json"
         }
+      },
+      "vidiq": {
+        "type": "remote",
+        "url": "https://mcp.vidiq.com/mcp"
       }
     }
   }
