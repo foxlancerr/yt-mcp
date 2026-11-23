@@ -44,6 +44,8 @@ from speed_clips import EXTRA   # more clips live in speed_clips.py
 CLIPS.update(EXTRA)
 from cass_clips import EXTRA as _CASS   # Cassandra (@Heyycassandraa) episodes
 CLIPS.update(_CASS)
+from kyle_clips import EXTRA as _KYLE   # Kyle / "Red Hulk" hug Short (story-v2)
+CLIPS.update(_KYLE)
 
 
 def dt(f, font, color, size, x, y, en, extra=""):
@@ -153,6 +155,9 @@ def render(key, cta=None):
         gamez = (gamez + "," if gamez != "null" else "") + f"avgblur=sizeX=61:sizeY=1:{en}"; camz = (camz + "," if camz != "null" else "") + f"avgblur=sizeX=61:sizeY=1:{en}"
         fx.setdefault("flash", []).append(wt)
     for ft in fx.get("flash", []): chain.insert(0, f"drawbox=x=0:y=0:w=iw:h=ih:color=white@0.45:t=fill:enable='between(t,{ft:.2f},{ft + 0.07:.2f})'")
+    for a, b in c.get("mono", []): chain.insert(0, f"hue=s=0:enable='between(t,{a:.2f},{b:.2f})',eq=contrast=1.3:brightness=-0.03:enable='between(t,{a:.2f},{b:.2f})'")       # mono = [(a, b)]: black-and-white pattern interrupt (the hook)
+    for a, b in c.get("glitch", []): chain.insert(0, f"rgbashift=rh=-12:bh=12:gv=5:enable='between(t,{a:.2f},{b:.2f})',noise=alls=38:allf=t:enable='between(t,{a:.2f},{b:.2f})'")      # glitch = [(a, b)]: RGB split + noise, peaks and jumps only
+    for ft in c.get("flash_hard", []): chain.insert(0, f"drawbox=x=0:y=0:w=iw:h=ih:color=white@0.95:t=fill:enable='between(t,{ft:.2f},{ft + 0.10:.2f})'")      # flash_hard = [t]: sharp full-white flash, 3 frames
     vol = ",".join(f"volume=0:enable='between(t,{a},{b})'" for a, b in c["mute"]) or "anull"
     if segs:      # every piece gets its own crops (default = the clip's cam/game), then the pieces are joined stream by stream
         pre = ""

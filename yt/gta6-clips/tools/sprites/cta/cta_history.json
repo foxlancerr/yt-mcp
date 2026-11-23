@@ -46,5 +46,17 @@
   "type": "unexpected",
   "text": "Did you *see that coming*?",
   "preset": "team"
+ },
+ {
+  "key": "speed-kyle",
+  "type": "emotional",
+  "text": "Would you have *waited*? COMMENT!",
+  "preset": "comment"
+ },
+ {
+  "key": "mandy-cried",
+  "type": "unexpected",
+  "text": "TEAM *YES* or TEAM *NO*?",
+  "preset": "team"
  }
 ]
