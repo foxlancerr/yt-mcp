@@ -3,3 +3,5 @@ Act as an elite short-form retention editor for [Niche/Topic]. Edit the footage 
 • Narrative Rule: Never cut a clip prematurely—keep every scene intact until the full point, joke, or message is delivered.
 • Dopamine Pacing: Maintain high retention by shifting camera angles, punching in (115% zoom), or switching B-roll clips every 3–4 seconds. Use tight jump cuts to erase all dead air.
 • Visual & Audio Hits: Layer subtle micro-vibrations, glitch transitions, and white flashes strictly on emotional peaks or scene jumps, synced with crisp whoosh, bass-drop, and tension SFX."
+
+used the existing skills, first findout in google, facebook, youtube and all the platforms, which is pubically available and accessable, make proper research it, and once founds, then analyze vedios, its scripts, its vedio direction, once done, then make a story which have curiesty hook title, meta description and thumbnails prompt creation, a good curiesty hook details story, which have all type of effects to rank the vedio rank to 1M views.
