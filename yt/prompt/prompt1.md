@@ -1,0 +1,5 @@
+Act as an elite short-form retention editor for [Niche/Topic]. Edit the footage into a high-CTR vertical 9:16 clip.
+• 2–5s Curiosity Hook: Open on a 2–5 second cliffhanger or mid-action moment that creates an immediate curiosity gap—making the viewer wonder what happens next. Pair it with a 1-second freeze frame, a sharp black-and-white flash, and a glitch/riser SFX before snapping into full color.
+• Narrative Rule: Never cut a clip prematurely—keep every scene intact until the full point, joke, or message is delivered.
+• Dopamine Pacing: Maintain high retention by shifting camera angles, punching in (115% zoom), or switching B-roll clips every 3–4 seconds. Use tight jump cuts to erase all dead air.
+• Visual & Audio Hits: Layer subtle micro-vibrations, glitch transitions, and white flashes strictly on emotional peaks or scene jumps, synced with crisp whoosh, bass-drop, and tension SFX."
