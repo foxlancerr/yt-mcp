@@ -11,7 +11,7 @@ from render_reaction_short import zoom_chain
 import reaction_kit
 
 ROOT = Path(__file__).resolve().parents[1]
-D = ROOT / "clips" / "mandy-cried"; RAW = D / "raw"; E = D / "edit"; E.mkdir(exist_ok=True); CARDS = E / "cards"; CARDS.mkdir(exist_ok=True)
+D = ROOT / "clips" / "mandy-cried"; RAW = D / "raw"; E = D / "edit"; CARDS = E / "cards"
 SRC = RAW / "punish.mkv"
 SOUNDS = ROOT.parents[1] / ".agents" / "skills" / "gta6-clipper" / "sounds"
 FB, FI = "C\\:/Windows/Fonts/arialbd.ttf", "C\\:/Windows/Fonts/impact.ttf"
@@ -216,6 +216,7 @@ def seg(i, s):
 
 
 def main():
+    E.mkdir(parents=True, exist_ok=True); CARDS.mkdir(exist_ok=True)
     outs, starts, t = [], [], 0.0
     for i, s in enumerate(SEGS):
         p, d = seg(i, s); outs.append(p); starts.append(round(t, 3)); t = round(t + d, 3); print("seg", i, "start", starts[-1], "dur", d)

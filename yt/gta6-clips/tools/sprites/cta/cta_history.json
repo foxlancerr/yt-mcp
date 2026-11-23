@@ -58,5 +58,11 @@
   "type": "unexpected",
   "text": "TEAM *YES* or TEAM *NO*?",
   "preset": "team"
+ },
+ {
+  "key": "tank-war",
+  "type": "unexpected",
+  "text": "Didn't expect that? *COMMENT!*",
+  "preset": "comment"
  }
 ]
