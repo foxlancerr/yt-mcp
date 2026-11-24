@@ -1,107 +1,114 @@
 === CHANNEL ===
 title: The Untold Exit
-handle: @ohbhaiofficiall
+handle: @theuntoldexit
 country: US
-defaultLanguage: (unset)
-subs: 0 | views(channel): 68 | videos: 24
+defaultLanguage: en
+subs: 4 | views(channel): 8962 | videos: 43
 madeForKids:  | selfDeclared: 
 unsubscribedTrailer: (none)
 banner: set
-description chars: 713
-description head: "Welcome to The Untold Exit! — where crazy ideas turn into unbelievable adventures!\n\nGet ready for extreme challenges, in"
-keywords: "extreme challenges" "crazy challenges" "fun challenges" "last to leave challenge" "last to leave wins" "24 hour challenge" "survival challenge" "extreme survival" "crazy experiments" "giant challenges" "big challenges" "insane competitions" "fun competition" "real life games" "extreme adventures" "funny challenge videos" "adventure videos" "entertainment videos" "family friendly entertainment" "c
+description chars: 662
+description head: "The Untold Exit — Look Beyond What Seems Obvious.\n\nEvery video starts with a question you can't answer yet.\n\nGTA 6 news,"
+keywords: "gta 6" "gta 6 news" "gta 6 secrets" "gta 6 lucia" "gta 6 release" "gta 6 leaks" "gta vi" "grand theft auto 6" "survival story animated" "animated survival story" "animated story" "survival stories" "animated psychology" "psychology shorts" "mystery stories" "hidden details" "gaming mysteries" "gta 6 explained" "the untold exit" "look beyond what seems obvious" "animated documentary" "challenge st
 legacy brand 'OhBhai' in description: no
 
 === VIDEO TABLE ===
 PUBLISHED(UTC)   PRIVACY  LEN   VIEWS LIKE CMT TAGS DESC LANG   ID           TITLE
-2026-11-07T22:19  private   301     1    0   0   26 3617 en-US  nrWnD_V6hT4 Hunted on a Deadly Island for 30 Days.
-2026-11-08T11:16  public    454     1    0   1   15 3470 en     e34mKHkfC4Y Why You’d Never Survive This Jungle.
-2026-11-08T13:00  public     60    16    0   1   12 1674 en     U88Lw5PzzZc Only 1 Door Won’t Kill You.
-2026-11-09T00:00  public     61     1    0   1   16 4717 en     FBXUq9gXX-I WE WOKE UP 4,000 YEARS AGO… AND THE WAR HAD ALREADY STARTED (P
-2026-11-09T11:59  private   121     1    0   0   28 3537 en     BrM4EGZmS9A THEY'VE BEEN WATCHING US SINCE WE ARRIVED (Part 3)
-2026-11-09T13:07  private   130     0    0   0   25 4296 en     IJkY_6bwR-4 WE ESCAPED AN ANCIENT ARMY… BUT THEY FOUND US (Part 4)
-2026-11-09T15:38  private   130     0    0   0   23 3269 en     9whKbsK8eJg WE WOKE UP 4,000 YEARS AGO… HERE'S HOW IT ENDS (Part 5)
-2026-11-09T16:23  private   121     0    0   0   22 3501 en     q13UENT7yqk You Have 2 Minutes. Don't Look Down.
-2026-11-09T18:45  public    181     1    0   1   14 2618 en     0KUXSARfbVA What If You Were Trapped Underwater?
-2026-11-09T20:48  private   151     0    0   0   25 4612 en     H8mcNke4ka0 Why No One Escapes This Prison...
-2026-11-10T17:00  public     56     7    0   1   12 4323 en     3g5WteLmvtc 100 People vs 1 Giant Pizza.
 2026-11-10T17:25  private   141     0    0   0   24 3525 en     qa2joiuxoqM Why You'd Never Survive This Volcano.
 2026-11-10T17:59  private   151     0    0   0   26 3552 en     Q0aMXZQw3KU SOLO vs TEAM: 5,000-Foot PARACHUTE RACE! Who Lands First?
 2026-11-10T18:25  private    59     0    0   0   25 3513 en     3bo30G13wIA This Mountain Breaks Every Rider.
 2026-11-11T17:56  private    61     0    0   0   26 3717 en     HzERoRgVeg8 I WOKE UP IN A JUNGLE FULL OF ZOMBIES… AND THEY WERE CLIMBING!
 2026-11-11T18:11  private    61     0    0   0   25 1858 en     0mowMHmz8S4 I ESCAPED THE ZOMBIES… BUT THE HELICOPTER WAS A TRAP (Part 2)
 2026-11-11T19:54  private    61     0    0   0   27 3671 en     Kty2EgXb1Vs I THOUGHT THE ZOMBIES WERE HUNTING ME… I WAS WRONG! (Part 3)
-2026-11-11T20:00  public     61    13    1   1   13 4613 en     RVyIvZ5S4cE Spot the Millionaire. 3 Clues.
-2026-11-11T21:00  public     87     1    0   1   15 3785 en     QhqpxvGjBE0 3 Prisoners vs 3 Cops. Who Escapes?
-2026-11-12T21:48  private   300     0    0   0   29 2521 en     ENqmS1TK9ww We caught the Chinese Spy Scandal… but she was never the real 
-2026-11-12T22:00  public    260     5    0   1   12 4267 en     SYpr2t0XIuU Nvidia Spy Scandal: Hired a Spy to Steal Our $5 Billion AI Chi
-2026-11-13T21:00  public    121     2    0   1   15 4887 en     Oeh0zuUCROw WE WOKE UP 4,000 YEARS AGO… AND AN ARMY WAS HUNTING US (Part 2
-2026-11-14T22:00  public    300     5    0   3   13 3467 en     9P6BnLRrDxM HOT SPY STOLE OUR AI CHIP… THEN OUR CEO RESIGNED (Part 2)
-2026-11-15T11:44  private   101     0    0   0   22 1271 en     sSoXsBdFyrg GTA 6's STRANGEST Hidden Location… WHAT IS THIS?!
-2026-11-15T22:00  public     60     1    0   1   17  591 en     R-qJm86xS5s Brian LOCKED Jason In… But WHY? | GTA 6 Jason & Lucia Story
-2026-11-16T00:00  public    181     7    0   1   16 1818 en     KxOzYtPIsvk The INSANE Story Behind GTA 6's... 13-Year Wait?! | GTA 6 Rele
+2026-11-11T20:00  public     61    18    1   2   11 4212 en     RVyIvZ5S4cE One of These 100 People Is a Millionaire | 3 Clues
+2026-11-11T21:00  public     87     1    0   1   11 3571 en     QhqpxvGjBE0 3 Prisoners vs 3 Cops. Who Escapes?
+2026-11-12T22:00  public    260     5    0   1   13 4005 en     SYpr2t0XIuU Nvidia Spy Scandal: We Hired a Spy to Steal Our $5B Chips
+2026-11-13T21:00  public    121     4    0   1   11 4265 en     Oeh0zuUCROw WE WOKE UP 4,000 YEARS AGO… AND AN ARMY WAS HUNTING US (Part 2
+2026-11-14T22:00  public    300     5    0   3   12 3164 en     9P6BnLRrDxM Spy Stole Our AI Chip… Then Our CEO Resigned (Nvidia Part 2)
+2026-11-15T22:00  public     60    18    0   2   13  592 en     R-qJm86xS5s Why Brian Locked Jason In That Room
+2026-11-16T00:00  public    181     7    0   1   14 1818 en     KxOzYtPIsvk Why GTA 6 Took 13 Years And Almost Died
 2026-11-16T17:31  private   304     0    0   0   28  842 en     Pttwsz883qI Why do I get exhausted? Burnt Out.
-2026-11-16T22:00  public     61     8    0   2   16  994 en     lyN781QvfII GTA 6 Hasn't Even Released… So How Did It Pass $1 Billion! | G
-2026-11-17T20:00  public    245    12    1   1   20 1134 en     NjwpwUcxo8Y Rockstar Won't Explain... Play Early GTA6? | GTA 6 Release Tim
-2026-11-17T20:00  public     70     2    0   1    0  845 en     vEraiuwOh2o Why You Keep Starting But Never Finish
-2026-11-17T21:00  public    120     0    0   1   19  844 en     KQoNl-voCnw GTA 6 Is Downloaded… But Still Locked? | GTA 6 Preload & Unloc
-2026-11-17T21:22  public     64     1    0   1   14  655 en     3buS8kA7Qio 🔴 The Final 60 Seconds Before GTA 6 | Grand Theft Auto VI | W
-2026-11-17T23:02  public    224     0    0   0   17  980 en     DrxALhLInLA GTA 6 Gameplay Hacked WON’T STOP... (BANNED or Continue) | GTA
-2026-11-18T07:00  public     34     0    0   0   20  355 en     Q8n13DQlphU 3 hidden secrets to save time?
-2026-11-18T07:41  public     77     2    0   1   17  841 en     048FGKt95zk 4 GTA 6 Mistakes You Can't Undo | GTA 6 Launch Day Tips
-2026-11-18T08:59  public     91     1    0   1   17  991 en     PsdNCzTWHXs GTA 6's 5 Free Gifts Are Expiring | GTA 6 live countdown | GTA
-2026-11-18T09:46  public    102     0    0   0   20 1123 en     6-gW5p51670 GTA 6 Cheat Sheet Is Almost All Fake | GTA 6 Cheats & Cheat Co
-2026-11-18T11:28  public     65     0    0   0   18 1436 en     oh2D72vToCQ GTA 6 Launches at Different Times in Every Country… When Can Y
-2026-11-18T12:13  public    121     0    0   0   18  712 en     6Z_tNlGfhEw Lucia Was Arrested In Her First Hour | GTA 6 Release
+2026-11-16T22:00  public     61    13    1   2   14  999 en     lyN781QvfII GTA 6 Made $1 Billion Before Anyone Played It
+2026-11-17T20:00  public    245    29    1   2   15 1142 en     NjwpwUcxo8Y They Played GTA 6 18 Hours Before You
+2026-11-17T20:00  public     70     3    0   1   14  833 en     vEraiuwOh2o Why You Keep Starting but Never Finish Anything
+2026-11-17T21:00  public    120     1    0   2   15  844 en     KQoNl-voCnw Your GTA 6 Download Is Done. It Still Won't Open.
+2026-11-17T21:22  public     64    18    0   1   13  659 en     3buS8kA7Qio The Final 60 Seconds Before GTA 6 | GTA 6 Launch Countdown
+2026-11-17T23:02  public    224     4    0   1   15  979 en     DrxALhLInLA The GTA 6 Leak Rockstar Never Recovered From
+2026-11-18T07:00  public     34    33    0   1   12  384 en     Q8n13DQlphU 3 Time Habits That Actually Save You Hours
+2026-11-18T07:41  public     77    21    0   2   15  828 en     048FGKt95zk 4 GTA 6 Mistakes You Can Never Undo
+2026-11-18T08:59  public     91    28    0   1   15  975 en     PsdNCzTWHXs 5 GTA 6 Gifts You Already Missed
+2026-11-18T09:46  public    102    29    0   2   15 1099 en     6-gW5p51670 Almost Every GTA 6 Cheat Code Is Fake
+2026-11-18T11:28  public     65   142    0   2   16 1418 en     oh2D72vToCQ GTA 6 Unlocks at Different Times Everywhere… When Can YOU Play
+2026-11-18T12:13  public    121    93    1   2   17  703 en     6Z_tNlGfhEw Lucia Was Arrested In Her First Hour | GTA 6 Lucia Story
+2026-11-18T20:00  public    121    36    1   0   13 3522 en     BrM4EGZmS9A They've Been Watching Us | 4,000 Years in the Past (Part 3)
+2026-11-18T21:44  public    260     4    0   1   13  831 en     Zr3VEAtCxD8 The GTA 6 Channel That Actually Got Monetized
+2026-11-18T22:04  public      0     0    0   0   14  364 en     lgUnPMbWsYw 🔴 GTA 6 Giveaway Gifts | Grand Theft Auto VI | Worldwide Laun
+2026-11-19T20:00  public    101    46    3   0   22 1271 en     sSoXsBdFyrg There's A UFO Symbol On The GTA 6 Map
+2026-11-19T23:29  public     25   444    3   1   17  374 en     JyBvL6ilRf8 iShowSpeed's First Look At GTA 6 #gta6 #gtavi #gta6trailer
+2026-11-20T20:00  public    300     3    0   0   29 2521 en     ENqmS1TK9ww We Caught The Spy. She Was The Wrong Person.
+2026-11-20T20:30  public     26   136    1   1   16  516 en     jBWdWScZai0 What If You Visit Vercetti Early?
+2026-11-20T22:00  public    191     9    0   1   15  637 en     cuGbroY9gP0 368 Days To Install GTA 6 On A 1981 IBM PC
+2026-11-21T04:00  public     31   291    1   1   16  427 en     TgVkaOgAQQI GTA 6 Cruise Ship Fight Gets Wild
+2026-11-21T08:18  public     63  1451   10   1   15  393 en     Z5NP5hntIPs Speed Misread What Mandy Wanted In GTA 6 | His girlfriend's in
+2026-11-21T10:17  public     64    10    0   0   15  393 en     NZkddYV-ZCE Jason Meets Mandy once again in GTA 6… 👀 Lucia Stopped him | 
+2026-11-21T14:00  public     57  1396   17   0   15  327 en     cGatBFUjTRM Speed Was NOT Ready…👀 BRO IS CRYING | Crazy GTA 6 Moment.
+2026-11-21T16:48  private    61     0    0   0   15  405 en     6nWRIPEoAjM Jason, You Need to See This… 👀 Lucia's NEW GYM BOYFRIEND
+2026-11-21T19:17  private    56     0    0   0   15  662 en     HPZgE0KX1ZY Jason Exposed Lucia's Secret Affair... WHO IS THAT GUY?!
+2026-11-21T20:00  public     16  1191   10   0   15  451 en     CN7Y3lQUe9o What If You Drink Too Much In GTA 6
+2026-11-21T22:00  public     63  1322   16   2   15  905 en     wiRM74g23JU The Alligator Attacked… Can Lucia's Mom Survive?! 😱
+2026-11-22T10:39  private    85     0    0   0   15  493 en     O2LIPC5JMiU Wait, Is Lana REALLY in GTA 6?!
+2026-11-22T11:30  public    112  1367   17   0   15  510 en     WKwGsky1rVo Jason & Lucia: We Did NOT Break Up?!
+2026-11-22T14:14  public    238   240    0   0   15 1004 en     JjAXoQwYsZ4 WAIT… THAT'S NIKO?  👀  Speed Recognized THIS Face Instantly!
+2026-11-23T11:00  public     16   643    3   0   16  446 en     2o2d6YohAI8 What happens if you use your phone while driving? 💀 #gta6 #ga
+2026-11-23T16:51  public     64   233    1   0   15  403 en     -k1P5hXuJg0 IShowSpeed vs The GTA 6 Red Hulk Monster 👀 #ishowspeed #gta6 
+2026-11-23T17:48  private    42     0    0   0   12  819 en     Q-09aADMoKM Jason Visited Mandy AGAIN… 👀 Mandy's Secret Affairs
+2026-11-23T20:00  public     52    10    0   0   15  505 en     YcdVi8Ptq0Y Is Jason The Hottest GTA Hero Ever?!
+2026-11-23T22:00  public    125  1138   22   0   15  911 en     cBr2U9AXu4I GTA 6's Most Shocking Ending... Jason & Lucia unexpected dead.
 
 === AGGREGATES ===
-public: 24 | non-public: 15 | total: 39
-public views sum: 86 (channel reports 68)
-public likes: 2 | comments: 22
-shorts (<=61s): 7 | long: 17
-scheduled (publishAt in future): 15
+public: 39 | non-public: 11 | total: 50
+public views sum: 10442 (channel reports 8962)
+public likes: 109 | comments: 38
+shorts (<=61s): 12 | long: 27
+scheduled (publishAt in future): 11
 private WITHOUT publishAt: 0
 
 === UPLOADS PER DAY (public) ===
-2026-11-08 -> 2 videos | Why You’d Never Survive This Jungl || Only 1 Door Won’t Kill You.
-2026-11-09 -> 2 videos | WE WOKE UP 4,000 YEARS AGO… AND TH || What If You Were Trapped Underwate
-2026-11-10 -> 1 videos | 100 People vs 1 Giant Pizza.
-2026-11-11 -> 2 videos | Spot the Millionaire. 3 Clues. || 3 Prisoners vs 3 Cops. Who Escapes
-2026-11-12 -> 1 videos | Nvidia Spy Scandal: Hired a Spy to
+2026-11-11 -> 2 videos | One of These 100 People Is a Milli || 3 Prisoners vs 3 Cops. Who Escapes
+2026-11-12 -> 1 videos | Nvidia Spy Scandal: We Hired a Spy
 2026-11-13 -> 1 videos | WE WOKE UP 4,000 YEARS AGO… AND AN
-2026-11-14 -> 1 videos | HOT SPY STOLE OUR AI CHIP… THEN OU
-2026-11-15 -> 1 videos | Brian LOCKED Jason In… But WHY? | 
-2026-11-16 -> 2 videos | The INSANE Story Behind GTA 6's... || GTA 6 Hasn't Even Released… So How
-2026-11-17 -> 5 videos | Rockstar Won't Explain... Play Ear || Why You Keep Starting But Never Fi || GTA 6 Is Downloaded… But Still Loc || 🔴 The Final 60 Seconds Before GTA || GTA 6 Gameplay Hacked WON’T STOP..
-2026-11-18 -> 6 videos | 3 hidden secrets to save time? || 4 GTA 6 Mistakes You Can't Undo |  || GTA 6's 5 Free Gifts Are Expiring  || GTA 6 Cheat Sheet Is Almost All Fa || GTA 6 Launches at Different Times  || Lucia Was Arrested In Her First Ho
+2026-11-14 -> 1 videos | Spy Stole Our AI Chip… Then Our CE
+2026-11-15 -> 1 videos | Why Brian Locked Jason In That Roo
+2026-11-16 -> 2 videos | Why GTA 6 Took 13 Years And Almost || GTA 6 Made $1 Billion Before Anyon
+2026-11-17 -> 5 videos | They Played GTA 6 18 Hours Before  || Why You Keep Starting but Never Fi || Your GTA 6 Download Is Done. It St || The Final 60 Seconds Before GTA 6  || The GTA 6 Leak Rockstar Never Reco
+2026-11-18 -> 9 videos | 3 Time Habits That Actually Save Y || 4 GTA 6 Mistakes You Can Never Und || 5 GTA 6 Gifts You Already Missed || Almost Every GTA 6 Cheat Code Is F || GTA 6 Unlocks at Different Times E || Lucia Was Arrested In Her First Ho || They've Been Watching Us | 4,000 Y || The GTA 6 Channel That Actually Go || 🔴 GTA 6 Giveaway Gifts | Grand Th
+2026-11-19 -> 2 videos | There's A UFO Symbol On The GTA 6  || iShowSpeed's First Look At GTA 6 #
+2026-11-20 -> 3 videos | We Caught The Spy. She Was The Wro || What If You Visit Vercetti Early? || 368 Days To Install GTA 6 On A 198
+2026-11-21 -> 6 videos | GTA 6 Cruise Ship Fight Gets Wild || Speed Misread What Mandy Wanted In || Jason Meets Mandy once again in GT || Speed Was NOT Ready…👀 BRO IS CRYI || What If You Drink Too Much In GTA  || The Alligator Attacked… Can Lucia'
+2026-11-22 -> 2 videos | Jason & Lucia: We Did NOT Break Up || WAIT… THAT'S NIKO?  👀  Speed Reco
+2026-11-23 -> 4 videos | What happens if you use your phone || IShowSpeed vs The GTA 6 Red Hulk M || Is Jason The Hottest GTA Hero Ever || GTA 6's Most Shocking Ending... Ja
 
-=== ZERO-VIEW PUBLIC: 6 ===
-  KQoNl-voCnw 2026-11-17T21:00 GTA 6 Is Downloaded… But Still Locked? | GTA 6 Preload & Unl
-  DrxALhLInLA 2026-11-17T23:02 GTA 6 Gameplay Hacked WON’T STOP... (BANNED or Continue) | G
-  Q8n13DQlphU 2026-11-18T07:00 3 hidden secrets to save time?
-  6-gW5p51670 2026-11-18T09:46 GTA 6 Cheat Sheet Is Almost All Fake | GTA 6 Cheats & Cheat 
-  oh2D72vToCQ 2026-11-18T11:28 GTA 6 Launches at Different Times in Every Country… When Can
-  6Z_tNlGfhEw 2026-11-18T12:13 Lucia Was Arrested In Her First Hour | GTA 6 Release
+=== ZERO-VIEW PUBLIC: 1 ===
+  lgUnPMbWsYw 2026-11-18T22:04 🔴 GTA 6 Giveaway Gifts | Grand Theft Auto VI | Worldwide La
 
 === BRANDING / METADATA FLAGS ===
 titles containing legacy brand: 0
-titles >70 chars: 6
+titles >70 chars: 4
    71 HzERoRgVeg8 I WOKE UP IN A JUNGLE FULL OF ZOMBIES… AND THEY WERE CLIMBING! (Part 1)
-   77 ENqmS1TK9ww We caught the Chinese Spy Scandal… but she was never the real enemy? (Part 3)
-   84 SYpr2t0XIuU Nvidia Spy Scandal: Hired a Spy to Steal Our $5 Billion AI Chips (Can We Stop Them?)
-   77 lyN781QvfII GTA 6 Hasn't Even Released… So How Did It Pass $1 Billion! | GTA 6 Pre-Orders
-   92 3buS8kA7Qio 🔴 The Final 60 Seconds Before GTA 6 | Grand Theft Auto VI | Worldwide Launch Countdown 24/7
-   72 PsdNCzTWHXs GTA 6's 5 Free Gifts Are Expiring | GTA 6 live countdown | GTA 6 release
-public with 0 tags: 1 vEraiuwOh2o
+   74 lgUnPMbWsYw 🔴 GTA 6 Giveaway Gifts | Grand Theft Auto VI | Worldwide Launch Countdown
+   78 Z5NP5hntIPs Speed Misread What Mandy Wanted In GTA 6 | His girlfriend's in prison | part 1
+   73 2o2d6YohAI8 What happens if you use your phone while driving? 💀 #gta6 #gaming #gtavi
+public with 0 tags: 0 
 public with description <200 chars: 0 
 public with empty description: 0
 categoryIds used: 24,20,1,27
-defaultLanguage set: 24 / 24
+defaultLanguage set: 39 / 39
 
 === PLAYLISTS ===
+PLPNZdb6eXsAw |  5 | Jason & Lucia: We Did NOT Break Up?! 👀 (GTA 6 Rea | 
 PLCvoBPuNQIWc |  6 | Last One Standing 💀 (Survive This and Win $1,000, | 
 PLaUKZGw7khhw |  5 | Impossible Escapes 🔓 (Only 1% Get Out Alive) | 
-PLRXf1uVlif1Q | 13 | GTA 6 Secrets Rockstar Won't Tell You 🎮 ($1B Befo | 
+PLRXf1uVlif1Q | 33 | GTA 6 Secrets Rockstar Won't Tell You 🎮 ($1B Befo | 
 PLXCL0IFguqPM |  3 | The NVIDIA Spy Scandal 💸 (They Stole Our $5B AI C | 
 PLW_6lSuQh298 |  3 | Zombie Jungle: I Was Never Supposed to Escape 🧟 ( | 
 PLFPJ67lcMD8Y |  5 | Trapped 4,000 Years in the Past 😱 (Full Survival  | 

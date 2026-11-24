@@ -1,0 +1,249 @@
+{
+  "generatedAt": "2026-11-24T07:20:00Z",
+  "note": "Dec block agreed 2026-11-24: longs Dec 10/13/16/19, Shorts Dec 12/15/18/21, all 20:00 UTC, never two on one day. Ancient Part 4 stays Dec 1 by explicit decision.",
+  "unlist": [
+    { "id": "lgUnPMbWsYw", "why": "0:00 runtime, 0 views, giveaway/countdown placeholder that cannot be watched — dead weight on the channel page" }
+  ],
+  "reschedule": [
+    { "id": "6nWRIPEoAjM", "publishAt": "2026-11-24T20:00:00Z", "why": "normalise 19:00 -> 20:00 anchor, same day" },
+    { "id": "O2LIPC5JMiU", "publishAt": "2026-11-26T20:00:00Z", "why": "was double-booked with 6nWRIPEoAjM on Nov 24; one upload per day" },
+    { "id": "HPZgE0KX1ZY", "publishAt": "2026-11-27T20:00:00Z", "why": "was 22:00 on Nov 25 — kills Western Europe; moves to next free day at anchor" },
+    { "id": "qa2joiuxoqM", "publishAt": "2026-12-10T20:00:00Z", "why": "December long #1" },
+    { "id": "3bo30G13wIA", "publishAt": "2026-12-12T20:00:00Z", "why": "December Short #1" },
+    { "id": "Q0aMXZQw3KU", "publishAt": "2026-12-13T20:00:00Z", "why": "December long #2" },
+    { "id": "HzERoRgVeg8", "publishAt": "2026-12-15T20:00:00Z", "why": "December Short #2 (zombie ep1)" },
+    { "id": "nrWnD_V6hT4", "publishAt": "2026-12-16T20:00:00Z", "why": "December long #3" },
+    { "id": "0mowMHmz8S4", "publishAt": "2026-12-18T20:00:00Z", "why": "December Short #3 (zombie ep2)" },
+    { "id": "Pttwsz883qI", "publishAt": "2026-12-19T20:00:00Z", "why": "December long #4" },
+    { "id": "Kty2EgXb1Vs", "publishAt": "2026-12-21T20:00:00Z", "why": "December Short #4 (zombie ep3)" }
+  ],
+  "videos": [
+    {
+      "id": "6nWRIPEoAjM",
+      "title": "Lucia's 'Gym Boyfriend' Isn't What You Think",
+      "why": "old title asserted 'Lucia's NEW GYM BOYFRIEND' as fact while the description itself says reposts misread it — metadata contradiction and a false claim",
+      "dropTitleEcho": true,
+      "tags": ["kai cenat gta 6", "gta 6 lucia cheating", "does lucia cheat on jason", "gta 6 nate", "gta 6 ajax gym", "gta 6 chapter 4", "gta 6 mission explained", "gta 6 debunk", "gta 6 shorts", "gta 6 clips", "gta vi", "grand theft auto 6", "rockstar games", "lucia gta 6", "the untold exit"],
+      "crosslinks": [
+        { "id": "WKwGsky1rVo", "label": "Jason & Lucia: We Did NOT Break Up?!" },
+        { "id": "NZkddYV-ZCE", "label": "Everyone Misread Why Lucia Stopped Jason" },
+        { "id": "Q-09aADMoKM", "label": "Mandy Cried. Then She Threatened Jason." }
+      ]
+    },
+    {
+      "id": "Q-09aADMoKM",
+      "title": "Mandy Cried. Then She Threatened Jason.",
+      "why": "old title asserted 'Mandy's Secret Affairs' — the approved story package explicitly forbids claiming Jason cheated; this is the package's own primary title",
+      "dropTitleEcho": true,
+      "tags": ["gta 6 mandy", "mandy crying gta 6", "gta 6 you problem", "gta 6 jason mandy", "gta 6 mandy threat", "gta 6 severed finger", "gta 6 mandy secret", "gta 6 easter egg", "gta 6 story explained", "gta 6 lore", "gta vi", "grand theft auto 6", "gta 6 shorts", "mandy gta 6 mission", "the untold exit"],
+      "crosslinks": [
+        { "id": "Z5NP5hntIPs", "label": "Speed Misread What Mandy Wanted in GTA 6" },
+        { "id": "NZkddYV-ZCE", "label": "Everyone Misread Why Lucia Stopped Jason" },
+        { "id": "cGatBFUjTRM", "label": "Speed Was NOT Ready… BRO IS CRYING" }
+      ]
+    },
+    {
+      "id": "HPZgE0KX1ZY",
+      "title": "Wait… Who Was Lucia Dancing With in GTA 6?",
+      "why": "old title asserted 'Jason Exposed Lucia's Secret Affair' — unverified; the video is the club/drinking/dance reaction. New title keeps the question, drops the false claim",
+      "dropTitleEcho": true,
+      "tags": ["gta 6 club mission", "gta 6 drinking mission", "gta 6 bar scene", "gta 6 dance minigame", "kai cenat gta 6", "gta 6 lucia", "gta 6 jason", "gta 6 shots", "gta 6 streamer reaction", "gta 6 funny moments", "gta vi", "grand theft auto 6", "gta 6 clips", "gta 6 shorts", "the untold exit"],
+      "crosslinks": [
+        { "id": "WKwGsky1rVo", "label": "Jason & Lucia: We Did NOT Break Up?!" },
+        { "id": "6nWRIPEoAjM", "label": "Lucia's 'Gym Boyfriend' Isn't What You Think" },
+        { "id": "6Z_tNlGfhEw", "label": "Lucia Was Arrested In Her First Hour" }
+      ]
+    },
+    {
+      "id": "O2LIPC5JMiU",
+      "title": "Wait, Is Lana REALLY in GTA 6?!",
+      "why": "title kept — already a clean question hook; needs cross-links and correct chain to parts 1-2",
+      "tags": ["gta 6 lana", "lana gta 6 radio", "gta 6 radio song", "gta 6 music easter egg", "heyycassandraa gta 6", "gta 6 jason and lucia", "gta 6 secrets", "gta 6 reaction", "gta 6 story scene", "gta vi", "grand theft auto 6", "gta 6 clips", "gta 6 shorts", "streamer reaction", "the untold exit"],
+      "chapters": null,
+      "crosslinks": [
+        { "id": "WKwGsky1rVo", "label": "Part 1 — Jason & Lucia: We Did NOT Break Up?!" },
+        { "id": "YcdVi8Ptq0Y", "label": "Part 2 — Why Rockstar Never Made a Hero Like Jason" }
+      ]
+    },
+
+    {
+      "id": "qa2joiuxoqM",
+      "title": "Why You'd Never Survive This Volcano.",
+      "why": "title kept — proven on-channel pattern; adds chapters from the real transcript, specific tags, cross-links",
+      "chapters": [["0:00", "Five friends, one active volcano"], ["0:12", "Meet the five friends"], ["0:26", "Two minutes to cross the course"], ["0:36", "Countdown: the ground starts moving"], ["0:53", "The bridge, one at a time"], ["1:09", "The volcano erupts"], ["1:24", "Alex finds the safe route"], ["1:39", "Twenty-seven seconds left"], ["1:54", "The final sprint"], ["2:04", "Ten seconds left: Daniel wins"]],
+      "tags": ["volcano survival challenge", "survive the volcano", "last one standing challenge", "5 friends challenge", "volcano eruption", "animated survival challenge", "extreme challenge video", "last to leave wins", "10 million dollar challenge", "animated challenge", "survival story animated", "mrbeast style challenge", "impossible challenge", "friends competition", "the untold exit"],
+      "crosslinks": [
+        { "id": "3bo30G13wIA", "label": "This Mountain Breaks Every Rider" },
+        { "id": "Q0aMXZQw3KU", "label": "SOLO vs TEAM: 5,000-Foot Parachute Race" },
+        { "id": "nrWnD_V6hT4", "label": "Hunted on a Deadly Island for 30 Days" }
+      ]
+    },
+    {
+      "id": "Q0aMXZQw3KU",
+      "title": "SOLO vs TEAM: 5,000-Foot PARACHUTE RACE! Who Lands First?",
+      "why": "title kept (57 chars, clean question); adds chapters from the real transcript, specific tags, cross-links",
+      "chapters": [["0:00", "Three contestants, 5,000 feet up"], ["0:10", "Meet the solo jumper and the parachute train"], ["0:29", "The rule: both teammates must touch down"], ["0:43", "They're off and the pair starts spinning"], ["0:55", "A wind blast knocks them off course"], ["1:06", "Mike, fix this"], ["1:17", "Alex deploys first"], ["1:33", "The final approach"], ["1:48", "Alex is down, the pair must land"], ["2:00", "One second decides the race"]],
+      "tags": ["parachute race", "skydiving challenge", "solo vs team challenge", "parachute train", "who lands first", "skydiving animated", "freefall challenge", "extreme race challenge", "teamwork challenge", "animated challenge", "parachute jump", "sky race", "last one wins", "competition video", "the untold exit"],
+      "crosslinks": [
+        { "id": "qa2joiuxoqM", "label": "Why You'd Never Survive This Volcano" },
+        { "id": "3bo30G13wIA", "label": "This Mountain Breaks Every Rider" },
+        { "id": "nrWnD_V6hT4", "label": "Hunted on a Deadly Island for 30 Days" }
+      ]
+    },
+    {
+      "id": "nrWnD_V6hT4",
+      "title": "Hunted on a Deadly Island for 30 Days.",
+      "why": "title kept; adds 18 chapters from the real transcript, category fix 22->24, default language, specific tags, cross-links",
+      "categoryId": "24",
+      "chapters": [["0:00", "Two rivals, one island"], ["0:12", "The $1 billion challenge"], ["0:27", "The Viper"], ["0:40", "One backpack, no outside help"], ["1:00", "Neither of them lasts alone"], ["1:13", "That helicopter isn't rescue"], ["1:30", "The shelter fails, then a real talk"], ["1:58", "Challenge one: the supply box"], ["2:12", "The bridge"], ["2:28", "The Viper finds them"], ["2:50", "A shelter someone else built"], ["3:00", "The recording"], ["3:20", "Something is buried under the island"], ["3:40", "The $500 million deal"], ["4:02", "I'm not leaving you here"], ["4:15", "They rejected half a billion"], ["4:35", "The emergency boat"], ["4:50", "You can't escape me"]],
+      "tags": ["island survival challenge", "30 day survival", "survive 30 days", "ronaldo vs messi", "enemies to team", "animated survival story", "billion dollar challenge", "island escape", "survival challenge animated", "jungle island", "crime boss story", "teamwork story", "last to leave island", "mrbeast style", "the untold exit"],
+      "crosslinks": [
+        { "id": "qa2joiuxoqM", "label": "Why You'd Never Survive This Volcano" },
+        { "id": "Q0aMXZQw3KU", "label": "SOLO vs TEAM: 5,000-Foot Parachute Race" },
+        { "id": "3bo30G13wIA", "label": "This Mountain Breaks Every Rider" }
+      ]
+    },
+    {
+      "id": "3bo30G13wIA",
+      "title": "This Mountain Breaks Every Rider.",
+      "why": "title kept; Short — no chapters by rule; specific tags, cross-links",
+      "tags": ["dirt bike hill climb", "impossible mountain climb", "hill climb challenge", "hard enduro", "dirt bike challenge", "motorcycle fails", "extreme hill climb", "off road racing", "mountain climb", "extreme sports", "dirt bike race", "enduro", "uphill challenge", "4 riders", "the untold exit"],
+      "crosslinks": [
+        { "id": "qa2joiuxoqM", "label": "Why You'd Never Survive This Volcano" },
+        { "id": "Q0aMXZQw3KU", "label": "SOLO vs TEAM: 5,000-Foot Parachute Race" },
+        { "id": "nrWnD_V6hT4", "label": "Hunted on a Deadly Island for 30 Days" }
+      ]
+    },
+    {
+      "id": "Pttwsz883qI",
+      "title": "Why Do You Get Exhausted? Burnt Out.",
+      "why": "old title was lowercase and had no pull ('Why do I get exhausted? Burnt Out.'); adds 16 chapters from the real transcript (two studies cited), research-matched tags, cross-links",
+      "chapters": [["0:00", "Two people, one party"], ["0:21", "Introverts don't hate parties"], ["0:48", "A different social experience"], ["1:07", "Ryan moves, Alex stays"], ["1:29", "You're missing everything"], ["1:50", "Two perfectly fine nights"], ["2:00", "Judging others by your own standard"], ["2:14", "Enjoying it and still feeling drained"], ["2:34", "The fun wasn't fake"], ["2:52", "The party ends"], ["3:03", "Connection matters for everyone"], ["3:32", "242 adults, five check-ins a day"], ["3:51", "Introverts don't have worse lives"], ["4:06", "Introversion isn't shyness"], ["4:16", "Where'd you disappear to"], ["4:27", "Having fun doesn't mean forever"], ["4:51", "Which one were you"]],
+      "tags": ["introvert vs extrovert", "introvert psychology", "social battery", "why am i exhausted", "introversion explained", "animated psychology", "social energy", "introverts and parties", "psychology explained", "extrovert", "introvert", "personality types", "burnt out", "social anxiety", "the untold exit"],
+      "crosslinks": [
+        { "id": "vEraiuwOh2o", "label": "Why You Keep Starting but Never Finish Anything" },
+        { "id": "Q8n13DQlphU", "label": "3 Time Habits That Actually Save You Hours" },
+        { "id": "RVyIvZ5S4cE", "label": "One of These 100 People Is a Millionaire" }
+      ]
+    },
+    {
+      "id": "IJkY_6bwR-4",
+      "title": "WE ESCAPED AN ANCIENT ARMY… BUT THEY FOUND US (Part 4)",
+      "why": "title kept (keeps the series search match); adds 9 chapters from the real transcript, specific tags, full ep1-3 chain",
+      "chapters": [["0:00", "The soldiers no longer serve the king"], ["0:17", "General Zukar wants the throne and the seal"], ["0:38", "Four symbols, one missing"], ["0:55", "The Temple of the First Dawn"], ["1:05", "The king holds the palace"], ["1:21", "The general appears"], ["1:35", "He wants the seal, not the king"], ["1:50", "Into the temple"], ["2:00", "Zukar is already inside"]],
+      "tags": ["ancient kingdom story", "time travel adventure", "the last kingdom", "ancient mesopotamia", "general zukar", "animated adventure series", "survival adventure", "ancient temple", "royal betrayal", "time travel story", "history mystery animated", "mythology adventure", "ancient army", "animated story series", "the untold exit"],
+      "crosslinks": [
+        { "id": "FBXUq9gXX-I", "label": "Part 1 — We Woke Up 4,000 Years Ago" },
+        { "id": "Oeh0zuUCROw", "label": "Part 2 — An Army Was Hunting Us" },
+        { "id": "BrM4EGZmS9A", "label": "Part 3 — They've Been Watching Us" }
+      ]
+    },
+
+    {
+      "id": "HzERoRgVeg8",
+      "title": "I Woke Up in a Zombie Jungle… Something Climbed",
+      "why": "71 chars -> 48, removes the truncated tail; Short — no chapters; adds ep2/ep3 chain",
+      "tags": ["zombie jungle", "zombie survival story", "i woke up in a jungle", "zombie apocalypse", "jungle survival", "giant zombie", "zombie escape", "animated zombie story", "zombie short film", "escape the zombies", "mutant zombie", "zombie horde", "survival story", "zombie series", "the untold exit"],
+      "crosslinks": [
+        { "id": "0mowMHmz8S4", "label": "Part 2 — The Helicopter Was a Trap" },
+        { "id": "Kty2EgXb1Vs", "label": "Part 3 — The Zombies Were Trying to Save Me" },
+        { "id": "e34mKHkfC4Y", "label": "Why You'd Never Survive This Jungle Alone" }
+      ]
+    },
+    {
+      "id": "0mowMHmz8S4",
+      "title": "I ESCAPED THE ZOMBIES… BUT THE HELICOPTER WAS A TRAP (Part 2)",
+      "why": "title kept; Short — no chapters; adds ep1/ep3 chain",
+      "tags": ["zombie survival story", "helicopter trap", "zombie jungle", "no pilot helicopter", "abandoned facility", "zombie apocalypse", "animated zombie story", "do not land", "mystery radio message", "zombie escape", "jungle mystery", "zombie horde", "survival story", "zombie series", "the untold exit"],
+      "crosslinks": [
+        { "id": "HzERoRgVeg8", "label": "Part 1 — I Woke Up in a Zombie Jungle" },
+        { "id": "Kty2EgXb1Vs", "label": "Part 3 — The Zombies Were Trying to Save Me" }
+      ]
+    },
+    {
+      "id": "Kty2EgXb1Vs",
+      "title": "I THOUGHT THE ZOMBIES WERE HUNTING ME… I WAS WRONG! (Part 3)",
+      "why": "title kept; Short — no chapters; adds ep1/ep2 chain",
+      "tags": ["zombie survival story", "subject 07", "zombie laboratory", "zombies were saving me", "zombie jungle", "animated zombie story", "secret facility", "zombie apocalypse", "clone twist", "sci fi horror", "survival story", "subject 08", "zombie horde", "zombie series", "the untold exit"],
+      "crosslinks": [
+        { "id": "HzERoRgVeg8", "label": "Part 1 — I Woke Up in a Zombie Jungle" },
+        { "id": "0mowMHmz8S4", "label": "Part 2 — The Helicopter Was a Trap" }
+      ]
+    },
+
+    {
+      "id": "NZkddYV-ZCE",
+      "title": "Everyone Misread Why Lucia Stopped Jason",
+      "why": "10 views vs 1,451 for its same-day twin. Old title was 67 chars with a '| Part2' placeholder and no curiosity gap. New title reuses the framing that won the 145x A/B (the 'misread' angle)",
+      "crosslinks": [
+        { "id": "Z5NP5hntIPs", "label": "Speed Misread What Mandy Wanted in GTA 6" },
+        { "id": "Q-09aADMoKM", "label": "Mandy Cried. Then She Threatened Jason." },
+        { "id": "cGatBFUjTRM", "label": "Speed Was NOT Ready… BRO IS CRYING" }
+      ]
+    },
+    {
+      "id": "YcdVi8Ptq0Y",
+      "title": "Why Rockstar Never Made a Hero Like Jason",
+      "why": "10 views. 'Is Jason The Hottest GTA Hero Ever?!' has no stake and no gap. The actual content is Cassandra arguing Rockstar does not normally design leads this way — new title states that gap",
+      "crosslinks": [
+        { "id": "WKwGsky1rVo", "label": "Part 1 — Jason & Lucia: We Did NOT Break Up?!" },
+        { "id": "O2LIPC5JMiU", "label": "Part 3 — Wait, Is Lana REALLY in GTA 6?!" }
+      ]
+    },
+    {
+      "id": "sSoXsBdFyrg",
+      "title": "There's a UFO Symbol on the GTA 6 Map. Why?",
+      "why": "46 views on a 101s mystery. Old title was a flat statement that gives the payoff away; adding the question keeps the gap open",
+      "crosslinks": [
+        { "id": "6Z_tNlGfhEw", "label": "Lucia Was Arrested In Her First Hour" },
+        { "id": "WKwGsky1rVo", "label": "Jason & Lucia: We Did NOT Break Up?!" }
+      ]
+    },
+    {
+      "id": "2o2d6YohAI8",
+      "title": "What If You Text While Driving in GTA 6?",
+      "why": "643 views but the title was 73 chars and burned its tail on hashtags that YouTube already truncates; hashtags live in the description, not the title",
+      "crosslinks": [
+        { "id": "CN7Y3lQUe9o", "label": "What If You Drink Too Much In GTA 6" },
+        { "id": "jBWdWScZai0", "label": "What If You Visit Vercetti Early?" }
+      ]
+    },
+    {
+      "id": "Z5NP5hntIPs",
+      "title": "Speed Misread What Mandy Wanted in GTA 6",
+      "why": "FLAGGED: the channel's best video (1,451 views) but the title is 78 chars and gets cut in search, losing the hook. Same words, nothing added",
+      "crosslinks": [
+        { "id": "NZkddYV-ZCE", "label": "Everyone Misread Why Lucia Stopped Jason" },
+        { "id": "Q-09aADMoKM", "label": "Mandy Cried. Then She Threatened Jason." },
+        { "id": "cGatBFUjTRM", "label": "Speed Was NOT Ready… BRO IS CRYING" }
+      ]
+    },
+    {
+      "id": "cBr2U9AXu4I",
+      "title": "GTA 6's Most Shocking Ending… Did They Die?",
+      "why": "FLAGGED: 1,138 views. Old title asserted 'Jason & Lucia unexpected dead' as fact; question form keeps the hook and removes the claim",
+      "crosslinks": [
+        { "id": "WKwGsky1rVo", "label": "Jason & Lucia: We Did NOT Break Up?!" },
+        { "id": "Z5NP5hntIPs", "label": "Speed Misread What Mandy Wanted in GTA 6" }
+      ]
+    },
+    {
+      "id": "vEraiuwOh2o",
+      "title": "Why You Keep Starting but Never Finish Anything",
+      "why": "title kept; category 1 -> 24 for consistency with the other animated psychology piece",
+      "categoryId": "24"
+    },
+    {
+      "id": "Q8n13DQlphU",
+      "title": "3 Time Habits That Actually Save You Hours",
+      "why": "title kept; category 27 -> 24",
+      "categoryId": "24"
+    },
+    {
+      "id": "Zr3VEAtCxD8",
+      "title": "The GTA 6 Channel That Actually Got Monetized",
+      "why": "title kept; category 27 -> 20 (it is a GTA/YouTube business video, not education)",
+      "categoryId": "20"
+    }
+  ]
+}
