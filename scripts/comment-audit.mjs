@@ -7,7 +7,9 @@ import { google } from "googleapis";
 
 const base = join(homedir(), ".config", "youtube-studio-mcp");
 const tokens = JSON.parse(await import("node:fs/promises").then(fs => fs.readFile(join(base, "tokens.json"), "utf8")));
-const secret = JSON.parse(await import("node:fs/promises").then(fs => fs.readFile(join(base, "client_secret.json"), "utf8"))).installed;
+// Client secret lives in the repo config (src/config/tokens.json); the legacy
+// ~/.config/youtube-studio-mcp/client_secret.json path no longer exists.
+const secret = JSON.parse(await import("node:fs/promises").then(fs => fs.readFile(join("src", "config", "tokens.json"), "utf8"))).installed;
 const auth = new google.auth.OAuth2({ clientId: secret.client_id, clientSecret: secret.client_secret });
 auth.setCredentials({ refresh_token: tokens.refresh_token });
 const yt = google.youtube({ version: "v3", auth });
